@@ -1,10 +1,10 @@
 ---
-title: "Cleansing the Dhama: The Spirituality of Dust"
+title: 'Cleansing the Dhama: The Spirituality of Dust'
 date: 2018/12/29
-category: 'sri-dhama'
+category: sri-dhama
 cover: "/writings/cleansing-the-dhama.jpg"
----
 
+---
 The wonders of the spiritual world are endless, and the mercy that the dhama extends to her devotees is quite unique. The entire planet of Goloka is comprised of chintamani, wish-fulfilling touchstone, capable of imparting whatever spiritual perfection the pilgrim may desire.
 
 The surface of that chintamanidhama is even more sacred than the depths of its soil, due to the touch of the feet of Sri Krishna and Sri Balarama, and countless devotees who tread upon the path following in Their footsteps. Contact with the lotus feet of such personalities imbues the soil with a wonderful variety of spiritual flavors which are conveyed to those who take the dust upon their heads.

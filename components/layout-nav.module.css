@@ -14,7 +14,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  flex-basis: 35%;
 }
+
+
+  
+
 
 .title img {
   width: 200px;
@@ -26,7 +32,7 @@
   margin-bottom: 0;
 
   font-family: "Dancing Script", cursive;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 
   color: var(--clr-black);
 }
@@ -199,9 +205,7 @@
     justify-content: space-between;
   }
 
-  .title {
-    flex-basis: 35%;
-  }
+  
 
   .description {
     

@@ -1,5 +1,5 @@
 ---
-title: Lord's Measuring Stick
+title: Lord's Measuring Stick Lord's Measuring Stick
 date: 2020/05/15
 category: 'various'
 cover: "/writings/lords-measuring-stick.jpg"

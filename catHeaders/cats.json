@@ -10,14 +10,14 @@
     "title": "Drops of Wisdom",
     "slug": "drops-of-wisdom",
     "fontColor": "#140704",
-    "bgColor": "#92A441",
+    "bgColor": "#b7cb5c",
     "image":  "/categories/govardhan-katha.jpg"
   },
   {
     "title": "Nature Meditations",
     "slug": "nature-meditations",
     "fontColor": "#140704",
-    "bgColor": "#9B7657",
+    "bgColor": "#cda88a",
     "image":  "/categories/nature-meditations.jpg"
   },
   {
@@ -38,7 +38,7 @@
     "title": "Srila Prabhupada Katha",
     "slug": "srila",
     "fontColor": "#140704",
-    "bgColor": "#C84B47",
+    "bgColor": "#d36b68",
     "image":  "/categories/sadhu-sanga.jpg"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Personalities",
     "slug": "personalities",
     "fontColor": "#140704",
-    "bgColor": "#83529C",
+    "bgColor": "#b18ac5",
     "image":  "/categories/personalities.jpg"
   },
   {

@@ -14,7 +14,8 @@
 
 .category {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   padding: 1em 0;
   margin-bottom: 1rem;
@@ -23,16 +24,15 @@
 }
 
 .title {
-  margin: 0 0.5rem;
-  margin-bottom: 1rem;
-  font-size: 2.5rem;
+  margin: 0.25rem 0.5rem;
+  font-size: 2.3rem;
   font-weight: 800;
   text-transform: capitalize;
-  text-align: center;
-  align-self: center;
-  margin-left: 3em;
-  width: 38%;
-  font-size: 2.5rem;
+  /* text-align: center;
+  align-self: center; 
+  margin-left: 3em; 
+  width: 38%; */
+  
 }
 
 .list {
@@ -40,11 +40,11 @@
   overflow-y: scroll;
   margin: 0;
   padding-right: 0.3em;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 600;
   line-height: 1.7;
   max-height: 40vh;
-  width: 60%;
+  width: 75%; 
 }
 
 .list li {

@@ -1,5 +1,5 @@
 ---
-title: Forgiveness
+title: Srila Prabhupada
 date: 2018/12/29
 category: 'srila'
 cover: "/writings/srila.jpg"

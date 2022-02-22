@@ -1,10 +1,10 @@
 ---
 title: Vrinda-devi
 date: 2018/12/29
-category: 'personalities'
+category: personalities
 cover: "/writings/vrinda-devi.jpg"
----
 
+---
 Srimati Vrinda devi is the presiding deity of the land of Vrindavan. All of Vrindavan acts under her direction as she orchestrates every detail of Radha and Krishna's pastimes, from seed to fruition.
 
 Vrinda sets the mood by coordinating which breezes blow, synchronizing the trees as they bow down, harmonizing the scents emitted by each flower, and blending the flavors of nectar shed by the trees as tears.

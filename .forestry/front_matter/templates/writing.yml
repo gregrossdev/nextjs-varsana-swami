@@ -20,3 +20,5 @@ fields:
 - type: file
   name: cover
   label: cover
+pages:
+- posts/rope-meditation.md

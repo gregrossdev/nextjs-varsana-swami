@@ -3,13 +3,32 @@ label: Front Matter
 hide_body: false
 fields:
 - type: text
-  name: title
-  label: title
-- type: text
   name: date
   label: date
 - type: text
-  name: category
+  name: title
+  label: title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - sri-dhama
+    - drops-of-wisdom
+    - nature-meditations
+    - earth-culture
+    - vyasa-puja
+    - srila
+    - sadhu-sanga
+    - personalities
+    - various
+    - festivals
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: category
 - type: file
   name: cover

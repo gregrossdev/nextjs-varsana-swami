@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Sri-Dhama",
+    "slug": "sri-dhama",
+    "fontColor": "#140704",
+    "bgColor": "#C3D480",
+    "image": "/categories/sri-dhama.jpg"
+  },
+  {
+    "title": "Drops of Wisdom",
+    "slug": "drops-of-wisdom",
+    "fontColor": "#140704",
+    "bgColor": "#92A441",
+    "image":  "/categories/govardhan-katha.jpg"
+  },
+  {
+    "title": "Nature Meditations",
+    "slug": "nature-meditations",
+    "fontColor": "#140704",
+    "bgColor": "#9B7657",
+    "image":  "/categories/nature-meditations.jpg"
+  },
+  {
+    "title": "Earth Culture",
+    "slug": "earth-culture",
+    "fontColor": "#140704",
+    "bgColor": "#F6E9B5",
+    "image":  "/categories/simple-living.jpg"
+  },
+  {
+    "title": "Vyasa Puja Offerings to Srila Prabhupada",
+    "slug": "vyasa-puja",
+    "fontColor": "#140704",
+    "bgColor": "#F6E9B5",
+    "image":  "/categories/puja.jpg"
+  },
+  {
+    "title": "Srila Prabhupada Katha",
+    "slug": "srila",
+    "fontColor": "#140704",
+    "bgColor": "#C84B47",
+    "image":  "/categories/sadhu-sanga.jpg"
+  },
+  {
+    "title": "Sadhu-Sanga",
+    "slug": "sadhu-sanga",
+    "fontColor": "#140704",
+    "bgColor": "#F8C59F",
+    "image":  "/categories/relationships.jpg"
+  },
+  {
+    "title": "Personalities",
+    "slug": "personalities",
+    "fontColor": "#140704",
+    "bgColor": "#83529C",
+    "image":  "/categories/personalities.jpg"
+  },
+  {
+    "title": "Various",
+    "slug": "various",
+    "fontColor": "#140704",
+    "bgColor": "#FFFC9E",
+    "image":  "/categories/miscellaneous.jpg"
+  },
+  {
+    "title": "Festivals",
+    "slug": "festivals",
+    "fontColor": "#140704",
+    "bgColor": "#CAD1E9",
+    "image":  "/categories/festivals.jpg"
+  }
+]

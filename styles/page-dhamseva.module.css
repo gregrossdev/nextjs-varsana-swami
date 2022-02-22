@@ -1,0 +1,89 @@
+.grid {
+  display: grid;
+  grid-template-areas: "pg-figure pg-info pg-info";
+  margin: 0 auto;
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
+}
+
+.figure {
+  grid-area: pg-figure;
+  align-self: center;
+}
+
+.info {
+  grid-area: pg-info;
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  width: 80%;
+  align-self: center;
+
+  font-family: "Marck Script", cursive;
+  margin: 0 auto;
+  color: #3d6638;
+}
+
+.info p {
+  margin-bottom: 1em;
+}
+
+.info h3 {
+  font-family: "Marck Script", cursive;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+.figure {
+  position: relative;
+  height: 24rem;
+  width: 18rem;
+  margin-top: -1rem;
+}
+
+.wrapper {
+  background: linear-gradient(179.45deg, #f5f3f1 20.41%, #fbfaf9 95.35%);
+}
+
+.figure2 {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.title {
+  padding: 1em;
+
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 125%;
+}
+
+.quotes {
+  margin-top: 2rem;
+}
+
+.letters h2 {
+  font-size: inherit;
+}
+
+.letters article :not(:last-of-type) {
+  border-bottom: 3px solid var(--clr-grey-10);
+}
+
+.img {
+  display: block;
+  border-radius: 1rem;
+}
+
+
+@media only screen and (max-width: 700px) {
+ 
+  .figure {
+    height: 25rem;
+  }
+}

@@ -1,0 +1,666 @@
+/*
+=====
+# Imports
+=============== */
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,500;1,800&family=Roboto:wght@400;500;600;700;800;900&display=swap");
+
+/*
+=============== 
+# Variables
+===============
+*/
+
+:root {
+  --clr-white: #fcfcfc;
+  --clr-black: #140704;
+
+  --clr-pink: #e8c9df;
+  --clr-red: #46190e;
+  --clr-yellow: #f5f05b;
+  --clr-green: #a6d879;
+
+  --clr-grey: #fafbfc;
+  --clr-grey-10: #e3e6e9;
+  --clr-grey-20: #e2e7ef;
+  --clr-grey-30: #dbe0ea;
+  --clr-grey-40: #d3dae6;
+  --clr-grey-50: #cbd3e1;
+
+  --font: "Montserrat", sans-serif;
+
+  /* Box Shadows  */
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Other Stuff  */
+  --radius: 1rem;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 96vw;
+}
+
+/*
+=============== 
+# Reset
+===============
+*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  background: var(--clr-grey);
+  color: var(--clr-black);
+  font-family: var(--font);
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #140704;
+
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-grey-10);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*
+=============== 
+# Responsive
+===============
+*/
+
+html {
+  font-size: 100%;
+  word-wrap: break-word;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 125%;
+  }
+}
+
+/*
+=============== 
+# Typography
+===============
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 0.5em;
+  font-family: var(--font);
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/*
+=============== 
+# Elements
+===============
+*/
+
+nav {
+  box-shadow: var(--shadow-2);
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  box-shadow: transparent;
+}
+
+button,
+.btn {
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  letter-spacing: 1px;
+  padding: 0.75em 1em;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+
+button:hover,
+.btn:hover {
+  color: var(--clr-white);
+  box-shadow: var(--shadow-2);
+  border: 2px solid var(--clr-black);
+}
+
+/*
+=============== 
+# Utility 
+===============
+*/
+
+.inner-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 5rem 0;
+}
+
+.yellow {
+  background: var(--clr-yellow);
+}
+
+.green {
+  background: var(--clr-green);
+}
+
+.pink {
+  background: var(--clr-pink);
+}
+
+.wave {
+  width: 100%;
+  height: 100%;
+}
+
+.wave-up {
+  margin-top: -3rem;
+}
+
+.wave3 {
+  margin-top: -3rem;
+}
+
+.image {
+  border-radius: var(--radius);
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .wave-up {
+    margin-top: -6rem;
+  }
+}
+
+
+.buy-btn {
+  font-family: "Dancing Script", cursive;
+  background: var(--clr-black);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.buy-btn span {
+  font-size: 1.5rem;
+  color: #f3ef7b;
+}
+
+
+
+/*
+===============
+# Writings
+===============
+*/
+
+.writings {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.writing {
+  padding: 0 1em;
+  max-width: 880px;
+  margin: 0 auto;
+  background: #fbfaf9;
+}
+
+.writing h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 0;
+}
+
+.writing-category {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1em;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.writing-wrapper {
+  padding-bottom: 1rem;
+}
+
+.cat-title {
+  margin: 0 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.cat-list {
+  margin: 0;
+  padding: 0 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.7;
+  max-height: 20vh;
+  overflow-y: scroll;
+}
+
+.cat-list li {
+  display: flex;
+  align-items: center;
+}
+
+.cat-list li a {
+  font-size: 1.2rem;
+}
+
+.cat-list img {
+  align-self: baseline;
+  margin-right: 0.75rem;
+}
+
+.cat-list a {
+  text-decoration: none;
+}
+
+.cover-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cover {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.writing-body {
+  font-size: clamp(1rem, 3vw, 1.55rem);
+  font-weight: 400;
+}
+
+.writing-body p {
+  margin-bottom: 1em;
+}
+
+.banner {
+  z-index: -25;
+  height: 158px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--clr-black);
+}
+
+.mobile-pd {
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 900px) {
+  .writing {
+    margin-top: -2rem;
+  }
+
+  .writing-category {
+    flex-direction: row;
+    padding: 1em 0;
+    padding-bottom: 2rem;
+  }
+
+  .cat-title {
+    align-self: center;
+    margin-left: 3em;
+    width: 38%;
+    font-size: 2.5rem;
+  }
+
+  .cat-list {
+    /* border: solid 5px green;  */
+    margin: 0;
+    padding-right: 0.3em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.7;
+    max-height: 40vh;
+    width: 60%;
+  }
+
+  .cat-list img {
+    margin-top: 0.25rem;
+    margin-right: 0.1rem;
+  }
+
+  .cat-list a {
+    text-decoration: none;
+  }
+
+  .cover-wrapper {
+    height: 443px;
+  }
+
+  .mobile-pd {
+    padding: 0;
+  }
+
+  .banner {
+    z-index: -25;
+    height: 100%;
+  }
+}
+
+
+/* =================
+## NEXTJS implementation 
+=========================== */
+
+.inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.imgRadius img {
+  border-radius: var(--radius);
+}
+
+
+
+.nav{
+  display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+}
+
+  .site-title {
+    margin-bottom: 0.25rem;
+
+    font-family: "Dancing Script", cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    color: var(--clr-black);
+  }
+
+  .site-description {
+    margin-bottom: 0;
+
+    font-family: "Dancing Script", cursive;
+    font-size: 0.9rem;
+
+    color: var(--clr-black);
+  }
+
+  .nav-center {
+    width: 90vw;
+    max-width: var(--max-width);
+  }
+  .nav-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5em;
+  }
+  .nav-title img {
+    width: 200px;
+    margin-left: -6px;
+    margin-bottom: -9px;
+  }
+  .nav-btn {
+    padding: 0.15rem 0.75rem;
+  }
+  .nav-btn svg {
+    font-size: 1.5rem;
+  }
+
+  .nav-icon {
+    margin-bottom: -3px;
+    margin-left: 4px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    height: 0;
+
+    overflow: hidden;
+    transition: var(--transition);
+  }
+
+  .show-links {
+    height: 23.9375rem;
+    height: fit-content;
+  }
+
+  .nav-link {
+    display: block;
+    border-top: 1px solid var(--clr-grey-50);
+    padding: 0.5em 0;
+    font-weight: 700;
+
+    color: var(--clr-black);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--f-spacing);
+    transition: var(--transition);
+    text-align: left;
+  }
+
+  .active-link {
+    color: var(--primary-500);
+  }
+
+  .donate-link {
+    font-family: Montserrat;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    color: var(--clr-black);
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .button {
+    font-family: var(--bodyFont);
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    letter-spacing: var(--letterSpacing);
+    padding: 0;
+    box-shadow: none;
+    transition: var(--transition);
+    text-transform: capitalize;
+  }
+
+  .dd-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .dd-header h4 {
+    margin: 0;
+  }
+
+  .submenu .nav-link {
+    font-size: 0.9rem;
+    margin-bottom: 0.5em;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .submenu {
+      display: block;
+      position: absolute;
+      transform: translateX(-16px);
+      border-radius: 0.5rem;
+      z-index: 1;
+      min-width: 17rem;
+      padding: 1em;
+      margin-right: -1em;
+      background-color: var(--clr-white);
+      box-shadow: var(--shadow-4);
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .site-title {
+      margin-left: 5rem;
+      font-size: 2.4rem;
+    }
+
+    .site-description {
+      font-size: 1.25rem;
+    }
+
+    .nav-center {
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-title {
+      height: auto;
+      margin: 1rem 0;
+      margin-left: 0.5em;
+    }
+
+    .nav-btn {
+      display: none;
+    }
+
+    .nav-links {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      height: auto !important;
+      flex-basis: 55%;
+      margin-left: auto;
+      overflow: unset;
+    }
+
+    .nav-link {
+      /* margin-right: 1em; */
+      border-top: none;
+      padding: 0;
+
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .donate-link {
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 0;
+    }
+
+    .button {
+      border-top: none;
+      padding: 0;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }

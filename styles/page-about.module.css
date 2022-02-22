@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  grid-template-areas: "pg-figure pg-article pg-article";
+  margin: 0 auto;
+}
+
+.figure {
+  grid-area: pg-figure;
+  
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 420px;
+  height: 30rem;
+  margin-top: 1.5rem; 
+}
+
+.info {
+  grid-area: pg-article;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 1rem 0;
+  width: 80%;
+  align-self: center;
+
+  font-family: "Marck Script", cursive;
+  margin: 0 auto;
+  color: #3d6638;
+}
+
+.info p {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.info p:last-child {
+  margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .figure {
+    height: 30rem; 
+  }
+  
+  .info {
+    margin: 0 auto;
+  }
+  
+  .info p {
+    font-size: 1.4rem;
+  }
+}

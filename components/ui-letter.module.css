@@ -1,0 +1,29 @@
+.article {
+  margin-bottom: 2rem;
+  border-bottom: 3px solid var(--grey);
+}
+
+.article :last-child {
+  border-bottom: none;
+}
+
+.article h2,
+.article span {
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 1.1px;
+}
+
+.article h2 {
+  margin-bottom: 0.25em;
+}
+
+.article p {
+  margin-top: 1em;
+  font-size: 1.18rem;
+
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}

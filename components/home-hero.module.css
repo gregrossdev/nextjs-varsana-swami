@@ -1,0 +1,22 @@
+.banner {
+  margin: 0;
+  position: relative;
+  height: 30vh; 
+  z-index: -5;
+}
+
+.img {
+  height: 30vh;
+}
+
+@media only screen and (min-width: 700px) {
+}
+
+@media only screen and (min-width: 1000px) {
+  .banner {
+    height: 30rem; 
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+}

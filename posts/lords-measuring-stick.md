@@ -1,10 +1,10 @@
 ---
 title: Lord's Measuring Stick
 date: 2020/05/15
-category: 'various'
+category: various
 cover: "/writings/lords-measuring-stick.jpg"
----
 
+---
 When the enemy fires cannonballs or incites mad elephants to attack, what softens their assault even more effectively than the barriers we have erected to protect our hearts? Bales of cotton stop cannonballs, which would smash through stonewall and little lambs pacify a maddened elephant who would crush armored defenses. The lamb symbolizes our relationship to God, the cotton ball, our dealings with men. The imagery conveys and cultivates an attitude, which is humble and meek and thus able to withstand and deflate the blunt assaults of the devil.
 
 Why is the term “meek and humble” so crucial to our vocabulary when the two words might seem to be synonymous and thus redundant? Internally related - yes; synonymous – no. Initially we say that humble sets the standard for our attitude towards God whereas meek is the manner in which the Lord intends that we interact with mankind. Further elaboration is helpful.

@@ -1,6 +1,6 @@
 ---
 title: Rope Meditation
-date: 2016-11-02T04:00:00Z
+date: 2016/11/02
 category: festivals
 cover: "/public/writings/gifts-of-nature.jpg"
 

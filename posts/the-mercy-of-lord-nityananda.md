@@ -1,10 +1,10 @@
 ---
 title: The Mercy of Lord Nityananda
 date: 2018/12/29
-category: 'festivals'
+category: festivals
 cover: "/writings/the-mercy-of-lord-nityananda.jpg"
----
 
+---
 Topics of Lord Nityananda delight the mind, sanctify all hearts, and engage the intellect in pursuing a proper understanding of Lord Caitanya. In the initial verses of Caitanya Caritamrita, Kaviraja Goswami has related the detailed theological explanation of Sri Nityananda Rama, thereby protecting us from misunderstanding the erratic, indiscriminate and inconceivable activities of this crest jewel of avadhutas. Lord Nityananda is so intoxicated with the nectar of Braja Bhakti that we are prone to misunderstand Him, yet proper reverence and appreciation to Him will only attract His mercy.
 
 The appearance of Lord Nityananda is likened to the rising of the beautiful autumn moon, which induces the ocean of mercy to swell beyond its shores, inundating all jivas in love for Lord Gauranga and inspiring them in chanting the Hare Krishna mantra, dispelling the darkness of Kali-yuga.

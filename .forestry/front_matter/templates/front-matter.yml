@@ -15,6 +15,7 @@ fields:
   name: cover
   label: cover
 pages:
+- posts/the-mercy-of-lord-nityananda.md
 - posts/they-are-not-frozen-in-time.md
 - posts/tundavik.md
 - posts/vrinda-devi.md

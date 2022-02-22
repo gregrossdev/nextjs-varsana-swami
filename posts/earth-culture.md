@@ -1,10 +1,10 @@
 ---
 title: Hello World
 date: 2018/12/29
-category: 'earth-culture'
+category: earth-culture
 cover: "/writings/earth-culture.jpg"
----
 
+---
 This is my first blog post. Hello World!
 
 # What is Lorem Ipsum?

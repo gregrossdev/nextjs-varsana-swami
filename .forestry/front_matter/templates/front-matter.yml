@@ -15,6 +15,7 @@ fields:
   name: cover
   label: cover
 pages:
+- posts/advice-from-a-daffodil.md
 - posts/the-mercy-of-lord-nityananda.md
 - posts/they-are-not-frozen-in-time.md
 - posts/tundavik.md

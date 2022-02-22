@@ -1,10 +1,10 @@
 ---
 title: Advice from a Daffodil
 date: 2018/12/29
-category: 'nature-meditations'
+category: nature-meditations
 cover: "/writings/advice-from-a-daffodil.jpg"
----
 
+---
 Our new life of spirituality blossoms inasmuch as our hearts soften in a humble service attitude. It is like springtime flowers emerging from the thawing earth after winter makes way for the appearance of spring.
 
 In New Vrindavan clusters of daffodils encircle Radha Kunda like cups of nectar, offering refreshments to their Queen. The bright yellow flowers, arranged upon a blanket of green petals, happily proclaim that winter is over and spring has begun; old life is gone and a new one awaits. Though a simple and common flower, its early springtime message is significant – a fresh, new beginning. The Lord’s creation is daily inviting us to join them with our participation and creativity.

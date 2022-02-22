@@ -15,4 +15,5 @@ fields:
   name: cover
   label: cover
 pages:
+- posts/tundavik.md
 - posts/vrinda-devi.md

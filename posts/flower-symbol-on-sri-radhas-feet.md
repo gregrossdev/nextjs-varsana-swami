@@ -1,10 +1,10 @@
 ---
 title: Flower Symbol on Sri Radha’s Feet
 date: 2018/12/29
-category: 'personalities'
+category: personalities
 cover: "/writings/flower-symbol-on-sri-radhas-feet.jpg"
----
 
+---
 Amongst the symbols adorning the lotus feet of the Divine Couple, the flower symbol is unique to Sri Radha.
 
 The flower indicates that Her feet are especially soft and delicate. Moreover, the flower-like fragrance emanating from Her lotus feet attracts and invites devotees who, just like honey bees, come and gather the pollen of Her madhurya prema (affection of a lover) which they then distribute to other fortunate souls.

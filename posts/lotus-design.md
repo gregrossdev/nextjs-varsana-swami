@@ -1,10 +1,10 @@
 ---
 title: Lotus Design
 date: 2018/12/29
-category: 'sri-dhama'
+category: sri-dhama
 cover: "/writings/lotus-design.jpg"
----
 
+---
 Rising from the mud below, blossoming from above, the lotus offers the archetypal emblem of beauty, purity, and primordial nature. The lotus is the form Sri Dhama reveals herself in.
 
 It is suitable design for the Lord's internal energy to protect her chastity and maintain her innocence when she condescends to appear within the gaze of mortals.

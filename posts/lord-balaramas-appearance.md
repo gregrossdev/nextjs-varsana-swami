@@ -1,10 +1,10 @@
 ---
 title: Lord Balarama’s Appearance
 date: 2018/12/29
-category: 'festivals'
+category: festivals
 cover: "/writings/lord-balaramas-appearance.jpg"
----
 
+---
 The appearance of Vasudeva, the Supreme Personality of Godhead as revealed to Devaki, offers the answer to all sectarian differences and varieties of iconography related to the Divine. His appearance is possible when the channels of aural reception are opened by humility and submission to the bona ide representative of the Lord. Only then will the Holy Name and lila of Krishna enter into the kingdom of our hearts.
 
 The lila begins with the appearance of Sankarshan who purifies the environment of the heart by delivering the six archetypal demons (lust, anger, greed, illusion, pride, and envy) and establishes the lotus seat for Krishna’s birth. With the awakening of our infant Krishna consciousness in the heart, our senses become purified and spiritualized. Thus, the defects that obscure a perfect understanding of self, God, and the relationship between us give way to the divine revelation of Vasudeva as He appears in our hearts.

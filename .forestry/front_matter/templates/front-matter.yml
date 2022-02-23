@@ -1,0 +1,72 @@
+---
+label: Front Matter
+hide_body: false
+fields:
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+    export_format: YYYY/MM/DD
+- type: text
+  name: title
+  label: title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - sri-dhama
+    - drops-of-wisdom
+    - nature-meditations
+    - earth-culture
+    - vyasa-puja
+    - srila
+    - sadhu-sanga
+    - personalities
+    - various
+    - festivals
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
+- type: file
+  name: cover
+  label: cover
+pages:
+- posts/advice-from-a-daffodil.md
+- posts/backwards-and-upside-down.md
+- posts/christmas-reflections-2015.md
+- posts/cleansing-the-dhama.md
+- posts/drops-of-wisdom.md
+- posts/earth-culture.md
+- posts/flower-symbol-on-sri-radhas-feet.md
+- posts/forgiveness.md
+- posts/gifts-of-nature.md
+- posts/govardhanas-moon-tower.md
+- posts/grace.md
+- posts/heart-and-community.md
+- posts/hello.md
+- posts/images-of-home.md
+- posts/kartik-meditation-2015.md
+- posts/lalita-devi.md
+- posts/lessons-from-the-leaves.md
+- posts/lord-balaramas-appearance.md
+- posts/lord-nrsimhadeva.md
+- posts/lords-measuring-stick.md
+- posts/lotus-design.md
+- posts/offerings.md
+- posts/rasa-vrindavanas-architecture-and-art.md
+- posts/seeing-everything-as-inherently-divine.md
+- posts/srila.md
+- posts/the-mercy-of-lord-nityananda.md
+- posts/they-are-not-frozen-in-time.md
+- posts/tundavik.md
+- posts/vrinda-devi.md

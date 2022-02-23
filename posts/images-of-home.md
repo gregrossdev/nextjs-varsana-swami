@@ -1,10 +1,10 @@
 ---
 title: Images of Home
 date: 2018/12/29
-category: 'sri-dhama'
+category: sri-dhama
 cover: "/writings/images-of-home.jpg"
----
 
+---
 RAn excerpt from the photo book Appreciating New Vrindaban-Dhama:
 
 Imagine a pastoral view from afar, a region from a distant memory. When you first arrive, all you see are trees, meadows, streams, ponds, buildings, fences, a swing, and footpaths. As you gaze upon the peaceful landscape, your mind is gradually drawn into the scene. You are being shown the childhood home of someone you love, though you have forgotten, a person dearer to you than any­one else. The scenery seems somewhat ordinary as you wait with anticipation for your personal guide, who is an intimate friend of the one you hold dear, to relate stories connected with the area.

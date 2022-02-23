@@ -1,10 +1,10 @@
 ---
 title: Kartik Meditation 2015
 date: 2018/12/29
-category: 'festivals'
+category: festivals
 cover: "/writings/kartik-meditation-2015.jpg"
----
 
+---
 "This current month of October/November is known as “Karttik” in honor of its presiding Deity, Karttik Devi. This is another name for the Daughter of Kirtida, the pleasure potency of Krishna and the ultimate reservoir for all love and devotion. Thus the month of Karttik is especially dear to devotees.
 
 As much as devotees hold this month of Karttik most dear, Karttik Devi loves Her devotees all the more. With the affection of a mother, She considers even the most insignificant service performed during Her month to be of great importance.

@@ -1,10 +1,10 @@
 ---
 title: Christmas Reflections 2015
 date: 2018/12/29
-category: 'festivals'
+category: festivals
 cover: "/writings/christmas-reflections-2015.jpg"
----
 
+---
 "Srila Prabhupada writes, “A Vaishnava should follow the example of such Vaishnavas as Haridas Thakura, Nityananda Prabhu and also Lord Jesus Christ.” SB 4:6:47. The Bhavisya Purana, Chapter 19, describes an encounter between Jesus and the Aryan King Salivahana. The king saw an auspicious man with a golden complexion and white clothes, living on a mountain. Upon inquiry, the man informed the king, “I am Isha Putra, the Son of God. I am born of a virgin. ”
 
 After identifying himself, Jesus explained the reason for his advent. His purpose is to preach the eternal principles of religion to the mlecchas via their own faith. The eternal principles Jesus established are purification of the mind by two means. The prime method of purification is chanting the Holy Name. The complementary aspect is proper conduct which includes truthfulness, meditation, mental harmony, and following prescribed rules and regulations.

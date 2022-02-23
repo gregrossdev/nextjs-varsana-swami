@@ -1,10 +1,10 @@
 ---
 title: Heart and Community
 date: 2020/01/15
-category: 'various'
+category: various
 cover: "/writings/heart-and-community.jpg"
----
 
+---
 Everyone yearns for a community where loving relationships flourish, for such is our other home. And yet today we witness an epidemic in which the death of love testifies to the abortion of culture as a consequence of desecration our Mother Earth.
 
 Being used loosely in the early 60's and commercialized in the later in that decade, the word love has lost its dignity, meaning, and potential. The word “heart”, which meant to indicate the abode and receptacle of love, has suffered as well. Considered as a seat of emotion in the West, traditional cultures honor it as the realm of intuition and intellect as well, since the most worthy thoughts emerge not from the head, but from a deeper realm, the heart.

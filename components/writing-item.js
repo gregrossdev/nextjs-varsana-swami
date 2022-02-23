@@ -6,7 +6,14 @@ import writing from "./writing-item.module.css";
 
 export default function Writing(props) {
   const { title, cover, content, date, id, category } = props;
-  console.log(cover)
+
+  let imgPath = cover;
+
+  if (cover) {
+    imgPath = cover.replace("/public", "");
+  }
+
+  
   let excerpt;
 
   if(title.length > 28) {
@@ -20,7 +27,7 @@ export default function Writing(props) {
     <article className={writing.article}>
       <figure className={`${writing.cover} imgRadius`}>
         <Image
-          src={cover}
+          src={imgPath}
           alt={title}
           layout='fill'
           objectFit='cover'

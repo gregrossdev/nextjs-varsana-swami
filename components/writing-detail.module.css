@@ -17,14 +17,24 @@
   border-radius: var(--radius);
 }
 
+.header {
+  padding: 1rem 0;
+  text-align: center;
+  width: 90%;
+}
+
+.date {
+  font-family: "Roboto", sans-serif; 
+  font-size: 1rem;
+  font-weight: 500;
+  color: #897a76;
+}
+
 
 .title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.75rem;
   font-weight: 800;
-  text-align: center;
-  padding: 1em 0;
-  margin-bottom: 0;
 }
 
 .body {

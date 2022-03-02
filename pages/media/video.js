@@ -5,7 +5,7 @@ import page from "../../styles/page.module.css";
 import media from "../../styles/page-media.module.css";
 
 // images 
-import ytImg from '../public/images/yt.jpg'
+// import ytImg from '../images/yt.jpg'
 
 const Video = () => {
   return (
@@ -13,7 +13,7 @@ const Video = () => {
       <header>
         <h2 className={page.title}>Videos</h2>
       </header>
-      <section className={`inner ${page.content}`}>
+      {/* <section className={`inner ${page.content}`}>
        
           <a
             href="https://www.youtube.com/channel/UCRU2uERYaKK3rnO32GOfqlA"
@@ -28,7 +28,7 @@ const Video = () => {
               className="image"
             />
           </a>
-      </section>
+      </section> */}
     </div>
   );
 };

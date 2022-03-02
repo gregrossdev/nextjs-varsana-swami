@@ -68,5 +68,19 @@
     "fontColor": "#140704",
     "bgColor": "#CAD1E9",
     "image":  "/categories/festivals.jpg"
+  },
+  {
+    "title": "Going Deeper",
+    "slug": "going-deeper",
+    "fontColor": "#140704",
+    "bgColor": "#ff9e6c",
+    "image":  "/categories/going-deeper.jpg"
+  },
+  {
+    "title": "Gaura Katha",
+    "slug": "gaura-katha",
+    "fontColor": "#140704",
+    "bgColor": "#5ab9cf",
+    "image":  "/categories/gaura-katha.jpg"
   }
 ]

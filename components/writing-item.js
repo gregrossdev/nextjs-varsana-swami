@@ -13,6 +13,12 @@ export default function Writing(props) {
     imgPath = cover.replace("/public", "");
   }
 
+  const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+
   
   let excerpt;
 
@@ -34,7 +40,7 @@ export default function Writing(props) {
         />
       </figure>
       <div className={writing.info}>
-        <span className={writing.date}>{date}</span>
+        <p className={writing.date}>{humanReadableDate}</p>
         <h3 className={writing.title}>{title}</h3>
         <p className={writing.excerpt}>{excerpt}...</p>
         <button className={writing.btn}>

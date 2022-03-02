@@ -2,29 +2,15 @@ import React from "react";
 
 
 
-const AudioFile = ({name, secure_url}) => {
+const AudioFile = ({Key}) => {
   return (
-    <Wrapper>
-      <h5>{name}</h5>
-      <audio src={`${secure_url}`} type="audio/mpeg" controls />
-    </Wrapper>
+    <article>
+      <h5>{Key}</h5>
+      <audio src={`https://varsana-audio.nyc3.digitaloceanspaces.com/${Key}`} type="audio/mpeg" controls />
+    </article>
   );
 };
 
 export default AudioFile;
 
 
-const Wrapper = styled.article`
-  margin: 2em;
-  max-width: 90%;
-
-  h5 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    font-family: 'monospace'; 
-  }
-
-  audio {
-    width: 100%;
-  }
-`

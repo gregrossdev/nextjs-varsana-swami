@@ -5,11 +5,23 @@ export const writings = [
     info: [
       {
         name: "Drops of Wisdom",
-        route: "/drops-of-wisdom",
+        route: "/drops-of-wisdom/",
       },
       {
         name: "Earth Culture",
         route: "/earth-culture",
+      },
+      {
+        name: "Festivals",
+        route: "/festivals",
+      },
+      {
+        name: "Going Deeper",
+        route: "/going-deeper",
+      },
+      {
+        name: "Gaura Katha",
+        route: "/gaura-katha",
       },
       {
         name: "Nature Meditations",
@@ -63,5 +75,3 @@ export const media = [
     ]
   },
 ]
-
-

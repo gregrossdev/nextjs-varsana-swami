@@ -11,20 +11,23 @@
   font-weight: 800;
 }
 
-
 .yt {
   display: block;
   padding-bottom: 3rem;
   margin: 0 auto;
-  max-width: 30rem; 
+  max-width: 30rem;
   max-height: 30rem;
 }
 
 
-@media only screen and (min-width: 700px) {
-  
+@media screen and (min-width: 900px) {
+  .accordion > div {
+    margin-bottom: 1em;
+  }
 }
 
+@media only screen and (min-width: 700px) {
+}
 
 @media only screen and (min-width: 1000px) {
   .folder {
@@ -32,7 +35,5 @@
   }
 }
 
-
 @media only screen and (min-width: 1250px) {
-
 }

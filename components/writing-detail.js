@@ -5,13 +5,19 @@ import ReactMarkdown from "react-markdown";
 import writing from "./writing-detail.module.css";
 
 export default function Writing(props) {
-  const { cover, title, content } = props.post;
+  const { cover, title, content, date } = props.post;
 
   let imgPath = cover;
 
   if (cover) {
     imgPath = cover.replace("/public", "");
   }
+
+  const humanReadableDate = new Date(date).toLocaleDateString("en-US", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
 
   const customRenderers = {
     p(paragraph) {
@@ -41,7 +47,10 @@ export default function Writing(props) {
           objectFit="cover"
         />
       </figure>
-      <h2 className={writing.title}>{title}</h2>
+      <header className={writing.header}>
+        <p className={writing.date}>{humanReadableDate}</p>
+        <h2 className={writing.title}>{title}</h2>
+      </header>
       <section className={writing.body}>
         <ReactMarkdown components={customRenderers}>{content}</ReactMarkdown>
       </section>

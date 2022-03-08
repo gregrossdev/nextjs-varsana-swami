@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import category from "../../catHeaders/cats.json";
+import category from "../../data/categories.json";
 
 import leaf from "../../public/static/leaf.png";
 import wave3 from "../../public/static/wave3.svg";

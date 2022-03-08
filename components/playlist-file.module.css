@@ -1,0 +1,14 @@
+.article {
+  margin: 2em;
+  max-width: 90%;
+}
+
+.h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: 'monospace'; 
+}
+
+.audio {
+  width: 100%;
+}

@@ -5,7 +5,7 @@ export const writings = [
     info: [
       {
         name: "Drops of Wisdom",
-        route: "/drops-of-wisdom/",
+        route: "/drops-of-wisdom",
       },
       {
         name: "Earth Culture",

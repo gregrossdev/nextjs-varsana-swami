@@ -680,6 +680,22 @@ button:hover,
 }
 
 
+.drops {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center; 
+  gap: 3rem;
+}
+
+.drop {
+  height: 400px; 
+  width: 400px;
+}
+
+
 
 @media only screen and (max-width: 700px) {
 

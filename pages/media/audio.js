@@ -22,26 +22,7 @@ const Audio = ({ data }) => {
     )
   }
 
-
   const [isOpen, setIsOpen] = useState(false);
-
-  // const twentyone = data.twentyone.nodes;
-  // const twenty = data.twenty.nodes;
-  // const nineteen = data.nineteen.nodes;
-  // const eighteen = data.eighteen.nodes;
-  // const seventeen = data.seventeen.nodes;
-  // const sixteen = data.sixteen.nodes;
-  // const fifteen = data.fifteen.nodes;
-  // const fourteen = data.fourteen.nodes;
-  // const twelve = data.twelve.nodes;
-  // const eleven = data.eleven.nodes;
-
-  // const various = data.various.nodes;
-  // const srimad = data.srimad.nodes;
-  // const chaitanya = data.chaitanya.nodes;
-  // const bhagavad = data.bhagavad.nodes;
-  // const kirtans = data.kirtans.nodes;
-
   const festivals = allofThese("festivals")
 
   return (

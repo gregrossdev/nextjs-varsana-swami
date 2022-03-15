@@ -9,7 +9,7 @@ import bookImg from "../public/images/photo-book.jpg";
 export default function PhotoBook() {
   return (
     <section className={`${book.section} photo-book`}>
-      <div className={book.buy}>
+      <div className={`inner ${book.buy}`}>
         <Link href="/purchase">
           <a className={book.buyBtn}>
             <span>Buy</span>
@@ -17,7 +17,7 @@ export default function PhotoBook() {
           </a>
         </Link>
       </div>
-      <div className={`inner ${book.grid}`}>
+      <div className={book.grid}>
         <figure className={book.figure}>
           <Image
             src={bookImg}

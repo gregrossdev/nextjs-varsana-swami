@@ -40,12 +40,23 @@
 
 
 @media only screen and (max-width: 700px) {
+  .grid {
+    grid-template-areas: 
+    "pg-figure"
+    "pg-article" 
+    "pg-article";
+   
+  }
+
   .figure {
-    height: 30rem; 
+    height: 30rem;
+    width: 100%;
+    margin-top: 0; 
   }
   
   .info {
     margin: 0 auto;
+    width: 100%;
   }
   
   .info p {

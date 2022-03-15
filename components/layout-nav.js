@@ -137,7 +137,7 @@ const Navbar = () => {
 
           <div className={nav.link}>
             <a
-              href=""
+              href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC"
               target="_blank"
               className={nav.donate}
               onClick={() => setShow(false)}

@@ -13,8 +13,6 @@ import writings from "../../styles/page-writing.module.css";
 import { getAllPostIds, getCategoryPosts } from "../../lib/posts";
 
 export default function Post({ categoryPosts }) {
-  
-
   const router = useRouter();
 
   return (
@@ -25,16 +23,16 @@ export default function Post({ categoryPosts }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content='Category' />
-        <meta name="twitter:title" content='Category' />
-        <meta property="description" content='Category' />
-        <meta property="og:description" content='Category' />
-        <meta name="twitter:description" content='Category' />
-        <meta property="og:image" content='xxx' />
+        <meta property="og:title" content="Category" />
+        <meta name="twitter:title" content="Category" />
+        <meta property="description" content="Category" />
+        <meta property="og:description" content="Category" />
+        <meta name="twitter:description" content="Category" />
+        <meta property="og:image" content="xxx" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:width" content="1200" />
-        <meta property="og:image" content='xxx' />
-        <meta name="twitter:image" content='xxx' />
+        <meta property="og:image" content="xxx" />
+        <meta name="twitter:image" content="xxx" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:site_name" content="" />
       </Head>
@@ -47,7 +45,9 @@ export default function Post({ categoryPosts }) {
                 <Image
                   src={header.image}
                   alt={header.title || "title"}
+                  className={writings.img}
                   layout="fill"
+                  objectFit="cover"
                 />
               </figure>
               <div
@@ -75,14 +75,12 @@ export default function Post({ categoryPosts }) {
                 </div>
               </div>
               <figure className={writings.wave3}>
-                <Image src={wave3} layout='fill' objectFit='cover'/>
+                <Image src={wave3} layout="fill" objectFit="cover" />
               </figure>
             </header>
           );
         }
       })}
-
-      
     </main>
   );
 }
@@ -103,7 +101,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      categoryPosts
+      categoryPosts,
     },
   };
 }

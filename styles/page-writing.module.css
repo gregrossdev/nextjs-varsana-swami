@@ -40,7 +40,10 @@
   line-height: 1.7;
   max-height: 40vh;
   width: 75%; 
+  padding-bottom: 1rem;
+  -webkit-overflow-scrolling: touch;
 }
+
 
 .list li {
   display: flex; 
@@ -59,21 +62,27 @@
 
 /* SM */
 @media only screen and (max-width: 700px) {
+  .banner {
+    height: 20vh; 
+  }
+
+
   .category {
     flex-direction: column;
     padding: 1em;
   }
 
   .title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .list {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.7;
     max-height: 20vh;
+    width: 98%;
   }
   
 }

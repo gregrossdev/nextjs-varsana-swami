@@ -1,6 +1,6 @@
 .article {
   margin-bottom: 2rem;
-  border-bottom: 3px solid var(--grey);
+  border-bottom: 3px solid var(--clr-grey-10);
 }
 
 .article :last-child {

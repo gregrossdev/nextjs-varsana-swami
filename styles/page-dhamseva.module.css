@@ -2,21 +2,25 @@
   display: grid;
   grid-template-areas: "pg-figure pg-info pg-info";
   margin: 0 auto;
-  /* padding-top: 2rem;
-  padding-bottom: 2rem; */
+ 
 }
 
 .figure {
   grid-area: pg-figure;
   align-self: center;
+  position: relative;
+  height: 24rem;
+  width: 18rem;
+  margin-top: -1rem;
 }
+
 
 .info {
   grid-area: pg-info;
   display: flex;
   flex-direction: column;
 
-  padding: 0;
+  padding: 1rem 0;
   width: 80%;
   align-self: center;
 
@@ -29,18 +33,17 @@
   margin-bottom: 1em;
 }
 
+.info p:last-child {
+  margin-bottom: 0;
+}
+
 .info h3 {
   font-family: "Marck Script", cursive;
   font-weight: 900;
   margin-bottom: 0.5em;
 }
 
-.figure {
-  position: relative;
-  height: 24rem;
-  width: 18rem;
-  margin-top: -1rem;
-}
+
 
 .wrapper {
   background: linear-gradient(179.45deg, #f5f3f1 20.41%, #fbfaf9 95.35%);
@@ -82,8 +85,23 @@
 
 
 @media only screen and (max-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-areas: 
+    "pg-figure" 
+    "pg-info" 
+    "pg-info"
+    ;
+    margin: 0 auto;
+  }
  
   .figure {
     height: 25rem;
+    width: 100%; 
+    margin-top: 0;
+  }
+
+  .info {
+    width: 100%;
   }
 }

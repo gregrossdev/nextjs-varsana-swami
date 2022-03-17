@@ -7,6 +7,13 @@
   justify-content: space-between;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem; 
+}
+
 
 .title {
   margin-bottom: 0.25rem;
@@ -19,8 +26,6 @@
 }
 
 .description {
-  margin-bottom: 0;
-
   font-family: "Dancing Script", cursive;
   font-size: 1.1rem;
 
@@ -35,26 +40,18 @@
   display: flex;
   align-items: center;
   list-style: none;
+  padding: 1rem; 
+  margin: 0;
 }
 
 .menuItems {
   position: relative;
   font-size: 1rem;
   color: var(--clr-black);
-
 }
 
-.menuItems a {
-  display: block;
-  font-size: inherit;
-  color: inherit;
-  text-decoration: none;
-}
 
 .menuItems button {
-  color: inherit;
-  font-size: inherit;
-  font-size: 1rem;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -63,10 +60,12 @@
 
 .menuItems a,
 .menuItems button {
+  display: block;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  padding: 1em;
-  line-height: 1;
+  font-size: 1rem;
+  padding: 1em; 
+  height: 3.5rem;
 }
 
 .menuItems a:hover,

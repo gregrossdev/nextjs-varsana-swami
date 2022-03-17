@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import MenuItems from "./layout-nav-menu";
 import styles from "./layout-nav.module.css";
@@ -6,6 +6,9 @@ import { FiAlignJustify } from "react-icons/fi";
 import { menuItems } from "./layout-nav-menu-items";
 
 export default function Navbar() {
+
+  const [show, setShow] = useState(false);
+
   return (
     <header className={styles.header}>
       <div className={styles.navArea}>
@@ -22,17 +25,22 @@ export default function Navbar() {
             <FiAlignJustify />
           </button>
         </div>
-
-        <nav>
-          <ul className={styles.menus}>
-            {menuItems.map((items, index) => {
-              const depthLevel = 0;
-              return (
-                <MenuItems items={items} key={index} depthLevel={depthLevel} />
-              );
-            })}
-          </ul>
-        </nav>
+        <div className={show ? `${styles.links} ${styles.show}` : `${styles.links}`}>
+          <nav>
+            <ul className={styles.menus}>
+              {menuItems.map((items, index) => {
+                const depthLevel = 0;
+                return (
+                  <MenuItems
+                    items={items}
+                    key={index}
+                    depthLevel={depthLevel}
+                  />
+                );
+              })}
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
   );

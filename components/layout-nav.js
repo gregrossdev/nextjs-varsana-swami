@@ -6,26 +6,28 @@ import { FiAlignJustify } from "react-icons/fi";
 import { menuItems } from "./layout-nav-menu-items";
 
 export default function Navbar() {
-
   const [show, setShow] = useState(false);
 
   return (
     <header className={styles.header}>
       <div className={styles.navArea}>
-        <div className={styles.title}>
-          <Link href="/">
-            <a className={styles.logo}>
-              <h1 className={styles.title}>Varsana Swami</h1>
-              <h3 className={styles.description}>
-                Service to the Dhama and Stewardship of the Earth
-              </h3>
-            </a>
-          </Link>
-          <button className={styles.btn} onClick={() => setShow(!show)}>
-            <FiAlignJustify />
-          </button>
-        </div>
-        <div className={show ? `${styles.links} ${styles.show}` : `${styles.links}`}>
+        <Link href="/">
+          <a className={styles.logo}>
+            <h1 className={styles.title}>Varsana Swami</h1>
+            <h3 className={styles.description}>
+              Service to the Dhama and Stewardship of the Earth
+            </h3>
+          </a>
+        </Link>
+        <button className={styles.btn} onClick={() => setShow(!show)}>
+          <FiAlignJustify />
+        </button>
+
+        <div
+          className={
+            show ? `${styles.menus} ${styles.show}` : `${styles.menus}`
+          }
+        >
           <nav>
             <ul className={styles.menus}>
               {menuItems.map((items, index) => {

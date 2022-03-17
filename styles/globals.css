@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,500;1,800&family=Roboto:wght@400;500;600;700;800;900&display=swap");
 
 /*
-=============== 
+=======
 # Variables
 ===============
 */
@@ -186,9 +186,7 @@ p {
 ===============
 */
 
-nav {
-  box-shadow: var(--shadow-2);
-}
+
 
 figure {
   display: block;
@@ -201,7 +199,7 @@ button {
   box-shadow: transparent;
 }
 
-button,
+/* button,
 .btn {
   cursor: pointer;
   appearance: none;
@@ -211,14 +209,14 @@ button,
   box-shadow: var(--shadow-1);
   transition: var(--transition);
   text-transform: capitalize;
-}
+} */
 
-button:hover,
+/* button:hover,
 .btn:hover {
   color: var(--clr-white);
   box-shadow: var(--shadow-2);
   border: 2px solid var(--clr-black);
-}
+} */
 
 /*
 =============== 

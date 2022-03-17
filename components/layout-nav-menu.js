@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai";
 import SubMenu from "./layout-nav-menu-sub";
 import styles from "./layout-nav.module.css";
 
@@ -32,8 +33,8 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-expanded={dropdown ? "true" : "false"}
             onClick={() => setDropdown(!dropdown)}
           >
-            {items.title}{" "}
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className={styles.arrow} />}
+            {items.title}
+            {dropdown ? <AiFillCaretUp /> : <AiFillCaretDown />}
           </button>
           <SubMenu
             depthLevel={depthLevel}

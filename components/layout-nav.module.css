@@ -1,232 +1,94 @@
-
-.navbar {
-  padding: 1rem;
+.header {
+  height: 58px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  color: #212529;
 }
 
-.title {
-  margin-bottom: 0.25rem;
-
-  font-family: "Dancing Script", cursive;
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: var(--clr-black);
-
+.navArea {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-
-  flex-basis: 35%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 58px;
 }
 
-
-  
-
-
-.title img {
-  width: 200px;
-  margin-left: -6px;
-  margin-bottom: -9px;
+.logo {
+  text-decoration: none;
+  font-size: 25px;
+  color: inherit;
+  margin-right: 20px;
 }
 
-.description {
-  margin-bottom: 0;
-
-  font-family: "Dancing Script", cursive;
-  font-size: 1.1rem;
-
-  color: var(--clr-black);
-}
-
-.btn {
-  padding: 0.15rem 0.75rem;
-}
-.btn svg {
-  font-size: 1.5rem;
-}
-
-.icon {
-  margin-bottom: -3px;
-  margin-left: 4px;
-}
-
-.links {
+.menus {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  height: 0;
-
-  overflow: hidden;
-  transition: var(--transition);
+  list-style: none;
 }
 
-.links a, .link {
-  text-transform: uppercase;
+.menuItems {
+  position: relative;
+  font-size: 14px;
 }
 
-.link {
+.menuItems a {
   display: block;
-  border-top: 1px solid var(--clr-grey-50);
-  padding: 0.5em 0;
-  font-weight: 700;
-  
-  color: var(--clr-black);
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: var(--transition);
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menuItems button {
+  color: inherit;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+.menuItems a,
+.menuItems button {
   text-align: left;
-}
-.show {
-  height: 23.9375rem;
-  height: fit-content;
+  padding: 0.7rem 1rem;
 }
 
-.active {
-  color: var(--primary-500);
+.menuItems a:hover,
+.menuItems button:hover {
+  background-color: #f2f2f2;
 }
 
-.donate {
-  font-family: Montserrat;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
-  color: var(--clr-black);
+.arrow::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.28em;
+  vertical-align: 0.09em;
+  border-top: 0.42em solid;
+  border-right: 0.32em solid transparent;
+  border-left: 0.32em solid transparent;
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
+  right: 0;
+  left: auto;
+  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+    0 4px 6px -2px rgba(71, 63, 79, 0.16);
+  font-size: 0.875rem;
+  z-index: 9999;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: none;
 }
 
-.button {
-  font-family: var(--bodyFont);
-  cursor: pointer;
-  -webkit-appearance: none;
-  appearance: none;
-  border: none;
-  letter-spacing: var(--letterSpacing);
-  padding: 0;
-  box-shadow: none;
-  transition: var(--transition);
-  text-transform: capitalize;
+.dropdown.show {
+  display: block;
 }
 
-.dd {
-  display: flex;
-  align-items: center;
-}
-
-.dd h4 {
-  margin: 0;
-}
-
-.link {
-  font-size: 0.9rem;
-  margin-bottom: 0.5em;
-}
-
-@media only screen and (min-width: 1000px) {
-  /* .submenu {
-    display: block;
-    position: absolute;
-    transform: translateX(-16px);
-    border-radius: 0.5rem;
-    z-index: 1;
-    min-width: 17rem;
-    padding: 1em;
-    margin-right: -1em;
-    background-color: var(--clr-white);
-    box-shadow: var(--shadow-4);
-  } */
-  
-  .center {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .title {
-   display: block; 
-   text-align: center;
-   flex-basis: 40%;
-  }
-
-
-  .links {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
-    padding: 0.25em 0 0; 
-  }
-
-  .links a, .link {
-    border-top: none;
-    padding: 0.25em;
-    font-size: 0.85rem;
-    font-weight: 700;
-    font-family: var(--font);
-    margin-bottom: 0;
-    text-transform: uppercase;
-    margin-right: 0.5em;
-  }
-
-  /* .btn {
-    display: none;
-  } */
-
-
-  .donate {
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 0;
-  }
-
-  .button {
-    border-top: none;
-    padding: 0;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-}
-
-
-@media only screen and (min-width: 1250px) {
-
-  .navbar {
-    padding: 2rem; 
-  }
-  
-  
-  .center {
-    justify-content: space-between;
-  }
-
-  
-
-  .description {
-    
-  }
-
-  .links {
-   
-  }
-
-  .links a, .link {
-   font-size: 1rem;
-   margin-right: 1em;
-  }
-
-  .btn {
-    
-  }
-
-
-  .donate {
-   
-  }
-
-  .button {
-    
-  }
+.dropdown .dropdownSubmenu {
+  position: absolute;
+  left: 100%;
+  top: -7px;
 }

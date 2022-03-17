@@ -26,34 +26,34 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='nav'>
-      <div className="nav-center">
-        <div className="nav-title">
+    <nav className={nav.navbar}>
+      <div className={nav.center}>
+        <div className={nav.title}>
           <Link href="/">
             <a className={nav.logo}>
-              <h1 className="site-title">Varsana Swami</h1>
-              <h3 className="site-description">
+              <h1 className={nav.title}>Varsana Swami</h1>
+              <h3 className={nav.description}>
                 Service to the Dhama and Stewardship of the Earth
               </h3>
             </a>
           </Link>
-          <button className="nav-btn" onClick={() => setShow(!show)}>
+          <button className={nav.btn} onClick={() => setShow(!show)}>
             <FiAlignJustify />
           </button>
         </div>
-        <div className={show ? "nav-links show-links" : "nav-links"}>
+        <div className={show ? `${nav.links} ${nav.show}` : `${nav.links}`}>
           <Link
             href="/about"
-            className="nav-link"
-            // activeClassName={nav.active}
+            className={nav.link}
+            activeClassName={nav.active}
             onClick={() => setShow(false)}
           >
             About
           </Link>
           <Link
             href="/dhamseva"
-            className="nav-link"
-            // activeClassName={nav.active}
+            className={nav.link}
+            activeClassName={nav.active}
             onClick={() => setShow(false)}
           >
             Dham-seva
@@ -63,23 +63,23 @@ const Navbar = () => {
             const title = link.title;
             const info = link.info;
             return (
-              <div className="dropdown" key={link.title}>
-                <header className="dd-header">
-                  <h4 className="nav-link">{title}</h4>
-                  <button className="btn" onClick={() => setDrop1(true)}>
+              <div className={nav.dropdown} key={link.title}>
+                <header className={nav.header}>
+                  <h4 className={nav.link}>{title}</h4>
+                  <button className={nav.btn} onClick={() => setDrop1(true)}>
                     {drop1 ? <AiFillCaretUp /> : <AiFillCaretDown />}
                   </button>
                 </header>
                 {drop1 && (
-                  <div className="submenu">
+                  <div className={nav.submenu}>
                     {info.map((i) => {
                       const r = i.route;
                       return (
                         <Link
                           href={r}
                           key={i.name}
-                          className="nav-link"
-                          // activeClassName={nav.active}
+                          className={nav.link}
+                          activeClassName={nav.active}
                           onClick={close}
                         >
                           {i.name}
@@ -96,23 +96,23 @@ const Navbar = () => {
             const title = link.title;
             const info = link.info;
             return (
-              <div className="dropdown" key={link.title}>
-                <header className="dd-header">
-                  <h4 className="nav-link">{title}</h4>
-                  <button className="btn" onClick={() => setDrop2(true)}>
+              <div className={nav.dropdown} key={link.title}>
+                <header className={nav.header}>
+                  <h4 className={nav.link}>{title}</h4>
+                  <button className={nav.btn} onClick={() => setDrop2(true)}>
                     {drop2 ? <AiFillCaretUp /> : <AiFillCaretDown />}
                   </button>
                 </header>
                 {drop2 && (
-                  <div className="submenu">
+                  <div className={nav.submenu}>
                     {info.map((i) => {
                       const r = i.route;
                       return (
                         <Link
                           href={r}
                           key={i.name}
-                          className="nav-link"
-                          // activeClassName={nav.active}
+                          className={nav.link}
+                          activeClassName={nav.active}
                           onClick={close}
                         >
                           {i.name}
@@ -127,16 +127,16 @@ const Navbar = () => {
 
           <Link
             href="/books"
-            className="nav-link"
-            // activeClassName={nav.active}
+            className={nav.link}
+            activeClassName={nav.active}
             onClick={() => setShow(false)}
           >
             Books
           </Link>
 
-          <div className="nav-link">
+          <div className={nav.link}>
             <a
-              href=""
+              href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC"
               target="_blank"
               className={nav.donate}
               onClick={() => setShow(false)}

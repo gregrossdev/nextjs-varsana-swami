@@ -113,19 +113,19 @@ ul {
 */
 
 html {
-  font-size: 100%;
+  font-size: 87.5%;
   word-wrap: break-word;
 }
 
 @media only screen and (min-width: 600px) {
   html {
-    font-size: 112.5%;
+    font-size: 125%;
   }
 }
 
 @media only screen and (min-width: 900px) {
   html {
-    font-size: 125%;
+    font-size: 112.5%;
   }
 }
 

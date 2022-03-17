@@ -13,6 +13,21 @@
   height: 58px;
 }
 
+.title {
+  margin-bottom: 0.25rem;
+
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--clr-black);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-basis: 35%;
+}
+
 .logo {
   text-decoration: none;
   font-size: 25px;

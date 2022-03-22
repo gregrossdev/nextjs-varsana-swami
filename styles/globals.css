@@ -698,3 +698,37 @@ button {
 @media only screen and (max-width: 700px) {
 
 }
+
+
+/* =======
+## 03-21-2022
+=============== */
+
+.grid {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.gallery {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.gallery-photo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-btn {
+  display: block;
+  padding: 2rem; 
+  background: var(--clr-grey-10); 
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 3rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}

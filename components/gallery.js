@@ -16,7 +16,7 @@ export default function Gallery({ gallery }) {
                   <Image
                     src={`https://varsana-photos.nyc3.digitaloceanspaces.com/${Key}`}
                     alt={Key}
-                    
+                    key={Key}
                     layout="fill"
                     objectFit="cover"
                     className={styles.img}

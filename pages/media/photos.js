@@ -1,78 +1,75 @@
-
 import React, { useState, useEffect } from "react";
-import Gallery from "../../components/gallery";
-import Accordion from "../../components/accordion";
+import Image from "next/image";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
 
 // styles
-import page from "../../styles/page.module.css";
+import styles from "../../styles/page.module.css";
 import media from "../../styles/page-media.module.css";
 
-const Photos = ({ data }) => {
-  const [photos, setPhotos] = useState([]);
-  const [next, setNext] = useState(10);
+const Photos = ({ photos }) => {
+  const [data, setData] = useState([]);
+  const [page, setPage] = useState(0);
+  const [numOfItems, setNumOfItems] = useState(10);
 
-  const info = JSON.parse(data);
+  const [loading, setLoading] = useState(true);
+
+  const photoData = JSON.parse(photos);
 
   const allofThese = (keyword) => {
-    return (
-      info.filter((i) => {
-        const album = i.Key.split("/")[0];
-        if (album.includes(keyword)) {
-          return i;
-        }
-      })
-    )
+    return photoData.filter((i) => {
+      const album = i.Key.split("/")[0];
+      if (album.includes(keyword)) {
+        return i;
+      }
+    });
+  };
+
+  function handleClick() {
+    setNumOfItems((prev) => prev + 10);
   }
 
-  const totalImages = 10;
-  let currentPhotos = [];
-
-  const summer = allofThese("summer")
-  const fall = allofThese("fall")
-  const rad = allofThese("radhastami")
-  const cleaning = allofThese("cleaning")
-  const varsana = allofThese("varsana")
-  const devi = allofThese("vrinda")
-
-
-  const loopWithSlice = (start, end) => {
-    const slicedPhotos = summer.slice(start, end);
-    currentPhotos = [...currentPhotos, ...slicedPhotos];
-    setPhotos(currentPhotos);
-  };
-
-  useEffect(() => {
-    loopWithSlice(0, totalImages);
-  }, []);
-
-  const handleShowMorePhotos = () => {
-    loopWithSlice(next, next + totalImages);
-    setNext(next + totalImages);
-  };
-
+  const summer = allofThese("summer");
+  console.log(summer);
+  const fall = allofThese("fall");
+  const rad = allofThese("radhastami");
+  const cleaning = allofThese("cleaning");
+  const varsana = allofThese("varsana");
+  const devi = allofThese("vrinda");
 
   return (
-    <div className={page.container}>
+    <div className={styles.container}>
       <header>
-        <h2 className={`${page.title} ${media.title} green`}>Photo Albums</h2>
+        <h2 className={`${styles.title} ${media.title} green`}>Photo Albums</h2>
       </header>
 
       <section className="page-content">
         <div className="inner-mw mobile-pd">
           <div>
             <h3>One Summer on Govardhan</h3>
-            <Gallery gallery={photos} />
-            <button onClick={handleShowMorePhotos}>
-              Load More
-            </button>
+            <section className="grid">
+              {summer.slice(0, numOfItems).map((item) => {
+                return (
+                  <div className="gallery" key={item.Key}>
+                    <Image
+                      src={`https://varsana-photos.nyc3.digitaloceanspaces.com/${item.Key}`}
+                      alt={item.Key}
+                      key={item.Key}
+                      layout="fill"
+                      objectFit="cover"
+                      className="gallery-photo"
+                    />
+                  </div>
+                );
+              })}
+            </section>
+            <button onClick={handleClick} className="gallery-btn">Load More</button>
           </div>
           {/* <div>
             <h3>Fall on Govardhan</h3>
-            <Gallery gallery={photos} />
-          </div>
-          <div>
+            <Gallery gallery={items} />
+          </div> */}
+          {/* <div>
             <h3>Radhastami 2017</h3>
             <Gallery gallery={photos} />
           </div>
@@ -102,7 +99,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      data: JSON.stringify(data.Contents),
+      photos: JSON.stringify(data.Contents),
     },
   };
 }

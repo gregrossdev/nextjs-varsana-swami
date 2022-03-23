@@ -13,34 +13,37 @@
 }
 
 .book {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   border-bottom: 3px solid var(--clr-grey-10);
-  padding: 1.75rem 0;
+  padding-bottom: 1rem;
+  margin-bottom: 2.75rem;
 }
 
 .figure {
   width: 440px;
-}
-
-.figure, .info {
   height: 350px;
 }
 
-.info {
-  flex-basis: 70%;
-  align-self: flex-start;
-  padding-left: 2em;
+.figure2 {
+  width: 15rem;
+  height: 17.5rem;
+  margin: 0 auto;
 }
 
-.infoCol {
+.info {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  padding-bottom: 2rem;
+  padding-left: 2em;
+  align-self: flex-start;
+  border-bottom: 3px solid var(--grey);
 }
 
-
+.info p:first-child {
+  margin-top: 1.4rem;
+}
 
 .info p {
   margin-bottom: 0.25em;
@@ -50,17 +53,28 @@
   font-weight: 900;
 }
 
+
+
 .buttons {
-  margin-top: auto;
   display: flex;
   justify-content: space-between;
-  justify-self: flex-end;
 }
 
+.button {
+  align-self: baseline;
+  margin-top: 0.5em;
 
-.buy {
-  display: flex;
-  margin: 0 auto;
+  padding: 0.5em 1.5em;
+  border: none;
+  background-color: var(--clr-grey-10);
+
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--dark);
+
+  outline: none;
 }
 
 .buyBtn {
@@ -78,7 +92,14 @@
   color: #f3ef7b;
 }
 
+.buy {
+  display: flex;
+  margin: 0 auto;
+}
 
+.btn {
+  margin-top: -1rem;
+}
 
 @media only screen and (max-width: 700px) {
   .book {
@@ -88,4 +109,9 @@
   .figure {
     height: 20rem;
   }
+
+  .figure2 {
+    height: 17.5rem;
+  }
+  
 }

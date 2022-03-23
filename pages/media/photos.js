@@ -38,7 +38,7 @@ const Photos = ({ photos }) => {
   const devi = allofThese("vrinda");
 
   return (
-    <div className={styles.container}>
+    <div className="page-container">
       <header>
         <h2 className={`${styles.title} ${media.title} green`}>Photo Albums</h2>
       </header>

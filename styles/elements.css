@@ -1,0 +1,21 @@
+/*
+=====
+# Elements
+============ */
+
+figure {
+  position: relative;
+  margin: 0;
+}
+
+figure img {
+  border-radius: var(--radius);
+}
+
+
+button {
+  background-color: transparent;
+  border: none;
+  box-shadow: transparent;
+}
+

@@ -1,30 +1,32 @@
-.container {
+/* 
+====  
+# PAGE
+======== */
+
+.page-container {
   margin: 0 auto;
 }
 
-.title {
+.page-title {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 0;
 }
 
-.wrapper {
-  padding-top: 0;
+.page-wrapper {
+  padding: 2rem 0;
   background-color: var(--clr-grey-10);
 }
 
-.info {
-  font-family: "Marck Script", cursive;
+.page-section {
+  max-width: 1160px;
   margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-.info p {
-  font-size: 1.4rem;
-}
-
-.content p {
+.page-section p {
   margin-bottom: 1rem;
 }
 
@@ -43,6 +45,4 @@
     padding: 2rem;
     margin-bottom: 0;
   }
-
-
 }

@@ -1,28 +1,27 @@
 import Image from "next/image";
 
 // styles
-import page from "../styles/page.module.css";
-import about from "../styles/page-about.module.css";
+import styles from "../styles/page-about.module.css";
 
 // images
 import aboutImg from "../public/images/about-varsana.jpg";
 
-const About = () => {
+export default function About() {
   return (
-    <div className={page.container}>
+    <div className="page-container">
       <header>
-        <h2 className={page.title}> About Varsana Swami </h2>
-        <div className={page.wrapper}>
-          <div className={`${about.grid} ${page.hero} inner`}>
-            <figure className={`imgRadius ${about.figure}`}>
+        <h2 className="page-title"> About Varsana Swami </h2>
+        <div className="page-wrapper">
+          <div className={styles.grid}>
+            <figure className={styles.figure}>
               <Image
                 src={aboutImg}
                 alt="about"
-                layout='fill'
+                layout="fill"
                 objectFit="cover"
               />
             </figure>
-            <article className={about.info}>
+            <article className={styles.article}>
               <p>
                 Varsana Maharaj is known for his deep understanding of the
                 Gaudiya Vaishnava teachings, his enlivening presentations on
@@ -43,25 +42,40 @@ const About = () => {
           </div>
         </div>
       </header>
-      <section className={`inner ${page.content}`}>
+      <section className="page-section">
         <p>
-        Varsana Swami was born in 1950 in Morristown, New Jersey. From childhood, he was deeply drawn to the workings of the natural world. He became a vegetarian of his own accord at the age of seven and was determined to lead a life of compassion. As a young man, his search for meaning manifested in studying theology in college, visiting ashrams, and hearing from different gurus.
+          Varsana Swami was born in 1950 in Morristown, New Jersey. From
+          childhood, he was deeply drawn to the workings of the natural world.
+          He became a vegetarian of his own accord at the age of seven and was
+          determined to lead a life of compassion. As a young man, his search
+          for meaning manifested in studying theology in college, visiting
+          ashrams, and hearing from different gurus.
         </p>
 
         <p>
-        Finally, in 1972 he had the great fortune of meeting his beloved spiritual master, Srila Prabhupada. That encounter had such a profound impact on him that he was inspired to join the Brooklyn ISKCON temple. Shortly thereafter he went to New Vrindaban and began what is now over five decades of devotional service.
+          Finally, in 1972 he had the great fortune of meeting his beloved
+          spiritual master, Srila Prabhupada. That encounter had such a profound
+          impact on him that he was inspired to join the Brooklyn ISKCON temple.
+          Shortly thereafter he went to New Vrindaban and began what is now over
+          five decades of devotional service.
         </p>
 
         <p>
-        Maharaja has performed a variety of seva over the years that includes: raising and training draft animals for farm work; pujari service; conservation work; and heading up the excavation department, which is responsible for literally carving out the infrastructure and holy places of New Vrindaban. For that purpose in 2007, he founded Dham Seva.Inc, a nonprofit organization dedicated to Srila Prabhupada’s desire that the holy tirthas of Vraja appear in New Vrindaban.
+          Maharaja has performed a variety of seva over the years that includes:
+          raising and training draft animals for farm work; pujari service;
+          conservation work; and heading up the excavation department, which is
+          responsible for literally carving out the infrastructure and holy
+          places of New Vrindaban. For that purpose in 2007, he founded Dham
+          Seva.Inc, a nonprofit organization dedicated to Srila Prabhupada’s
+          desire that the holy tirthas of Vraja appear in New Vrindaban.
         </p>
 
         <p>
-        Varsana Swami is also a strong advocate and dedicated supporter of the farm movement within ISKCON. He is the author of the book Sri Gaura Lila and Appreciating New Vrindaban Dhama.
+          Varsana Swami is also a strong advocate and dedicated supporter of the
+          farm movement within ISKCON. He is the author of the book Sri Gaura
+          Lila and Appreciating New Vrindaban Dhama.
         </p>
       </section>
     </div>
   );
-};
-
-export default About;
+}

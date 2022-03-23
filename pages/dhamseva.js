@@ -3,8 +3,7 @@ import Quote from "../components/ui-quote";
 import Letter from "../components/ui-letter";
 
 // styles
-import page from "../styles/page.module.css";
-import dham from "../styles/page-dhamseva.module.css";
+import styles from "../styles/page-dhamseva.module.css";
 
 // images
 import dhamImg from "../public/images/dhamseva.jpg";
@@ -12,12 +11,12 @@ import srilaImg from "../public/images/excerpts.jpg";
 
 const Dham = (props) => {
   return (
-    <div className={page.container}>
+    <div className="page-container">
       <header>
-        <h2 className={page.title}>Dham Seva Project</h2>
-        <div className={page.wrapper}>
-          <div className={`${dham.grid} inner`}>
-            <figure className={`${dham.figure} imgRadius`}>
+        <h2 className="page-title">Dham Seva Project</h2>
+        <div className="page-wrapper">
+          <div className={styles.grid}>
+            <figure className={styles.figure}>
               <Image
                 src={dhamImg}
                 alt="dham seva"
@@ -26,7 +25,7 @@ const Dham = (props) => {
               />
             </figure>
 
-            <article className={`${page.info} ${dham.info}`}>
+            <article className={styles.article}>
               <h3>Dham Seva Mission</h3>
               <p>
                 To award a voice to the Dham and her subjects so as to promote
@@ -43,7 +42,7 @@ const Dham = (props) => {
         </div>
       </header>
 
-      <section className={`inner ${page.content}`}>
+      <section className="page-section">
         <article>
           <p>
             Following the order of Lord Caitanya, the Six Goswamis of Vrindavan
@@ -66,23 +65,22 @@ const Dham = (props) => {
         </article>
       </section>
 
-      <div className={dham.wrapper}>
-        <section className={`inner ${page.content}`}>
+      <div className={styles.excerptWrapper}>
+        <section className="page-section">
           <header>
-            <h2 className={dham.title}>
+            <h2 className={styles.excerptTitle}>
               Selected excerpts from Srila Prabhupada’s letters <br />
               on New Vrindaban
             </h2>
-            <figure className={dham.figure2}>
+            <figure className={styles.center}>
               <Image
                 src={srilaImg}
                 alt="Prabhuapda"
-                className="excerpt-img"
                 placeholder="blur"
               />
             </figure>
           </header>
-          <section className={dham.quotes}>
+          <section className={styles.quotes}>
             <Quote
               color="yellow"
               quote="Now I am hopeful that our New Vrindavan will be an exact replica of Vrindaban in India."
@@ -101,7 +99,7 @@ const Dham = (props) => {
               author="Srila Prabhupada letter, 18 February 1970"
             />
           </section>
-          <section className={dham.letters}>
+          <section className={styles.letters}>
             <Letter
               title="Letter to Hayagriva"
               date="18 November 1968"

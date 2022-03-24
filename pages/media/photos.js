@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import React, { useState } from "react";
+import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
 
+import Gallery from "../../components/gallery";
+
 // styles
-import styles from "../../styles/page.module.css";
-import media from "../../styles/page-media.module.css";
+import styles from "../../styles/page-media.module.css";
 
 const Photos = ({ photos }) => {
-  const [data, setData] = useState([]);
-  const [page, setPage] = useState(0);
-  const [numOfItems, setNumOfItems] = useState(10);
-
+  const [showPhotos, setShowPhotos] = useState(false);
+  const [numOfItems, setNumOfItems] = useState(4);
   const [loading, setLoading] = useState(true);
-
   const photoData = JSON.parse(photos);
+
+  const [showInfo, setShowInfo] = useState(false);
 
   const allofThese = (keyword) => {
     return photoData.filter((i) => {
@@ -26,11 +26,10 @@ const Photos = ({ photos }) => {
   };
 
   function handleClick() {
-    setNumOfItems((prev) => prev + 10);
+    setNumOfItems((prev) => prev + 1);
   }
 
   const summer = allofThese("summer");
-  console.log(summer);
   const fall = allofThese("fall");
   const rad = allofThese("radhastami");
   const cleaning = allofThese("cleaning");
@@ -40,36 +39,57 @@ const Photos = ({ photos }) => {
   return (
     <div className="page-container">
       <header>
-        <h2 className={`${styles.title} ${media.title} green`}>Photo Albums</h2>
+        <h2 className={styles.title}>Photo Albums</h2>
       </header>
 
-      <section className="page-content">
-        <div className="inner-mw mobile-pd">
-          <div>
-            <h3>One Summer on Govardhan</h3>
-            <section className="grid">
-              {summer.slice(0, numOfItems).map((item) => {
-                return (
-                  <div className="gallery" key={item.Key}>
-                    <Image
-                      src={`https://varsana-photos.nyc3.digitaloceanspaces.com/${item.Key}`}
-                      alt={item.Key}
-                      key={item.Key}
-                      layout="fill"
-                      objectFit="cover"
-                      className="gallery-photo"
-                    />
-                  </div>
-                );
-              })}
-            </section>
-            <button onClick={handleClick} className="gallery-btn">Load More</button>
-          </div>
-          {/* <div>
-            <h3>Fall on Govardhan</h3>
+      <section className="page-section">
+        
+        <div className="accordion">
+          <header className={styles.header}>
+            <h3 className={styles.folder}>One Summer on Govardhan</h3>
+            <button onClick={() => setShowInfo(!showInfo)}>
+              {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+            </button>
+          </header>
+          {showInfo && (
+            <>
+              <div className="grid">
+                {summer.slice(0, numOfItems).map((item) => {
+                  return <Gallery gallery={item.Key} />;
+                })}
+              </div>
+              <button onClick={handleClick} className="gallery-btn">
+                Load More
+              </button>
+            </>
+          )}
+        </div>
+        <div className="accordion">
+          <header className={styles.header}>
+            <h3 className={styles.folder}>Fall on Govardhan</h3>
+            <button onClick={() => setShowInfo(!showInfo)}>
+              {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+            </button>
+          </header>
+          {showInfo && (
+            <>
+              <div className="grid">
+                {fall.slice(0, numOfItems).map((item) => {
+                  return <Gallery gallery={item.Key} />;
+                })}
+              </div>
+              <button onClick={handleClick} className="gallery-btn">
+                Load More
+              </button>
+            </>
+          )}
+        </div>
+
+        {/* <div>
+            
             <Gallery gallery={items} />
           </div> */}
-          {/* <div>
+        {/* <div>
             <h3>Radhastami 2017</h3>
             <Gallery gallery={photos} />
           </div>
@@ -85,7 +105,6 @@ const Photos = ({ photos }) => {
             <h3>Vrinda-Devi and her birthday cake</h3>
             <Gallery gallery={photos} />
           </div> */}
-        </div>
       </section>
     </div>
   );

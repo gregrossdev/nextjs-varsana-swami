@@ -3,17 +3,27 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import AudioFile from "../../components/playlist-file";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
+import Test from "../../components/test";
 
 // styles
 import styles from "../../styles/page-media.module.css";
 
-const Audio = ({ data }) => {
-  const [numOfItems, setNumOfItems] = useState(4);
-  const [loading, setLoading] = useState(true);
+const Audio = ({ allAudio, allFolders }) => {
+  const [audioItems, setAudioItems] = useState(allAudio);
+  const [folders, setFolders] = useState(allFolders);
   const [showInfo, setShowInfo] = useState(false);
 
-  const allAudio = JSON.parse(data);
-  const folders = [...new Set(allAudio.map((i) => i.Key.split("/")[0]))];
+  const [numOfItems, setNumOfItems] = useState(4);
+
+  const [loading, setLoading] = useState(true);
+
+  const filterItems = (folder) => {
+    const updatedItems = allAudio.filter((file) => {
+      return file.Key.split("/")[0] === folder;
+    });
+    setAudioItems(updatedItems);
+    setShowInfo(!showInfo);
+  };
 
   function handleClick() {
     setNumOfItems((prev) => prev + 1);
@@ -25,34 +35,32 @@ const Audio = ({ data }) => {
         <h2 className={styles.title}>Audio</h2>
       </header>
       <section className="page-content">
-        {folders.map((folder) => {
+        {folders.map((category, index) => {
           return (
-            <header className={styles.header}>
-              <h3 className={styles.folder}>{folder}</h3>
-              <button onClick={() => setShowInfo(!showInfo)}>
-                {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
-              </button>
-            </header>
+            <div className="accordion">
+              <header className={styles.header}>
+                <h3 className={styles.folder}>{category}</h3>
+                <button
+                  type="button"
+                  className="filter-btn"
+                  key={index}
+                  onClick={() => filterItems(category)}
+                >
+                  {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+                </button>
+              </header>
+              {showInfo && (
+                <>
+                  <ul>
+                    {audioItems.slice(0, numOfItems).map((post) => (
+                      <h3 key={post.Key}>{post.Key}</h3>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </div>
           );
         })}
-
-        
-
-        {/* <div label="Various">
-                <Playlist playlist={various} />
-              </div>
-              <div label="Srimad Bhagavatam">
-                <Playlist playlist={srimad} />
-              </div>
-              <div label="Chaitanya-caritamrta">
-                <Playlist playlist={chaitanya} />
-              </div>
-              <div label="Bhagavad-gita">
-                <Playlist playlist={bhagavad} />
-              </div>
-              <div label="Bhajans & Kirtans">
-                <Playlist playlist={kirtans} />
-              </div> */}
       </section>
     </div>
   );
@@ -63,10 +71,14 @@ export default Audio;
 export async function getStaticProps() {
   const bucketParams = { Bucket: "varsana-audio" };
   const data = await s3Client.send(new ListObjectsCommand(bucketParams));
+  const stringify = JSON.stringify(data.Contents);
+  const allAudio = JSON.parse(stringify);
+  const allFolders = [...new Set(allAudio.map((i) => i.Key.split("/")[0]))];
 
   return {
     props: {
-      data: JSON.stringify(data.Contents),
+      allAudio,
+      allFolders,
     },
   };
 }

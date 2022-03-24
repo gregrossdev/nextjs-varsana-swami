@@ -3,7 +3,6 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import AudioFile from "../../components/playlist-file";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
-import Test from "../../components/test";
 
 // styles
 import styles from "../../styles/page-media.module.css";
@@ -13,21 +12,22 @@ const Audio = ({ allAudio, allFolders }) => {
   const [folders, setFolders] = useState(allFolders);
   const [showInfo, setShowInfo] = useState(false);
 
-  const [numOfItems, setNumOfItems] = useState(4);
 
   const [loading, setLoading] = useState(true);
 
-  const filterItems = (folder) => {
+  const filterItems = (folder, index) => {
     const updatedItems = allAudio.filter((file) => {
       return file.Key.split("/")[0] === folder;
     });
     setAudioItems(updatedItems);
-    setShowInfo(!showInfo);
+
+    if (showInfo === index) {
+      return setShowInfo(null);
+    }
+
+    setShowInfo(index);
   };
 
-  function handleClick() {
-    setNumOfItems((prev) => prev + 1);
-  }
 
   return (
     <div className="page-container">
@@ -37,22 +37,21 @@ const Audio = ({ allAudio, allFolders }) => {
       <section className="page-content">
         {folders.map((category, index) => {
           return (
-            <div className="accordion">
+            <div className="accordion" key={index}>
               <header className={styles.header}>
                 <h3 className={styles.folder}>{category}</h3>
                 <button
                   type="button"
                   className="filter-btn"
-                  key={index}
-                  onClick={() => filterItems(category)}
+                  onClick={() => filterItems(category, index)}
                 >
-                  {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+                  {showInfo === index ? <AiOutlineMinus /> : <AiOutlinePlus />}
                 </button>
               </header>
-              {showInfo && (
+              {showInfo === index && (
                 <>
                   <ul>
-                    {audioItems.slice(0, numOfItems).map((post) => (
+                    {audioItems.map((post) => (
                       <h3 key={post.Key}>{post.Key}</h3>
                     ))}
                   </ul>

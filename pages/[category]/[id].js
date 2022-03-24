@@ -18,7 +18,7 @@ export default function Post({ postData, categoryPosts }) {
   const router = useRouter();
 
   return (
-    <main className={writings.writings}>
+    <div className="page-container">
       <Head>
         <title>{title}</title>
         <meta charSet="UTF-8" />
@@ -43,19 +43,17 @@ export default function Post({ postData, categoryPosts }) {
         if (router.query.category == header.slug) {
           return (
             <header>
-              <figure className={writings.banner}>
+              <figure className="banner">
                 <Image
                   src={header.image}
                   alt={header.title || "title"}
                   layout="fill"
+                  objectFit="cover"
                 />
               </figure>
-              <div
-                className={writings.wrapper}
-                style={{ backgroundColor: `${header.bgColor}` }}
-              >
+              <section style={{ backgroundColor: `${header.bgColor}` }}>
                 <div className={writings.category}>
-                  <h1 className={writings.title}>{header.title}</h1>
+                  <h2 className={writings.title}>{header.title}</h2>
                   <ul className={writings.list}>
                     {categoryPosts.map((posts) => {
                       const { category, id, title } = posts;
@@ -73,17 +71,19 @@ export default function Post({ postData, categoryPosts }) {
                     })}
                   </ul>
                 </div>
-              </div>
-              <figure className={writings.wave3}>
-                <Image src={wave3} layout='fill' objectFit='cover'/>
+              </section>
+              <figure className="wave3">
+                <Image src={wave3} layout="fill" objectFit="cover" />
               </figure>
             </header>
           );
         }
       })}
 
-      <Writing post={postData} />
-    </main>
+      <section className="page-section">
+        <Writing post={postData} />
+      </section>
+    </div>
   );
 }
 

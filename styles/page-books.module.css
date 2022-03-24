@@ -3,7 +3,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 0;
   border-bottom: 3px solid var(--clr-grey-10);
   color: green;
 }

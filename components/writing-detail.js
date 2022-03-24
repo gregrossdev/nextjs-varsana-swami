@@ -48,7 +48,7 @@ export default function Writing(props) {
         />
       </figure>
       <header className={writing.header}>
-        <p className={writing.date}>{humanReadableDate}</p>
+        <span className={writing.date}>{humanReadableDate}</span>
         <h2 className={writing.title}>{title}</h2>
       </header>
       <section className={writing.body}>

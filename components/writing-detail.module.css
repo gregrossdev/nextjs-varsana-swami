@@ -1,9 +1,9 @@
 .article {
-  padding: 0 1em;
+  padding: 0 1rem;
   max-width: 880px;
   margin: 0 auto;
   background: #fbfaf9;
-  margin-top: -2rem;
+  margin-top: -4rem;
 }
 
 .cover {
@@ -13,15 +13,12 @@
   justify-content: center;
 }
 
-.cover img {
-  border-radius: var(--radius);
-}
 
 .header {
   padding: 1rem 0;
   text-align: center;
-  width: 90%;
 }
+
 
 .date {
   font-family: "Roboto", sans-serif; 
@@ -48,10 +45,4 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: -0.25px;
-}
-
-@media only screen and (max-width: 700px) {
-  .article {
-    margin-top: 0;
-  }
 }

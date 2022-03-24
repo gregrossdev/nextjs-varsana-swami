@@ -16,7 +16,7 @@ export default function Post({ categoryPosts }) {
   const router = useRouter();
 
   return (
-    <main className={writings.writings}>
+    <div className="page-container">
       <Head>
         <title>Category</title>
         <meta charSet="UTF-8" />
@@ -41,7 +41,7 @@ export default function Post({ categoryPosts }) {
         if (router.query.category == header.slug) {
           return (
             <header>
-              <figure className={writings.banner}>
+              <figure className="banner">
                 <Image
                   src={header.image}
                   alt={header.title || "title"}
@@ -55,7 +55,7 @@ export default function Post({ categoryPosts }) {
                 style={{ backgroundColor: `${header.bgColor}` }}
               >
                 <div className={writings.category}>
-                  <h1 className={writings.title}>{header.title}</h1>
+                  <h2 className={writings.title}>{header.title}</h2>
                   <ul className={writings.list}>
                     {categoryPosts.map((posts) => {
                       const { category, id, title } = posts;
@@ -74,14 +74,18 @@ export default function Post({ categoryPosts }) {
                   </ul>
                 </div>
               </div>
-              <figure className={writings.wave3}>
+              <figure className="wave3">
                 <Image src={wave3} layout="fill" objectFit="cover" />
               </figure>
             </header>
           );
         }
       })}
-    </main>
+
+      <section className="page-section">
+        
+      </section>
+    </div>
   );
 }
 

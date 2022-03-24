@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai";
 import SubMenu from "./layout-nav-menu-sub";
 import styles from "./layout-nav.module.css";
+
 
 const MenuItems = ({ items, depthLevel }) => {
   const [dropdown, setDropdown] = useState(false);
@@ -43,7 +45,9 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <a href="/#">{items.title}</a>
+        <Link href={items.href}>
+          <a>{items.title}</a>
+        </Link>
       )}
     </li>
   );

@@ -1,23 +1,9 @@
-.writings {
-  margin: 0 auto;
-  margin-bottom: 4rem;
-}
-
-.banner {
-  position: relative;
-  height: 20rem;
-}
-
-.wrapper {
-  padding-bottom: 1rem;
-}
-
 .category {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding: 1em 0;
+  padding: 1rem 0 3rem;
   margin-bottom: 1rem;
   font-family: "Montserrat", sans-serif;
   max-width: 1160px;
@@ -27,7 +13,6 @@
   margin: 0.25rem 0.5rem;
   font-size: 2rem;
   font-weight: 800;
-  text-transform: capitalize;
 }
 
 .list {
@@ -50,17 +35,10 @@
   align-items: center;
 }
 
-.wave3 {
-  position: relative;
-  margin-top: -3rem;
-  height: 6rem;
-}
 
-.wave3 img {
-  width: 100%;
-}
 
 /* SM */
+/* 
 @media only screen and (max-width: 700px) {
   .banner {
     height: 20vh; 
@@ -85,4 +63,4 @@
     width: 98%;
   }
   
-}
+} */ 

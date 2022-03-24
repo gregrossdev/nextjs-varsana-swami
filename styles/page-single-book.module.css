@@ -1,11 +1,20 @@
-.main {
-  /* margin-top: 3rem; */
-  margin-bottom: 3rem;
+.header {
+  text-align: center;
+  padding: 2rem 0 0;
+}
+
+.figure {
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .quote {
   background-color: var(--clr-green);
-  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
 }
 
 .blockquote {
@@ -22,22 +31,6 @@
   font-style: italic;
   letter-spacing: 2px;
   text-align: right;
-}
-
-.figure {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.article p {
-  margin-bottom: 1rem;
 }
 
 .singleImg {
@@ -65,13 +58,9 @@
   font-weight: 600;
 }
 
-
 /* SM */
 @media only screen and (max-width: 700px) {
   .figure {
     padding: 2rem 0;
   }
-  
-  
 }
-

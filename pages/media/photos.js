@@ -9,7 +9,7 @@ import Gallery from "../../components/gallery";
 import styles from "../../styles/page-media.module.css";
 
 const Photos = ({ photos }) => {
-  const [showPhotos, setShowPhotos] = useState(false);
+  
   const [numOfItems, setNumOfItems] = useState(4);
   const [loading, setLoading] = useState(true);
   const photoData = JSON.parse(photos);
@@ -64,6 +64,7 @@ const Photos = ({ photos }) => {
             </>
           )}
         </div>
+        
         <div className="accordion">
           <header className={styles.header}>
             <h3 className={styles.folder}>Fall on Govardhan</h3>

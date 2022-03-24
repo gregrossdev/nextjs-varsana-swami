@@ -1,55 +1,44 @@
 import React, { useState } from "react";
-import Playlist from "../../components/playlist";
-import Accordion from "../../components/accordion";
+import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import AudioFile from "../../components/playlist-file";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
 
 // styles
-import page from "../../styles/page.module.css";
-import media from "../../styles/page-media.module.css";
+import styles from "../../styles/page-media.module.css";
 
 const Audio = ({ data }) => {
-  const info = JSON.parse(data);
+  const [numOfItems, setNumOfItems] = useState(4);
+  const [loading, setLoading] = useState(true);
+  const [showInfo, setShowInfo] = useState(false);
 
-  const allofThese = (keyword) => {
-    return (
-      info.filter((i) => {
-        const album = i.Key.split("/")[0];
-        if (album.includes(keyword)) {
-          return i;
-        }
-      })
-    )
+  const allAudio = JSON.parse(data);
+  const folders = [...new Set(allAudio.map((i) => i.Key.split("/")[0]))];
+
+  function handleClick() {
+    setNumOfItems((prev) => prev + 1);
   }
 
-  const [isOpen, setIsOpen] = useState(false);
-  const festivals = allofThese("festivals")
-
   return (
-    <div className={page.container}>
+    <div className="page-container">
       <header>
-        <h2 className={`${page.title} ${media.title} yellow`}>Audio</h2>
+        <h2 className={styles.title}>Audio</h2>
       </header>
       <section className="page-content">
-            <div className="accordion">
-              <header
-                onClick={() => setIsOpen(!isOpen)}
-                className="folder-title"
-              >
-                Yearly
-                <div style={{ float: "right" }}>
-                  {!isOpen && <span>&#9650;</span>}
-                  {isOpen && <span>&#9660;</span>}
-                </div>
-              </header>
-          
-            </div>
+        {folders.map((folder) => {
+          return (
+            <header className={styles.header}>
+              <h3 className={styles.folder}>{folder}</h3>
+              <button onClick={() => setShowInfo(!showInfo)}>
+                {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+              </button>
+            </header>
+          );
+        })}
 
-            
-              <div label="Festivals">
-                <Playlist playlist={festivals} />
-              </div>
-              {/* <div label="Various">
+        
+
+        {/* <div label="Various">
                 <Playlist playlist={various} />
               </div>
               <div label="Srimad Bhagavatam">
@@ -64,8 +53,7 @@ const Audio = ({ data }) => {
               <div label="Bhajans & Kirtans">
                 <Playlist playlist={kirtans} />
               </div> */}
-            
-          </section> 
+      </section>
     </div>
   );
 };

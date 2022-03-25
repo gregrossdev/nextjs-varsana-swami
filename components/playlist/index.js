@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import Player from './player'
-import { slugify } from './helpers'
 
 
-const Playlist = ({ playlist }) => {
+const Playlist = ({playlist}) => {
     const [currentPlayer, setCurrentPlayer] = useState()
 
     let current
@@ -36,21 +35,23 @@ const Playlist = ({ playlist }) => {
         setCurrentPlayer(current)
     }
 
+
+
     return (
         <div>
             {playlist.map((track, index) => {
-                const slug = slugify(
-                    track.trackName + '-' + track.trackArtist + '-' + track.id
-                )
+
+                const slug = track.Key
+                console.log(slug)
+                
                 return (
                     <Player
-                        key={track.id}
+                        key={index}
                         slug={slug}
                         index={index}
-                        source={track.source}
+                        source={track}
                         togglePlay={togglePlay}
-                        trackName={track.trackName}
-                        loop={track.loop}
+                        trackName={track}
                         isCurrent={
                             currentPlayer && currentPlayer.id === slug
                                 ? true

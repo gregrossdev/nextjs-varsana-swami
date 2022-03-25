@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import AudioFile from "../../components/playlist-file";
+import Playlist from "../../components/playlist";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
 
@@ -11,7 +11,6 @@ const Audio = ({ allAudio, allFolders }) => {
   const [audioItems, setAudioItems] = useState(allAudio);
   const [folders, setFolders] = useState(allFolders);
   const [showInfo, setShowInfo] = useState(false);
-
 
   const [loading, setLoading] = useState(true);
 
@@ -51,9 +50,7 @@ const Audio = ({ allAudio, allFolders }) => {
               {showInfo === index && (
                 <>
                   <ul>
-                    {audioItems.map((post) => (
-                      <h3 key={post.Key}>{post.Key}</h3>
-                    ))}
+                    <Playlist playlist={audioItems} />
                   </ul>
                 </>
               )}

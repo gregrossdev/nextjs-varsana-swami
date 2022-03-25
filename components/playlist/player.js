@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-import './player.css'
 
 const Player = ({ source, slug, togglePlay, index, isCurrent }) => {
   const audioRef = useRef();
@@ -10,15 +9,13 @@ const Player = ({ source, slug, togglePlay, index, isCurrent }) => {
     source = source.split();
   }
 
+  console.log(source.Key);
 
   return (
     <div>
       <audio id={slug} ref={audioRef} preload="none" controls>
-        {source &&
-          source.map((src, i) => {
-            return <source key={i} src={src} />;
-          })}
-        Your browser does not support the <code>audio</code> element.
+        <source id={slug} src={`https://varsana-audio.nyc3.digitaloceanspaces.com/${source.Key}`} />; Your browser does not support the{" "}
+        <code>audio</code> element.
       </audio>
 
       <div className="controls">

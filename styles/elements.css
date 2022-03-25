@@ -19,3 +19,6 @@ button {
   box-shadow: transparent;
 }
 
+blockquote {
+  margin: 0;
+}

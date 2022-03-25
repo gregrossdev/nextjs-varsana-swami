@@ -31,9 +31,9 @@ const Audio = ({ allAudio, allFolders }) => {
   return (
     <div className="page-container">
       <header>
-        <h2 className={styles.title}>Audio</h2>
+        <h2 className="page-title">Audio</h2>
       </header>
-      <section className="page-content">
+      <section className="page-section">
         {folders.map((category, index) => {
           return (
             <div className="accordion" key={index}>

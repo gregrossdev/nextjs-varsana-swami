@@ -5,15 +5,15 @@ import page from "../../styles/page.module.css";
 import media from "../../styles/page-media.module.css";
 
 // images 
-// import ytImg from '../images/yt.jpg'
+import ytImg from '../../public/images/yt.jpg';
 
 const Video = () => {
   return (
-    <div className={page.container}>
+    <div className="page-container">
       <header>
-        <h2 className={page.title}>Videos</h2>
+        <h2 className="page-title">Videos</h2>
       </header>
-      {/* <section className={`inner ${page.content}`}>
+      <section className="page-section">
        
           <a
             href="https://www.youtube.com/channel/UCRU2uERYaKK3rnO32GOfqlA"
@@ -28,7 +28,7 @@ const Video = () => {
               className="image"
             />
           </a>
-      </section> */}
+      </section>
     </div>
   );
 };

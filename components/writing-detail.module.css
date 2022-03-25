@@ -3,14 +3,17 @@
   max-width: 880px;
   margin: 0 auto;
   background: #fbfaf9;
-  margin-top: -4rem;
+  margin-top: -5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cover {
   position: relative;
   height: 443px;
-  display: flex;
-  justify-content: center;
+  width: 88%;
+  
 }
 
 

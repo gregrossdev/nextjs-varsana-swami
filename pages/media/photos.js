@@ -36,7 +36,7 @@ const Photos = ({ allPhotos, allFolders }) => {
   return (
     <div className="page-container">
       <header>
-        <h2 className={styles.title}>Photo Albums</h2>
+        <h2 className="page-title">Photo Albums</h2>
       </header>
 
       <section className="page-section">

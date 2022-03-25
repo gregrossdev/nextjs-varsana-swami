@@ -13,7 +13,7 @@ const Player = ({ source, slug, togglePlay, index, isCurrent }) => {
 
   return (
     <div>
-      <audio id={slug} ref={audioRef} preload="none" controls>
+      <audio id={slug} ref={audioRef} controls>
         <source id={slug} src={`https://varsana-audio.nyc3.digitaloceanspaces.com/${source.Key}`} />; Your browser does not support the{" "}
         <code>audio</code> element.
       </audio>

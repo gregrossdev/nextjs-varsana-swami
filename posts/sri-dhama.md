@@ -1,5 +1,5 @@
 ---
-title: 'Cleansing the Dhama: The Spirituality of Dust'
+title: sri-dhama
 date: 2018/12/29
 category: sri-dhama
 cover: "/writings/cleansing-the-dhama.jpg"

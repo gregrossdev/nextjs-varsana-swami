@@ -1,5 +1,5 @@
 ---
-title: Christmas Reflections 2015
+title: festivals
 date: 2018/12/29
 category: festivals
 cover: "/writings/christmas-reflections-2015.jpg"

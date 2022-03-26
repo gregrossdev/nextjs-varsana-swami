@@ -1,5 +1,5 @@
 ---
-title: Forgiveness
+title: Empty
 date: 2018/12/29
 category: sadhu-sanga
 cover: "/writings/forgiveness.jpg"

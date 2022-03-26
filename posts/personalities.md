@@ -1,5 +1,5 @@
 ---
-title: Flower Symbol on Sri Radha’s Feet
+title: personalities
 date: 2018/12/29
 category: personalities
 cover: "/writings/flower-symbol-on-sri-radhas-feet.jpg"

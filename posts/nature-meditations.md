@@ -1,5 +1,5 @@
 ---
-title: Advice from a Daffodil
+title: nature-meditations
 date: 2018/12/29
 category: nature-meditations
 cover: "/writings/advice-from-a-daffodil.jpg"

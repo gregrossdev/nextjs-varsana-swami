@@ -1,7 +1,0 @@
----
-category: ''
-date: 
-title: ''
-cover: ''
-
----

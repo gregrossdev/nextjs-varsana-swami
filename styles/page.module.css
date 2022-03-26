@@ -1,48 +1,433 @@
-.container {
-  margin: 0 auto;
+/*
+=====
+# PAGES
+============ */
+
+.tc {
+  text-align: center;
 }
 
-.title {
+.bold {
+  font-weight: 900;
+}
+
+/*
+=====
+# ABOUT
+============ */
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.aboutFigure {
+  display: flex;
+  justify-content: center;
+  width: 420px;
+  height: 30rem;
+}
+
+.aboutArticle {
+  width: 80%;
+  font-family: "Marck Script", cursive;
+  margin: 0 auto;
+  color: #3d6638;
+}
+
+.aboutArticle p {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.aboutArticle p:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .aboutArid {
+    grid-template-areas:
+      "pg-figure"
+      "pg-article"
+      "pg-article";
+  }
+
+  .aboutAigure {
+    height: 30rem;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .aboutArticle {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .aboutArticle p {
+    font-size: 1.4rem;
+  }
+}
+
+
+/*
+=====
+# DHAMSEVA
+============ */
+
+.dhamGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.dhamFigure {
+  height: 24rem;
+  width: 18rem;
+}
+
+.dhamArticle {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  color: #3d6638;
+}
+
+.dhamArticle h3 {
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+.dhamArticle h3, .dhamArticle p {
+  font-family: "Marck Script", cursive;
+}
+
+.dhamArticle p {
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+}
+
+
+.excerptWrapper {
+  background: linear-gradient(179.45deg, #f5f3f1 20.41%, #fbfaf9 95.35%);
+}
+
+.excerptTitle {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 125%;
+  padding-bottom: 2rem;
+}
+
+
+.excerptQuotes, .excerptLetters {
+  padding: 2rem 0
+}
+
+.excerptLetters h2 {
+  font-size: inherit;
+}
+
+.excerptLetters article {
+  border-bottom: 3px solid var(--clr-grey-10);
+}
+
+.excerptLetters article:last-child {
+  border-bottom: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .dhamGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+ 
+  .dhamFigure {
+    height: 25rem;
+    width: 100%; 
+    margin-top: 0;
+  }
+
+  .dhamArticle {
+    width: 100%;
+  }
+}
+
+/*
+=====
+# BOOKS
+============ */
+
+.bookTitle {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 0;
+  border-bottom: 3px solid var(--clr-grey-10);
+  color: green;
 }
 
-.wrapper {
-  padding-top: 0;
-  background-color: var(--clr-grey-10);
+.bookWrapper {
+  padding-bottom: 3rem;
 }
 
-.info {
-  font-family: "Marck Script", cursive;
+.bookItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  border-bottom: 3px solid var(--clr-grey-10);
+  padding: 1.75rem 0;
+}
+
+.bookFigure {
+  width: 440px;
+}
+
+.bookFigure, .bookInfo {
+  height: 350px;
+}
+
+.bookInfo {
+  flex-basis: 70%;
+  align-self: flex-start;
+  padding-left: 2em;
+}
+
+.bookInfo p {
+  margin-bottom: 0.25em;
+}
+
+.bookInfoCol {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.bookButtons {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+}
+
+
+.bookBuy {
+  display: flex;
   margin: 0 auto;
 }
 
-.info p {
-  font-size: 1.4rem;
+.bookBuyBtn {
+  margin-left: auto;
+  font-family: "Dancing Script", cursive;
+  color: var(--clr-white);
+  background: var(--clr-black);
+  border-radius: 50%;
+  padding: 0.5rem;
+  z-index: 5;
 }
 
-.content p {
+.bookBuyBtn span {
+  font-size: 1rem;
+  color: #f3ef7b;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .bookItem {
+    flex-direction: column;
+  }
+
+  .bookFigure {
+    height: 20rem;
+  }
+}
+
+
+.sBookHeader {
+  text-align: center;
+  padding: 2rem 0 0;
+}
+
+.sBookFigure {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.sBookQuote {
+  background-color: var(--clr-green);
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+.sBookBlockquote {
+  padding: 0 0.25em;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.sBookAuthor {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+.sBookImg {
+  max-width: 600px;
+  margin: 1em auto 1.75em;
+}
+
+
+/*
+=====
+# WRITINGS  
+============== */
+
+.wCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0 3rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", sans-serif;
+  max-width: 1160px;
+}
+
+.wTitle {
+  margin: 0.25rem 0.5rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.wList {
+  padding: 0 0.5rem;
+  overflow-y: scroll;
+  margin: 0;
+  padding-right: 0.3em;
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.7;
+  max-height: 40vh;
+  width: 75%; 
+  padding-bottom: 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.wList li {
+  display: flex; 
+  align-items: center;
+}
+
+
+/*
+=====
+# MEDIA  
+============== */
+
+.mediaHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  background: var(--clr-green);
+}
+
+.mediaFolder {
+  padding: 0.25em 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.mediaHeader button {
+  margin-right: 3rem;
+  font-size: 3rem;
+}
+
+.mediaYT {
+  display: block;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+/*
+======
+# PURCHASE  
+============== */
+
+.purchaseSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.purchaseFigure {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid var(--clr-grey-10);
+  margin-bottom: 3rem;
+}
+
+
+.purchaseForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-
-@media only screen and (min-width: 1000px) {
-  .page {
-    padding-bottom: 2em;
-  }
-
-  .wrapper {
-    padding: 1rem;
-    margin-bottom: 2rem;
-  }
-
-  .title {
-    padding: 2rem;
-    margin-bottom: 0;
-  }
-
-
+.purchaseForm input {
+  margin: 1em 0;
 }
+
+.purchaseForm select {
+  font-size: 1rem;
+}
+
+.purchaseCheckout {
+  display: flex;
+  flex-direction: column;
+}
+
+.purchaseCheckout p {
+  margin-bottom: 0.25em;
+}
+
+.purchaseFooter {
+  text-align: center;
+}
+
+.purchaseHighlight {
+  background-color:var(--clr-green);
+  margin: 1.5rem 0;
+}
+

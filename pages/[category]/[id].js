@@ -8,7 +8,7 @@ import leaf from "../../public/static/leaf.png";
 import wave3 from "../../public/static/wave3.svg";
 
 import Writing from "../../components/writing-detail";
-import writings from "../../styles/page-writing.module.css";
+import writings from "../../styles/page.module.css";
 
 import { getAllPostIds, getPostData, getCategoryPosts } from "../../lib/posts";
 
@@ -52,9 +52,9 @@ export default function Post({ postData, categoryPosts }) {
                 />
               </figure>
               <section style={{ backgroundColor: `${header.bgColor}` }}>
-                <div className={writings.category}>
-                  <h2 className={writings.title}>{header.title}</h2>
-                  <ul className={writings.list}>
+                <div className={writings.wCategory}>
+                  <h2 className={writings.wTitle}>{header.title}</h2>
+                  <ul className={writings.wList}>
                     {categoryPosts.map((posts) => {
                       const { category, id, title } = posts;
                       return (

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import PhotoBook from "../components/home-photo-book";
-import purchase from "../styles/page-purchase.module.css";
+import purchase from "../styles/page.module.css";
 
 const Checkout = () => {
   return (
     <div className="page">
-      <h2 className="pageTitle yellow">Checkout</h2>
-      <figure className={purchase.figure}>
+      <h2 className="page-title yellow">Checkout</h2>
+      <figure className={purchase.purchaseFigure}>
         <img
           src="https://s3.amazonaws.com/varsanaswami.org/static/img/sidebar-store/logo_MoonTower-300x220.png"
           width={300}
@@ -16,12 +16,12 @@ const Checkout = () => {
         />
       </figure>
       <PhotoBook />
-      <section className={purchase.section}>
+      <section className={purchase.purchaseSection}>
         <form
           action="https://www.paypal.com/cgi-bin/webscr"
           method="post"
           target="_top"
-          className={purchase.form}
+          className={purchase.purchaseForm}
         >
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value="K3Y7QM7RTBLCN" />
@@ -42,8 +42,8 @@ const Checkout = () => {
           />
         </form>
 
-        <footer className={purchase.footer}>
-          <p className={purchase.green}>The price includes shipping costs</p>
+        <footer className={purchase.purchaseFooter}>
+          <p className={purchase.purchaseHighlight}>The price includes shipping costs</p>
           <div>
             <p>For international orders or other inquiries, please contact</p>
             <p>madri801@gmail.com</p>

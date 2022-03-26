@@ -2,20 +2,20 @@ import Link from "next/link";
 import Image from "next/image";
 
 // styles
-import styles from "../../styles/page-books.module.css";
+import styles from "../../styles/page.module.css";
 
 export default function Books() {
   return (
     <div className="page-container">
       <header>
-        <h2 className={styles.title}>Moontower Books</h2>
+        <h2 className={styles.bookTitle}>Moontower Books</h2>
       </header>
-      <div className={styles.wrapper}>
+      <div className={styles.bookWrapper}>
         <section className="page-section">
-          <div className={styles.book}>
+          <div className={styles.bookItem}>
             <Link href="/books/single-book">
               <a>
-                <figure className={styles.figure}>
+                <figure className={styles.bookFigure}>
                   <Image
                     src="/images/books-photo.jpg"
                     alt=""
@@ -26,8 +26,8 @@ export default function Books() {
               </a>
             </Link>
 
-            <div className={styles.info}>
-              <div className={styles.infoCol}>
+            <div className={styles.bookInfo}>
+              <div className={styles.bookInfoCol}>
                 <p>Photo-Book</p>
                 <p className={styles.bold}>
                   <em>Appreciating New Vrindaban-dhama</em>
@@ -40,13 +40,13 @@ export default function Books() {
                   deeper, magical dimensions of Sri Dhama. It offers a tangible
                   glimpse of this enchanted realm, not easily seen...
                 </p>
-                <div className={styles.buttons}>
+                <div className={styles.bookButtons}>
                   <button className="button">
                     <Link href="/books/single-book"> Read More </Link>
                   </button>
-                  <div className={styles.buy}>
+                  <div className={styles.bookBuy}>
                     <Link href="/purchase">
-                      <a className={styles.buyBtn}>
+                      <a className={styles.bookBuyBtn}>
                         <span>Buy</span>
                         <span>Now</span>
                       </a>

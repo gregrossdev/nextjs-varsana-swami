@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // styles
-import styles from "../styles/page-about.module.css";
+import styles from "../styles/page.module.css";
 
 // images
 import aboutImg from "../public/images/about-varsana.jpg";
@@ -12,8 +12,8 @@ export default function About() {
       <header>
         <h2 className="page-title"> About Varsana Swami </h2>
         <div className="page-wrapper">
-          <div className={styles.grid}>
-            <figure className={styles.figure}>
+          <div className={styles.aboutGrid}>
+            <figure className={styles.aboutFigure}>
               <Image
                 src={aboutImg}
                 alt="about"
@@ -21,7 +21,7 @@ export default function About() {
                 objectFit="cover"
               />
             </figure>
-            <article className={styles.article}>
+            <article className={styles.aboutArticle}>
               <p>
                 Varsana Maharaj is known for his deep understanding of the
                 Gaudiya Vaishnava teachings, his enlivening presentations on

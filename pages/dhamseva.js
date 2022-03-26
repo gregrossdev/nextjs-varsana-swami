@@ -3,7 +3,7 @@ import Quote from "../components/ui-quote";
 import Letter from "../components/ui-letter";
 
 // styles
-import styles from "../styles/page-dhamseva.module.css";
+import styles from "../styles/page.module.css";
 
 // images
 import dhamImg from "../public/images/dhamseva.jpg";
@@ -15,8 +15,8 @@ const Dham = (props) => {
       <header>
         <h2 className="page-title">Dham Seva Project</h2>
         <div className="page-wrapper">
-          <div className={styles.grid}>
-            <figure className={styles.figure}>
+          <div className={styles.dhamGrid}>
+            <figure className={styles.dhamFigure}>
               <Image
                 src={dhamImg}
                 alt="dham seva"
@@ -25,7 +25,7 @@ const Dham = (props) => {
               />
             </figure>
 
-            <article className={styles.article}>
+            <article className={styles.dhamArticle}>
               <h3>Dham Seva Mission</h3>
               <p>
                 To award a voice to the Dham and her subjects so as to promote
@@ -72,7 +72,7 @@ const Dham = (props) => {
               Selected excerpts from Srila Prabhupada’s letters <br />
               on New Vrindaban
             </h2>
-            <figure className={styles.center}>
+            <figure className={styles.tc}>
               <Image
                 src={srilaImg}
                 alt="Prabhuapda"
@@ -80,7 +80,7 @@ const Dham = (props) => {
               />
             </figure>
           </header>
-          <section className={styles.quotes}>
+          <section className={styles.excerptQuotes}>
             <Quote
               color="yellow"
               quote="Now I am hopeful that our New Vrindavan will be an exact replica of Vrindaban in India."
@@ -99,7 +99,7 @@ const Dham = (props) => {
               author="Srila Prabhupada letter, 18 February 1970"
             />
           </section>
-          <section className={styles.letters}>
+          <section className={styles.excerptLetters}>
             <Letter
               title="Letter to Hayagriva"
               date="18 November 1968"

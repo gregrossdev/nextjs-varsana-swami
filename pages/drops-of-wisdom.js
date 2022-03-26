@@ -1,20 +1,18 @@
-import { useRouter } from "next/router";
 import Head from "next/head";
-import Link from "next/link";
 import Image from "next/image";
 import catImg from "../public/categories/govardhan-katha.jpg";
 import wave3 from "../public/static/wave3.svg";
 
 import { drops } from '../data/drops'
 
-import writings from "../styles/page-writing.module.css";
+import writings from "../styles/page.module.css";
 
 export default function Drops() {
   const title = "Drops of Wisdom";
   const cover = "";
 
   return (
-    <main className={writings.writings}>
+    <div className={writings.writings}>
       <Head>
         <title>{title}</title>
         <meta charSet="UTF-8" />
@@ -61,6 +59,6 @@ export default function Drops() {
             )
           })}
       </section>
-    </main>
+    </div>
   );
 }

@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 // styles
-import page from "../../styles/page.module.css";
-import media from "../../styles/page-media.module.css";
+import styles from "../../styles/page.module.css";
 
 // images 
 import ytImg from '../../public/images/yt.jpg';
@@ -19,7 +18,7 @@ const Video = () => {
             href="https://www.youtube.com/channel/UCRU2uERYaKK3rnO32GOfqlA"
             target="_blank"
             rel="noopener noreferrer"
-            className={media.yt}
+            className={styles.mediaYT}
           >
             <Image
               src={ytImg}

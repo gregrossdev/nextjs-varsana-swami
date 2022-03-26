@@ -6,7 +6,7 @@ import { s3Client } from "../../lib/s3Client";
 import Gallery from "../../components/gallery";
 
 // styles
-import styles from "../../styles/page-media.module.css";
+import styles from "../../styles/page.module.css";
 
 const Photos = ({ allPhotos, allFolders }) => {
   const [photoItems, setPhotoItems] = useState(allPhotos);
@@ -43,8 +43,8 @@ const Photos = ({ allPhotos, allFolders }) => {
         {folders.map((category, index) => {
           return (
             <div className="accordion" key={index}>
-              <header className={styles.header}>
-                <h3 className={styles.folder}>{category}</h3>
+              <header className={styles.mediaHeader}>
+                <h3 className={styles.mediaFolder}>{category}</h3>
                 <button
                   type="button"
                   className="filter-btn"

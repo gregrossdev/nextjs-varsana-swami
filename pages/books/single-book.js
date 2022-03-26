@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Quote from "../../components/ui-quote";
 
-import styles from "../../styles/page-single-book.module.css";
+import styles from "../../styles/page.module.css";
 
 // images
 import bookImg from "../../public/images/books-photo.jpg";
@@ -16,7 +16,7 @@ import cover5 from "../../public/images/cover5.jpg";
 const Books = () => {
   return (
     <div className="page-container">
-      <header className={styles.header}>
+      <header className={styles.sBookHeader}>
         <figure>
           <Image src={bookImg} alt="book" />
         </figure>
@@ -44,13 +44,13 @@ const Books = () => {
         
 
         <article>
-          <figure className={styles.figure}>
+          <figure className={styles.sBookFigure}>
             <Image
               src={cover1}
               alt="cover"
               width={650}
               height={445}
-              className={styles.singleImg}
+              className={styles.sBookImg}
             />
           </figure>
           <p>
@@ -71,13 +71,13 @@ const Books = () => {
           </p>
         </article>
         <article>
-          <figure className={styles.figure}>
+          <figure className={styles.sBookFigure}>
             <Image
               src={cover2}
               alt="cover"
               width={650}
               height={445}
-              className={styles.singleImg}
+              className={styles.sBookImg}
             />
           </figure>
           <p>
@@ -91,13 +91,13 @@ const Books = () => {
           </p>
         </article>
         <article>
-          <figure className={styles.figure}>
+          <figure className={styles.sBookFigure}>
             <Image
               src={cover3}
               alt="cover"
               width={650}
               height={445}
-              className={styles.singleImg}
+              className={styles.sBookImg}
             />
           </figure>
 
@@ -118,13 +118,13 @@ const Books = () => {
           </p>
         </article>
         <article>
-          <figure className={styles.figure}>
+          <figure className={styles.sBookFigure}>
             <Image
               src={cover4}
               alt="cover"
               width={650}
               height={445}
-              className={styles.singleImg}
+              className={styles.sBookImg}
             />
           </figure>
           <p>
@@ -138,13 +138,13 @@ const Books = () => {
           </p>
         </article>
         <article>
-          <figure className={styles.figure}>
+          <figure className={styles.sBookFigure}>
             <Image
               src={cover5}
               alt="cover"
               width={650}
               height={445}
-              className={styles.singleImg}
+              className={styles.sBookImg}
             />
           </figure>
           <p>
@@ -157,8 +157,8 @@ const Books = () => {
           </p>
         </article>
 
-        <article className={styles.quote}>
-          <blockquote className={styles.blockquote}>
+        <article className={styles.sBookQuote}>
+          <blockquote className={styles.sBookBlockquote}>
             <p>
               “ Devotion to Sri Krishna is beautiful and when seen and described
               through the eyes and heart of Vrndavan-Bihari’s pure devotee its
@@ -177,7 +177,7 @@ const Books = () => {
               unveiling presentation of deep devotion to Sri Sri Radha Vrindaban
               Chandra. ”
             </p>
-            <p className={styles.author}>- Candramauli Swami </p>
+            <p className={styles.sBookAuthor}>- Candramauli Swami </p>
           </blockquote>
         </article>
       </section>

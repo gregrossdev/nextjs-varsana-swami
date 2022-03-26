@@ -5,7 +5,7 @@ import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
 
 // styles
-import styles from "../../styles/page-media.module.css";
+import styles from "../../styles/page.module.css";
 
 const Audio = ({ allAudio, allFolders }) => {
   const [audioItems, setAudioItems] = useState(allAudio);
@@ -37,8 +37,8 @@ const Audio = ({ allAudio, allFolders }) => {
         {folders.map((category, index) => {
           return (
             <div className="accordion" key={index}>
-              <header className={styles.header}>
-                <h3 className={styles.folder}>{category}</h3>
+              <header className={styles.mediaHeader}>
+                <h3 className={styles.mediaFolder}>{category}</h3>
                 <button
                   type="button"
                   className="filter-btn"

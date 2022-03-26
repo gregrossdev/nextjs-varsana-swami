@@ -8,7 +8,7 @@ import leaf from "../../public/static/leaf.png";
 import wave3 from "../../public/static/wave3.svg";
 
 import Writing from "../../components/writing-detail";
-import writings from "../../styles/page-writing.module.css";
+import writings from "../../styles/page.module.css";
 
 import { getAllPostIds, getCategoryPosts } from "../../lib/posts";
 
@@ -50,13 +50,10 @@ export default function Post({ categoryPosts }) {
                   objectFit="cover"
                 />
               </figure>
-              <div
-                className={writings.wrapper}
-                style={{ backgroundColor: `${header.bgColor}` }}
-              >
-                <div className={writings.category}>
-                  <h2 className={writings.title}>{header.title}</h2>
-                  <ul className={writings.list}>
+              <section style={{ backgroundColor: `${header.bgColor}` }}>
+              <div className={writings.wCategory}>
+                  <h2 className={writings.wTitle}>{header.title}</h2>
+                  <ul className={writings.wList}>
                     {categoryPosts.map((posts) => {
                       const { category, id, title } = posts;
                       return (
@@ -73,7 +70,7 @@ export default function Post({ categoryPosts }) {
                     })}
                   </ul>
                 </div>
-              </div>
+              </section>
               <figure className="wave3">
                 <Image src={wave3} layout="fill" objectFit="cover" />
               </figure>

@@ -40,6 +40,7 @@ fields:
   name: cover
   label: cover
 pages:
+- posts/Sadhu Sanga/discipline-discipleship.md
 - posts/advice-from-a-daffodil.md
 - posts/backwards-and-upside-down.md
 - posts/christmas-reflections-2015.md

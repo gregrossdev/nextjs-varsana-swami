@@ -15,7 +15,7 @@ fields:
 - type: text
   name: title
   label: title
-- name: sub-title
+- name: subTitle
   type: text
   config:
     required: false
@@ -45,8 +45,5 @@ fields:
   name: cover
   label: cover
 pages:
-- posts/Sadhu Sanga/acaryas-their-grace-their-samadhis-and-our-hope.md
-- posts/Sadhu Sanga/community-heart-and-sacred-space.md
-- posts/Sadhu Sanga/imbibing-srila-gurudeva-s-message-and-intellectual-abilities.md
 - posts/earth-culture.md
 - posts/srila.md

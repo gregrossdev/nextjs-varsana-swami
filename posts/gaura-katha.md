@@ -1,7 +1,7 @@
 ---
 title: gaura-katha
 date: 2020/01/15
-category: ''
+category: various
 cover: "/writings/hello.jpg"
 subTitle: ''
 

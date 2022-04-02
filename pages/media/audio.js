@@ -3,9 +3,23 @@ import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import Playlist from "../../components/playlist";
 import { ListObjectsCommand } from "@aws-sdk/client-s3";
 import { s3Client } from "../../lib/s3Client";
-
 // styles
 import styles from "../../styles/page.module.css";
+
+export async function getStaticProps() {
+  const bucketParams = { Bucket: "varsana-audio" };
+  const data = await s3Client.send(new ListObjectsCommand(bucketParams));
+  const stringify = JSON.stringify(data.Contents);
+  const allAudio = JSON.parse(stringify);
+  const allFolders = [...new Set(allAudio.map((i) => i.Key.split("/")[0]))];
+
+  return {
+    props: {
+      allAudio,
+      allFolders,
+    },
+  };
+}
 
 const Audio = ({ allAudio, allFolders }) => {
   const [audioItems, setAudioItems] = useState(allAudio);
@@ -26,7 +40,6 @@ const Audio = ({ allAudio, allFolders }) => {
 
     setShowInfo(index);
   };
-
 
   return (
     <div className="page-container">
@@ -63,18 +76,3 @@ const Audio = ({ allAudio, allFolders }) => {
 };
 
 export default Audio;
-
-export async function getStaticProps() {
-  const bucketParams = { Bucket: "varsana-audio" };
-  const data = await s3Client.send(new ListObjectsCommand(bucketParams));
-  const stringify = JSON.stringify(data.Contents);
-  const allAudio = JSON.parse(stringify);
-  const allFolders = [...new Set(allAudio.map((i) => i.Key.split("/")[0]))];
-
-  return {
-    props: {
-      allAudio,
-      allFolders,
-    },
-  };
-}

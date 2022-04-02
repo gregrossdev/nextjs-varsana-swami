@@ -45,6 +45,7 @@ fields:
   name: cover
   label: cover
 pages:
+- posts/discipline-discipleship.md
 - posts/earth-culture.md
 - posts/gaura-katha.md
 - posts/going-deeper.md

@@ -3,6 +3,7 @@ category: sadhu-sanga
 date: 2016/08/09
 title: Community, Heart and Sacred Space
 cover: "/public/writings/autumn-3-1407871-2.jpeg"
+subTitle: ''
 
 ---
 Our experience of Krishna and taste for devotional service is proportional to the quality of our relationships. The Lord is irresistibly drawn to loving dealings between devotees. Thus, everyone yearns for a community where loving relationships flourish, for such is our true home.

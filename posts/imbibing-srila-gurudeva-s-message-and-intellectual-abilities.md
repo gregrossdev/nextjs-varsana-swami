@@ -1,8 +1,9 @@
 ---
 category: sadhu-sanga
-date: 
-title: Imbibing Srila Gurudeva’s Message and Intellectual Abilities
+date: 2022/04/02
+title: 'Imbibing Srila Gurudeva’s '
 cover: "/public/writings/autumn-3-1407871-2.jpeg"
+subTitle: Message and Intellectual Abilities
 
 ---
 Editor’s note: This article is a compilation of excerpts from Varsana Maharaja’s lectures.

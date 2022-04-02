@@ -8,7 +8,7 @@ subTitle: Message and Intellectual Abilities
 ---
 Editor’s note: This article is a compilation of excerpts from Varsana Maharaja’s lectures.
 
-                                               __* * * * * *__
+                                    
 
 We need to listen attentively and inquire sufficiently in order to understand Sri Guru’s message. Any misunderstanding or misrepresentation of gurudeva’s guidance may manifest in a betrayal which is, in effect, a betrayal of oneself.
 

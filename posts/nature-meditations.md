@@ -3,6 +3,7 @@ title: nature-meditations
 date: 2018/12/29
 category: nature-meditations
 cover: "/writings/advice-from-a-daffodil.jpg"
+subTitle: ''
 
 ---
 Our new life of spirituality blossoms inasmuch as our hearts soften in a humble service attitude. It is like springtime flowers emerging from the thawing earth after winter makes way for the appearance of spring.

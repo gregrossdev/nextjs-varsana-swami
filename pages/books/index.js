@@ -16,12 +16,12 @@ export default function Books() {
             <Link href="/books/single-book">
               <a>
                 <figure className={styles.bookFigure}>
-                  <Image
+                  {/* <Image
                     src="/images/books-photo.jpg"
                     alt=""
                     layout="fill"
                     objectFit="cover"
-                  />
+                  /> */}
                 </figure>
               </a>
             </Link>
@@ -59,12 +59,12 @@ export default function Books() {
           <div className={styles.book}>
             <span>
               <figure className={styles.figure}>
-                <Image
+                {/* <Image
                   src="/images/sri-gaura.jpg"
                   alt=""
                   layout="fill"
                   objectFit="contain"
-                />
+                /> */}
               </figure>
             </span>
             <div className={styles.info}>

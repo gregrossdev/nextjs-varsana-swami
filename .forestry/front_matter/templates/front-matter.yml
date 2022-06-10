@@ -17,6 +17,8 @@ fields:
     - personalities
     - various
     - festivals
+    - going-deeper
+    - gaura-katha
     source:
       type: simple
       section: 

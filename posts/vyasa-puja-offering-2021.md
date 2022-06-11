@@ -1,7 +1,7 @@
 ---
 category: vyasa-puja
 date: 2021/08/31
-title: Vyasa Puja Offering 2021
+title: Sri Vyasa Puja Offering 2021
 cover: "/public/writings/srila-prabhupada.jpeg"
 
 ---

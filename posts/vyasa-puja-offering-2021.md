@@ -5,11 +5,11 @@ title: Sri Vyasa Puja Offering 2021
 cover: "/public/writings/srila-prabhupada.jpeg"
 
 ---
-Dear Śrīla Prabhupāda, 
+Dear Śrīla Prabhupāda,
 
-Please accept my humble obeisances. All glories to your lotus feet. The perfect lives and teachings of saintly devotees confer a precious eternal inheritance upon the souls of this world. Infused with love of Krishna, they personify His compassion, grace, and blessings. They teach us how to see Krishna’s glories, feel His love, and hear His message in and through every aspect of His natural world. 
+Please accept my humble obeisances. All glories to your lotus feet. The perfect lives and teachings of saintly devotees confer a precious eternal inheritance upon the souls of this world. Infused with love of Krishna, they personify His compassion, grace, and blessings. They teach us how to see Krishna’s glories, feel His love, and hear His message in and through every aspect of His natural world.
 
-As such, the sun can represent Śrī Krishna—the active principle of illumination. The moon then becomes the more passive and intuitive nature, whose wisdom is received through reflection. Expanding further, the stars of heaven, assembling as constellations to dance across the vast tapestry of the nighttime sky, symbolize the ācāryas. With celestial powers beyond the scope of mortal vision, they expand the luster of Krishna consciousness. Even in the absence of the sun and moon, the influence of these saintly devotees serves as our guiding light, especially during the dark night of the soul.
+As such, the sun can represent Śrī Krishna—the active principle of illumination. The moon then becomes the more passive and intuitive nature, whose wisdom is received through reflection. Expanding further, the stars of heaven, assembling as constellations to dance across the vast tapestry of the night time sky, symbolize the ācāryas. With celestial powers beyond the scope of mortal vision, they expand the luster of Krishna consciousness. Even in the absence of the sun and moon, the influence of these saintly devotees serves as our guiding light, especially during the dark night of the soul.
 
 Their pastimes and precepts reveal profound spiritual realities, shedding light on the inevitable challenges, obstacles, victories, and realizations of all who have gone before. For those who follow in their footsteps, they brighten the horizon, showing the way while teaching us how to perceive and reach our ultimate aspiration. They extend an invitation to join with their associates, to be included among those most fortunate souls who dance the journey on an enlightened pilgrimage of the transcendental song. Through their ability to touch, inspire, connect, and empower us, their stories become our story.
 
@@ -19,7 +19,7 @@ Mine was a generation lost in its quest for truth. We pursued sets of ideals, ab
 
 In the barren soil of the Western world, you discerned some potential that had not yet become manifest. Your humility softened our hearts, transforming them into fertile ground made receptive to the seeds of devotion. Having initially planted the seed of faith, you continued to serve as gardener, cultivating our tender creepers with compassion, encouragement, and love.
 
-Our first meeting seems so long ago and yet so near at hand. Those of us in New Vrindavan were exceptionally blessed with your physical presence here in 1972. We had the extraordinary experience of celebrating both Śrī Krishna-janmāshtamī and Śrī Vyāsa-pūjā with you, allowing us to witness how you worshiped Kåñëa on the day of His appearance and, in reciprocation, how He glorified you on Śrī Vyāsa-pūjā.
+Our first meeting seems so long ago and yet so near at hand. Those of us in New Vrindavan were exceptionally blessed with your physical presence here in 1972. We had the extraordinary experience of celebrating both Śrī Krishna-janmāshtamī and Śrī Vyāsa-pūjā with you, allowing us to witness how you worshiped Krishna on the day of His appearance and, in reciprocation, how He glorified you on Śrī Vyāsa-pūjā.
 
 We followed your footsteps physically and spiritually as they led us into a vast new frontier concealed behind the veil of all we had once accepted as reality. In the light of this dawning truth, the most precious concepts of love, devotion, compassion, forgiveness, and sacrifice took on a life beyond mere words. We saw them personified in you as sacraments, touching and revitalizing the very essence of our existence, the deepest core of our hearts.
 
@@ -29,7 +29,7 @@ Rising in the east to spread light and life as foretold, the dawning rays of you
 
 You came to prepare, train, and accompany us on our journey back to home. You restored life to our comatose souls with the immortal nectar of the Holy Name. You revealed the purport of “die to live,” granting us entrance into the munificent current of vraja-rasa, as it flows in and through the paramparā.
 
-We so yearned for you to stay with us physically so that your vision for New Vrindavan would properly become manifest through your continuous guidance. Instead, an unprecedented darkness befell when you withdrew your mortal pastimes from the vision of this world. It all seemed so dissonant. In your disappearance pastime, we felt that we had not only lost you, but we had lost ourselves as well. The darkness we endured before meeting you seemed to have returned with a vengeance. The light of your association vanished beneath the horizon; our lives were plunged into the dark night of the soul.
+We so yearned for you to stay with us physically so that your vision for New Vrindavan would properly become manifest through your continuous guidance. Instead, unprecedented darkness befell when you withdrew your mortal pastimes from the vision of this world. It all seemed so dissonant. In your disappearance pastime, we felt that we had not only lost you, but we had lost ourselves as well. The darkness we endured before meeting you seemed to have returned with a vengeance. The light of your association vanished beneath the horizon; our lives were plunged into the dark night of the soul.
 
 All of nature reflected and confirmed the depth of our loss. Flowers which had blossomed in your footsteps now wilted, joining in our mourning. The sun and moon seemed to fade. The breezes stirred leaves in the trees, whispering your message. Autumn showers felt as though devas were crying. Trees shed their foliage, covering the paths on which your footprints had lingered.
 

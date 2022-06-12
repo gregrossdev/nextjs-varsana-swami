@@ -1,7 +1,7 @@
 ---
 category: sadhu-sanga
 date: 2022/04/02
-title: 'Imbibing Srila Gurudeva’s '
+title: 'Remove Imbibining Srila Gurudeva’s '
 cover: "/public/writings/autumn-3-1407871-2.jpeg"
 subTitle: Message and Intellectual Abilities
 

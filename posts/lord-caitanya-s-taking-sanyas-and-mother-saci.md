@@ -5,8 +5,6 @@ title: Lord Caitanya’s Taking Sanyas and Mother Saci
 cover: "/public/writings/sacinandana.jpeg"
 
 ---
-Lord Caitanya’s Taking Sanyas and Mother Saci
-
 In Bhagavad Gita, 9.17, Lord Krishna says, “I am the father of this universe, the mother, the support, and the grandsire.”
 
 In Sri Chaitanya Bhagavata, Madhya-kanda, Chapter 18, Verse 202, Srila Vrindavan das Thakur illuminates Krishna’s words: “The Lord felt the same affectionate attachment for the devotees as a mother feels for her child. He then gave everyone the same feelings a child has for his mother.”
@@ -17,7 +15,7 @@ The natural implication of Saraswati Thakur’s purport is that only when the ch
 
 When Lord Caitanya informed those devotees who are most near and dear to Him of His plan to take sannyasa, the devotees were tossed about in the ocean of despair. Deeply aggrieved and already feeling the anguish of imminent separation, they wept bitterly and lost all interest in eating, sleeping, and other daily activities.
 
-However, when Mother Sacidevi heard the news, her grief was more intense than the others. So intense was her despair that all the pain of the entire universe could not compare to the anguish of her heart. 
+However, when Mother Sacidevi heard the news, her grief was more intense than the others. So intense was her despair that all the pain of the entire universe could not compare to the anguish of her heart.
 
 Hearing that her Son intended to take sannyasa, she fainted. Even in that unconscious condition, tears continually flowed from her eyes, creating a heart-rending sight. Upon returning to consciousness, she cried out to Nimai, “My darling Son, please do not leave Your mother. You have descended to teach everyone the principles of religion. What religion teaches one to leave his mother? You are the embodiment of religious principles, and if you forsake Your mother, how can You teach the world about religion?” ( Sri Caitanya Bhagavata Madyha-lila, Ch. 27)
 

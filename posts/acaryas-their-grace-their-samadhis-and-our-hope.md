@@ -1,7 +1,7 @@
 ---
 category: sadhu-sanga
 date: 2013/03/05
-title: Acaryas - Their Grace, Their Samadhis, and Our Hope
+title: Remove Acaryas - Their Grace, Their Samadhis, and Our Hope
 cover: "/public/writings/autumn-3-1407871-2.jpeg"
 subTitle: ''
 

@@ -2,7 +2,7 @@
 category: gaura-katha
 date: 2016/03/02
 title: Lord Caitanya’s Taking Sanyas and Mother Saci
-cover: "/public/writings/sacinandana.jpeg"
+cover: "/public/writings/chaitanyas-sanyas-scaled-copy.jpeg"
 
 ---
 In Bhagavad Gita, 9.17, Lord Krishna says, “I am the father of this universe, the mother, the support, and the grandsire.”

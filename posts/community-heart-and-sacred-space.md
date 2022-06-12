@@ -1,7 +1,7 @@
 ---
 category: sadhu-sanga
 date: 2016/08/09
-title: Community, Heart and Sacred Space
+title: Remove Community, Heart and Sacred Space
 cover: "/public/writings/autumn-3-1407871-2.jpeg"
 subTitle: ''
 

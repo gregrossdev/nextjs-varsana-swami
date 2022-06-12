@@ -1,7 +1,7 @@
 ---
 category: sadhu-sanga
 date: 2017/12/05
-title: Discipline & Discipleship
+title: Remove Discipline & Discipleship
 cover: "/public/writings/autumn-3-1407871-2.jpeg"
 subTitle: ''
 

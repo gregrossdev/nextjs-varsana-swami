@@ -5,8 +5,7 @@ title: Sri Vyasa Puja Offering 2019
 cover: "/public/writings/srila-prabhupada-on-vyasasana-2.jpeg"
 
 ---
-
-Dear Srila Prabhupäda,
+Dear Srila Prabhupāda,
 
 Please accept my humble obeisances. All glories to your lotus feet. All glories to your divine appearance.
 
@@ -46,7 +45,7 @@ In that homeland of our souls
 
 The glory of your tender-hearted Lord
 
-Extends beyond Vaikuëöha
+Extends beyond Vaikuntha
 
 His grace runs deeper than the causal ocean
 
@@ -64,25 +63,25 @@ When you visited New Vrindaban
 
 To lead us in the worship
 
-For Krsna Janmäñöamé and your Vyäsa-püjä
+For Krsna Janmāstamī and your Vyāsa-pūjā
 
 To kindle love for sacred teachings
 
 In the temple room
 
-As Janmäñöamé’s midnight ärati neared
+As Janmāstamī’s midnight ārati neared
 
 Devotees sat at your lotus feet
 
 Like ancient sages gathered around their guru
 
-For a Bhägavat recital in some timeless holy place
+For a Bhāgavat recital in some timeless holy place
 
 As we read chapters of Krsna book aloud
 
 Culminating in the Lord's advent
 
-You appeared to have entered the very lélä described
+You appeared to have entered the very līlā described
 
 We were unable to follow
 
@@ -104,7 +103,7 @@ As you approached the pandal
 
 It was like a scene from the spiritual realm unfolding
 
-As if Sri Dhäm was already preparing
+As if Sri Dhām was already preparing
 
 An offering of her own
 
@@ -118,7 +117,7 @@ With patterns drawn in various hues
 
 Of New Vrindaban clay
 
-When you stepped out of Hayagréva’s Volkswagen
+When you stepped out of Hayagrīva’s Volkswagen
 
 To walk the final stretch
 
@@ -130,7 +129,7 @@ The gracious way you smiled upon us
 
 Like the index of your soul
 
-Spoke volumes of precious siddhänta
+Spoke volumes of precious siddhānta
 
 More than any book or scroll
 
@@ -144,7 +143,7 @@ Here in New Vrindaban
 
 Honoring Their loving envoy
 
-Rädhä-Dämodara came to be with you
+Rādhā-Dāmodara came to be with you
 
 To preside over the festivities
 
@@ -152,9 +151,9 @@ On this most blessed occasion
 
 As you came before Their Lordships
 
-To offer your praëäms
+To offer your pranāms
 
-You began to lead the indelible kértan
+You began to lead the indelible kirtan
 
 And the spiritual frontier
 
@@ -188,17 +187,17 @@ While our praise rose upward
 
 Blessings descended in return
 
-Your Vyäsa-püjä lecture
+Your Vyāsa-pūjā lecture
 
 Thereby affirmed
 
 It seemed as if the heavens opened
 
-For the mellows of Våndävana to shower upon us
+For the mellows of Vrindāvana to shower upon us
 
 Cleansing the mirror of my soul from the dust of illusion
 
-While subduing saàsära’s raging fire
+While subduing samsāra’s raging fire
 
 Awakening a taste for devotional life
 
@@ -232,7 +231,7 @@ Let past and present now embrace
 
 In memory of future homecoming
 
-You represent Paramätmä
+You represent Paramātmā
 
 Our eternal guide and companion
 
@@ -244,7 +243,7 @@ In the mortal form we knew
 
 How we would love to know
 
-Your eternal form in Våndävan
+Your eternal form in Vrindāvan
 
 And how we will serve you there
 
@@ -256,11 +255,11 @@ To those who embrace the essence
 
 In all you taught and exemplified
 
-You personify the potency of Sri Nityänanda Räm
+You personify the potency of Sri Nityānanda Rām
 
 Come to rescue the most fallen
 
-While revealing the holy Dhäm in the Western world
+While revealing the holy Dhām in the Western world
 
 From the realm of sacred sound
 
@@ -274,7 +273,7 @@ The touch of your loving hand tangible still
 
 You beckon us to go deeper
 
-Seek darçan in your väëé
+Seek darśan in your vānī
 
 The immortal feature of yours
 
@@ -282,7 +281,7 @@ Where we commune with you still
 
 Throughout all the ages
 
-Your väëé rings true
+Your vānī rings true
 
 Amplified as it drifts
 
@@ -310,7 +309,7 @@ We find your presence
 
 As vivid as ever
 
-Living on in näma-saìkértan
+Living on in nāma-sankīrtan
 
 The divine dispensation
 
@@ -382,7 +381,7 @@ Reflect the joy of your eternal shelter
 
 Living in the sacrament we celebrate today
 
-Sri Vyäsa-püjä, the most blessed event
+Sri Vyāsa-pūjā, the most blessed event
 
 Your servant,
 
@@ -390,13 +389,13 @@ Varsana Swami
 
 Introduction by Dravida Dasa
 
-Varsana Swami offers an exquisite poem. Here is an excerpt describing the kértana Srila Prabhupäda led at his 1972 Vyäsa-püjä celebration in New Våndävana. I’ve heard this extraordinary kértana described before, but never so beautifully:
+Varsana Swami offers an exquisite poem. Here is an excerpt describing the kirtana Srila Prabhupāda led at his 1972 Vyāsa-pūjā celebration in New Vrindāvana. I’ve heard this extraordinary kirtana described before, but never so beautifully:
 
 As you came before Their Lordships
 
-To offer your praëäms
+To offer your pranāms
 
-You began to lead the indelible kértan
+You began to lead the indelible kirtan
 
 And the spiritual frontier
 
@@ -430,17 +429,17 @@ While our praise rose upward
 
 Blessings descended in return
 
-Your Vyäsa-püjä lecture
+Your Vyāsa-pūjā lecture
 
 Thereby affirmed
 
 It seemed as if the heavens opened
 
-For the mellows of Våndävana to shower upon us
+For the mellows of Vrindāvana to shower upon us
 
 Cleansing the mirror of my soul from the dust of illusion
 
-While subduing saàsära’s raging fire
+While subduing samsāra’s raging fire
 
 Awakening a taste for devotional life
 

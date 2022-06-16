@@ -57,8 +57,8 @@ export default function Post({ categoryPosts }) {
                     {categoryPosts.map((posts) => {
                       const { category, id, title } = posts;
                       return (
-                        <li>
-                          <Image src={leaf} />
+                        <li key={id}>
+                          <Image src={leaf} alt="leaf" />
                           <Link
                             href="/[category]/[id]"
                             as={`/${category}/${id}`}
@@ -72,7 +72,7 @@ export default function Post({ categoryPosts }) {
                 </div>
               </section>
               <figure className="wave3">
-                <Image src={wave3} layout="fill" objectFit="cover" />
+                <Image src={wave3} layout="fill" objectFit="cover" alt="wave"/>
               </figure>
             </header>
           );

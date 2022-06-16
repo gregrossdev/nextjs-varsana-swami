@@ -7,7 +7,7 @@ const Checkout = () => {
     <div className="page">
       <h2 className="page-title yellow">Checkout</h2>
       <figure className={purchase.purchaseFigure}>
-        <img
+        <Image
           src="https://s3.amazonaws.com/varsanaswami.org/static/img/sidebar-store/logo_MoonTower-300x220.png"
           width={300}
           height={220}

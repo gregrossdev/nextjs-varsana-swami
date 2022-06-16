@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/globals.css";
 import "../styles/typography.css"
 import "../styles/elements.css"

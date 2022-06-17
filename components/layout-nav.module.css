@@ -10,16 +10,13 @@
 .logo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem; 
+  padding: 1rem;
+  width: 50px; 
 }
 
-
 .title {
-  margin-bottom: 0.25rem;
-
   font-family: "Dancing Script", cursive;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
 
   color: var(--clr-black);
@@ -27,32 +24,29 @@
 
 .description {
   font-family: "Dancing Script", cursive;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 
   color: var(--clr-black);
 }
 
-.btn {
-  display: none; 
-}
+
+
+
 
 .menus {
   display: flex;
-  align-items: center;
   list-style: none;
   padding: 1rem; 
   margin: 0;
 }
 
-.menuItems {
-  position: relative;
-  font-size: 1rem;
+.menus a {
   color: var(--clr-black);
 }
 
-.menuItems svg {
-  margin: -2px;
-  margin-left: 2px;
+.menuItems {
+  position: relative;
+  font-size: 1rem;
 }
 
 
@@ -65,43 +59,12 @@
 
 .menuItems a,
 .menuItems button {
-  display: block;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 1rem;
-  padding: 1rem; 
-}
-
-.menuItems a:hover,
-.menuItems button:hover {
-  background-color: #f2f2f2;
 }
 
 
-.dropdown {
-  position: absolute;
-  left: auto;
-  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
-    0 4px 6px -2px rgba(71, 63, 79, 0.16);
-  font-size: 0.875rem;
-  z-index: 9999;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  list-style: none;
-  background-color: #fff;
-  border-radius: 0.5rem;
-  display: none;
-}
-
-.dropdown.show {
-  display: block;
-}
-
-.dropdown .dropdownSubmenu {
-  position: absolute;
-  left: 100%;
-  top: -7px;
-}
 
 .donate {
   font-family: Montserrat;
@@ -109,4 +72,50 @@
   letter-spacing: 1px;
   text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
   color: var(--clr-black);
+}
+
+
+@media only screen and (min-width: 576px) {
+  .menus {
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .title {
+    margin-bottom: 0.25rem;
+    font-size: 1.75rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .title {
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+  .title {
+    margin-bottom: 0.25rem;
+    font-size: 2.5rem;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+  }
+
 }

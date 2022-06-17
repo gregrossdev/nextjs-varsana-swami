@@ -43,6 +43,7 @@
   background: var(--clr-black);
   border-radius: 50%;
   padding: 0.5rem;
+  max-width: 6rem;
 }
 
 .buy-btn span {
@@ -146,4 +147,92 @@
 
 .pink {
   background: var(--clr-pink);
+}
+
+
+
+
+
+/* 
+========
+# 06/17/2022
+=================== */
+
+.photo-book-section, .flex-col-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 30rem; 
+  margin: 0 auto; 
+}
+
+.photo-book-section article {
+  text-align: center;
+}
+
+.self {
+  justify-self: center; 
+}
+
+.auto {
+  margin: 0 auto;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 1rem; 
+}
+
+.dropdown-item {
+  width: 1rem; 
+}
+
+.white-space { 
+  white-space: normal;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+
+  .title {
+    margin-bottom: 0.25rem;
+    font-size: 1.75rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .title {
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+
+}
+
+@media only screen and (min-width: 576px) {
+
+  .container {
+    max-width: 1440px; 
+  }
+
 }

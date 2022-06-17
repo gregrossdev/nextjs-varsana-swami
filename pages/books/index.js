@@ -16,12 +16,12 @@ export default function Books() {
             <Link href="/books/single-book">
               <a>
                 <figure className={styles.bookFigure}>
-                  {/* <Image
+                  <Image
                     src="/images/books-photo.jpg"
                     alt=""
                     layout="fill"
                     objectFit="cover"
-                  /> */}
+                  />
                 </figure>
               </a>
             </Link>
@@ -46,7 +46,7 @@ export default function Books() {
                   </button>
                   <div className={styles.bookBuy}>
                     <Link href="/purchase">
-                      <a className={styles.bookBuyBtn}>
+                      <a className="buy-btn">
                         <span>Buy</span>
                         <span>Now</span>
                       </a>
@@ -56,19 +56,19 @@ export default function Books() {
               </div>
             </div>
           </div>
-          <div className={styles.book}>
+          <div className={styles.bookItem}>
             <span>
-              <figure className={styles.figure}>
-                {/* <Image
+              <figure className={styles.bookFigure}>
+                <Image
                   src="/images/sri-gaura.jpg"
                   alt=""
                   layout="fill"
                   objectFit="contain"
-                /> */}
+                />
               </figure>
             </span>
-            <div className={styles.info}>
-              <div className={styles.infoCol}>
+            <div className={styles.bookInfo}>
+              <div className={styles.bookInfoCol}>
                 <p>Currently unavailable </p>
                 <p className={styles.bold}>
                   <em>Sri Gaura Lila: Nimai of Nadia</em>

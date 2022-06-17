@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['varsana-photos.nyc3.digitaloceanspaces.com'],
+    domains: ['s3.amazonaws.com'],
   },
 }

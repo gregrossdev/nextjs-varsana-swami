@@ -3,7 +3,7 @@
   max-width: 880px;
   margin: 0 auto;
   background: #fbfaf9;
-  margin-top: -5rem;
+  margin-top: -7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,9 +11,8 @@
 
 .cover {
   position: relative;
-  height: 443px;
-  width: 88%;
-  
+  height: 180px;
+  width: 93%;
 }
 
 
@@ -48,4 +47,24 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: -0.25px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .article {
+    padding: 0 1rem;
+    margin-top: -5rem;
+  }
+  
+
+  
+  .cover {
+    height: 443px;
+    width: 88%;
+    
+  }
+  
+
+
 }

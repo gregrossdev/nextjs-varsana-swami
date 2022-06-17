@@ -15,10 +15,12 @@
 =====
 # ABOUT
 ============ */
-
 .aboutGrid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+      "pg-figure"
+      "pg-article"
+      "pg-article";
   align-items: center;
   max-width: 1160px;
   margin: 0 auto;
@@ -26,50 +28,50 @@
 }
 
 .aboutFigure {
-  display: flex;
-  justify-content: center;
-  width: 420px;
   height: 30rem;
+  width: 100%;
+  margin-top: 0;
 }
 
 .aboutArticle {
-  width: 80%;
-  font-family: "Marck Script", cursive;
   margin: 0 auto;
-  color: #3d6638;
+  width: 100%;
 }
 
 .aboutArticle p {
   font-size: 1.4rem;
-  margin-bottom: 0.75rem;
 }
 
-.aboutArticle p:last-child {
-  margin-bottom: 0;
-}
-
-@media only screen and (max-width: 700px) {
-  .aboutArid {
-    grid-template-areas:
-      "pg-figure"
-      "pg-article"
-      "pg-article";
+@media only screen and (min-width: 768px) {
+  .aboutGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
-
-  .aboutAigure {
+  
+  .aboutFigure {
+    display: flex;
+    justify-content: center;
+    width: 420px;
     height: 30rem;
-    width: 100%;
-    margin-top: 0;
   }
-
+  
   .aboutArticle {
+    width: 80%;
+    font-family: "Marck Script", cursive;
     margin: 0 auto;
-    width: 100%;
+    color: #3d6638;
   }
-
+  
   .aboutArticle p {
     font-size: 1.4rem;
+    margin-bottom: 0.75rem;
   }
+  
+  .aboutArticle p:last-child {
+    margin-bottom: 0;
+  }
+
+  
 }
 
 
@@ -186,81 +188,20 @@
 
 .bookItem {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   align-items: center;
   border-bottom: 3px solid var(--clr-grey-10);
   padding: 1.75rem 0;
 }
 
 .bookFigure {
-  width: 440px;
-}
-
-.bookFigure, .bookInfo {
-  height: 350px;
-}
-
-.bookInfo {
-  flex-basis: 70%;
-  align-self: flex-start;
-  padding-left: 2em;
-}
-
-.bookInfo p {
-  margin-bottom: 0.25em;
-}
-
-.bookInfoCol {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-
-.bookButtons {
-  margin-top: auto;
-  display: flex;
-  justify-content: space-between;
-  justify-self: flex-end;
-}
-
-
-.bookBuy {
-  display: flex;
-  margin: 0 auto;
-}
-
-.bookBuyBtn {
-  margin-left: auto;
-  font-family: "Dancing Script", cursive;
-  color: var(--clr-white);
-  background: var(--clr-black);
-  border-radius: 50%;
-  padding: 0.5rem;
-  z-index: 5;
-}
-
-.bookBuyBtn span {
-  font-size: 1rem;
-  color: #f3ef7b;
-}
-
-
-
-@media only screen and (max-width: 700px) {
-  .bookItem {
-    flex-direction: column;
-  }
-
-  .bookFigure {
-    height: 20rem;
-  }
+  height: 20rem;
 }
 
 
 .sBookHeader {
   text-align: center;
-  padding: 2rem 0 0;
+  padding: 2rem 2rem 0;
 }
 
 .sBookFigure {
@@ -298,6 +239,70 @@
   margin: 1em auto 1.75em;
 }
 
+.bookBuy {
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem; 
+}
+
+.bookButtons {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+}
+
+.bookButtons button {
+  padding: 0.25rem 1rem; 
+  margin: 1rem 0; 
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  
+  .bookItem {
+    grid-template-columns: 1fr 2fr;
+    padding: 1.75rem 0;
+  }
+  
+  .bookFigure {
+    width: 440px;
+  }
+  
+  .bookFigure, .bookInfo {
+    height: 350px;
+  }
+  
+  .bookInfo {
+    flex-basis: 70%;
+    align-self: flex-start;
+    padding-left: 2em;
+  }
+  
+  .bookInfo p {
+    margin-bottom: 0.25em;
+  }
+  
+  .bookInfoCol {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .sBookHeader {
+    padding: 2rem 0 0;
+  }
+  
+  
+  
+  
+  
+
+}
+
+
+
 
 /*
 =====
@@ -330,15 +335,44 @@
   font-weight: 600;
   line-height: 1.7;
   max-height: 40vh;
-  width: 75%; 
+  width: 95%; 
   padding-bottom: 1rem;
   -webkit-overflow-scrolling: touch;
 }
 
-
 .wList li {
   display: flex; 
   align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .wCategory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .wTitle {
+    margin: 0.25rem 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .wList {
+    padding: 0 0.5rem;
+    margin: 0;
+    padding-right: 0.3em;
+    font-size: 1.35rem;
+    line-height: 1.7;
+    max-height: 40vh;
+    width: 75%; 
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  
 }
 
 
@@ -389,10 +423,10 @@
 .purchaseFigure {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  display: flex;
-  justify-content: center;
   border-top: 3px solid var(--clr-grey-10);
   margin-bottom: 3rem;
+  width: 300px; 
+  height: 220px;
 }
 
 

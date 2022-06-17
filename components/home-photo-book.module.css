@@ -3,6 +3,7 @@
 }
 
 .grid {
+  padding-top: 2rem; 
   display: grid;
   grid-template-areas:
     "pb-figure"
@@ -54,7 +55,7 @@
   display: flex;
   width: 75%;
   margin: 0 auto;
-  transform: translateY(3rem);
+  transform: translateY(4rem);
   margin-right: 1rem;
   z-index: 10;
   margin-top: -4rem;

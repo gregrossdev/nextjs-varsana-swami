@@ -2,7 +2,7 @@
 category: earth-culture
 date: 2018/09/12
 title: Sacramental Nature of Agriculture and Plow
-cover: ''
+cover: "/public/writings/dru-kelly-ee6tk1-crby-unsplash.jpg"
 
 ---
 In 1974, my spiritual enthusiasm increased as Srila Prabhupada inundated us with new nectar – the printing of the entire Caitanya-caritamrta, which was then coming to light for the first time in the English language. Whenever a new volume arrived fresh off the printing press, I would read and relish it from cover to cover. I hid in the barn's corn crib to avoid being detected or interrupted in reading during work hours, which was strictly prohibited by the management. Nestled in amongst the golden corn kernels, I imbibed the message of Lord Gauranga, the Golden Avatar.

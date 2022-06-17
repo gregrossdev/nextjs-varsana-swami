@@ -2,7 +2,7 @@
 category: personalities
 date: 2014/07/23
 title: 'The Story of Bhakti Devi '
-cover: "/public/writings/merits-of-reading-bhagavata-copy.jpeg"
+cover: "/public/writings/bhakthi-devi-2x-2.jpg"
 
 ---
 Srila Prabhupada has given us a unique opportunity by bringing Krishna Consciousness to the West. Engaging in bhakti-yoga is an honor and privilege we must all appreciate. The roots of the Bhakti movement originate in a personality named Bhakti Devi. So understanding our beginnings is an appropriate place to start.

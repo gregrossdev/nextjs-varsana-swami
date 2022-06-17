@@ -2,7 +2,7 @@
 category: earth-culture
 date: 2017/06/19
 title: 'Significance of Ox Power '
-cover: ''
+cover: "/public/writings/varun-verma-kbbpqrnlvag-unsplash.jpg"
 
 ---
 The full range of spiritual and practical significance represented by the bull is integral to  Vaisnava culture and society. Moreover, it is a source of insight into the subconscious mind. 

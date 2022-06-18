@@ -11,6 +11,9 @@
   color: var(--clr-black);
 }
 
+.navbar-brand {
+  margin-right: 0.25rem; 
+}
 
 
 

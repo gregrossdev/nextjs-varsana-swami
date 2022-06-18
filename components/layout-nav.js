@@ -67,21 +67,21 @@ export default function Header() {
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Media" id="basic-nav-dropdown" className={styles.menuItems}>
-                <NavDropdown.Item href="https://drive.google.com/drive/folders/1eaTfCEOev0sM1D00Ba_wACKWrxn5p_LG?usp=sharing">
+                <NavDropdown.Item href="https://drive.google.com/drive/folders/1eaTfCEOev0sM1D00Ba_wACKWrxn5p_LG?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Audio
                 </NavDropdown.Item>
                 <NavDropdown.Item eventKey="2">
                   <Link href="/media/video">Video</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="https://drive.google.com/drive/folders/1ABHgs1Sesk4ZHUFDhCTRqYhAYzE7HhRr?usp=sharing">
+                <NavDropdown.Item href="https://drive.google.com/drive/folders/1ABHgs1Sesk4ZHUFDhCTRqYhAYzE7HhRr?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Photos
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link eventKey="1" className={styles.menuItems}>
                 <Link href="/books">Books</Link>
               </Nav.Link>
-              <Nav.Link >
-                <a className={`${styles.menuItems} ${styles.donate}`} href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC">Donate</a> 
+              <Nav.Link className={`${styles.menuItems} ${styles.donate}`} href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC" target="_blank" rel="noopener noreferrer">
+                Donate
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

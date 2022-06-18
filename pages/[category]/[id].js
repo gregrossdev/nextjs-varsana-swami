@@ -43,7 +43,7 @@ export default function Post({ postData, categoryPosts }) {
         if (router.query.category == header.slug) {
           return (
             <header>
-              <figure className="banner">
+              <figure className="w-banner">
                 <Image
                   src={header.image}
                   alt={header.title || "title"}

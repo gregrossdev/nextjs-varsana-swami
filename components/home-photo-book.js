@@ -9,7 +9,7 @@ import bookImg from "../public/images/photo-book.jpg";
 export default function PhotoBook() {
   return (
     <section className={`${book.section} photo-book`}>
-      <div className={`inner ${book.buy}`}>
+      <div className={book.buy}>
         <Link href="/purchase">
           <a className={book.buyBtn}>
             <span>Buy</span>

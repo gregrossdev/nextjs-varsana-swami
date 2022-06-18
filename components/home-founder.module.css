@@ -51,7 +51,7 @@
   display: block;
   text-decoration: none;
   text-align: center;
-  color: var(--dark);
+  color: var(--clr-black);
   overflow-wrap: anywhere;
 }
 

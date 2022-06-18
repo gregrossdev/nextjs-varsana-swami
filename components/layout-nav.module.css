@@ -10,8 +10,7 @@
 .logo {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  width: 50px; 
+  padding: 1rem 0 1rem 1rem;
 }
 
 .title {
@@ -24,7 +23,7 @@
 
 .description {
   font-family: "Dancing Script", cursive;
-  font-size: 0.9rem;
+  font-size: 0.65rem;
 
   color: var(--clr-black);
 }

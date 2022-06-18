@@ -64,14 +64,7 @@
 # IMAGES
 =============== */
 
-.banner {
-  height: 27rem;
-  max-width: 100vw;
-}
 
-.banner img {
-  border-radius: 0;
-}
 
 .grid {
   display: grid;
@@ -155,7 +148,7 @@
 
 /* 
 ========
-# 06/17/2022
+# RECENT 
 =================== */
 
 .photo-book-section, .flex-col-section {
@@ -200,15 +193,35 @@
   background-color: inherit;
 }
 
+.banner img, .w-banner img {
+  border-radius: 0;
+}
+
+.banner {
+  height: 17rem;
+  max-width: 100vw;
+}
+
+.w-banner {
+  height: 11rem;
+}
+
+
+
 
 @media only screen and (min-width: 576px) {
 
   .container {
     max-width: 1440px; 
   }
+  
 
   .dropdown-item {
     max-width: inherit; 
+  }
+
+  .banner {
+    height: 27rem;
   }
 
 }

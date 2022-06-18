@@ -35,11 +35,18 @@
 
 .aboutArticle {
   margin: 0 auto;
+  font-family: "Marck Script", cursive;
+  color: #3d6638;
   width: 100%;
 }
 
 .aboutArticle p {
-  font-size: 1.4rem;
+  padding-top: 0.5rem; 
+  font-size: 1.2rem;
+}
+
+.aboutArticle p:last-child {
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -57,18 +64,10 @@
   
   .aboutArticle {
     width: 80%;
-    font-family: "Marck Script", cursive;
-    margin: 0 auto;
-    color: #3d6638;
   }
   
   .aboutArticle p {
     font-size: 1.4rem;
-    margin-bottom: 0.75rem;
-  }
-  
-  .aboutArticle p:last-child {
-    margin-bottom: 0;
   }
 
   
@@ -80,42 +79,63 @@
 # DHAMSEVA
 ============ */
 
-.dhamGrid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  place-items: center;
-  max-width: 1160px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
+  .dhamGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    place-items: center;
+    max-width: 1160px;
+    padding: 0 1rem;
+  }
 
-.dhamFigure {
-  height: 24rem;
-  width: 18rem;
-}
+  
+ 
+  .dhamFigure {
+    height: 25rem;
+    width: 100%; 
+    margin-top: 0;
+  }
 
-.dhamArticle {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  margin: 0 auto;
-  color: #3d6638;
-}
+  .dhamArticle {
+    margin: 0 auto;
+    padding-top: 0.5rem; 
+    color: #3d6638;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 
-.dhamArticle h3 {
-  font-weight: 900;
-  margin-bottom: 0.5em;
-}
 
-.dhamArticle h3, .dhamArticle p {
-  font-family: "Marck Script", cursive;
-}
+  .dhamArticle h3, .dhamArticle p {
+    font-family: "Marck Script", cursive;
+  }
 
-.dhamArticle p {
-  font-size: 1.3rem;
-  margin-bottom: 1em;
-}
+@media only screen and (min-width: 768px) {
+  .dhamGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .dhamFigure {
+    height: 24rem;
+    width: 18rem;
+  }
 
+  .dhamArticle {
+    width: 80%;
+  }
+  
+  .dhamArticle h3 {
+    font-weight: 900;
+    margin-bottom: 0.5em;
+  }
+  
+  .dhamArticle p {
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+  }
+  
+}
 
 .excerptWrapper {
   background: linear-gradient(179.45deg, #f5f3f1 20.41%, #fbfaf9 95.35%);
@@ -149,35 +169,17 @@
 }
 
 
-@media only screen and (max-width: 700px) {
-  .dhamGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-  }
- 
-  .dhamFigure {
-    height: 25rem;
-    width: 100%; 
-    margin-top: 0;
-  }
-
-  .dhamArticle {
-    width: 100%;
-  }
-}
-
 /*
 =====
 # BOOKS
 ============ */
 
 .bookTitle {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-bottom: 3px solid var(--clr-grey-10);
   color: green;
 }
@@ -191,7 +193,12 @@
   grid-template-columns: 1fr;
   align-items: center;
   border-bottom: 3px solid var(--clr-grey-10);
-  padding: 1.75rem 0;
+  padding: 0 0 1.75rem;
+  margin-top: -0.5rem; 
+}
+
+.bookInfo p {
+  margin: 0.25em 0;
 }
 
 .bookFigure {
@@ -260,10 +267,15 @@
 
 
 @media only screen and (min-width: 768px) {
+  .bookTitle {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
   
   .bookItem {
     grid-template-columns: 1fr 2fr;
     padding: 1.75rem 0;
+    margin-top: 0; 
   }
   
   .bookFigure {
@@ -281,6 +293,7 @@
   }
   
   .bookInfo p {
+    margin-top: 0; 
     margin-bottom: 0.25em;
   }
   

@@ -9,11 +9,11 @@
 }
 
 .page-title {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .page-wrapper {
@@ -29,4 +29,13 @@
 
 .page-section p {
   margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 576px) {
+
+  .page-title {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+
 }

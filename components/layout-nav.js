@@ -80,9 +80,9 @@ export default function Header() {
               <Nav.Link eventKey="1" className={styles.menuItems}>
                 <Link href="/books">Books</Link>
               </Nav.Link>
-              <Nav.Link className={`${styles.menuItems} ${styles.donate}`} href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC" target="_blank" rel="noopener noreferrer">
+              <a className={`${styles.menuItems} ${styles.donate}`} href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC" target="_blank" rel="noopener noreferrer">
                 Donate
-              </Nav.Link>
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

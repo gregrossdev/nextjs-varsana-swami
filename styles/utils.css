@@ -220,10 +220,11 @@
     max-width: inherit; 
   }
 
-  .banner {
+  .banner, .w-banner {
     height: 27rem;
   }
 
+  
 }
 
 

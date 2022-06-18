@@ -83,6 +83,11 @@
 
 @media only screen and (min-width: 992px) {
 
+  .logo {
+    width: 100%;
+    align-items: center; 
+  }
+
   .title {
     margin-bottom: 0.25rem;
     font-size: 1.75rem;

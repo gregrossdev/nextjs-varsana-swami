@@ -187,7 +187,7 @@
 }
 
 .dropdown-item {
-  width: 1rem; 
+  max-width: 1rem; 
 }
 
 .white-space { 
@@ -201,6 +201,17 @@
 }
 
 
+@media only screen and (min-width: 576px) {
+
+  .container {
+    max-width: 1440px; 
+  }
+
+  .dropdown-item {
+    max-width: inherit; 
+  }
+
+}
 
 
 @media only screen and (min-width: 992px) {
@@ -229,10 +240,3 @@
 
 }
 
-@media only screen and (min-width: 576px) {
-
-  .container {
-    max-width: 1440px; 
-  }
-
-}

@@ -29,9 +29,6 @@
 }
 
 
-
-
-
 .menus {
   display: flex;
   list-style: none;
@@ -44,7 +41,6 @@
 }
 
 .menuItems {
-  position: relative;
   font-size: 1rem;
 }
 
@@ -77,6 +73,10 @@
 @media only screen and (min-width: 576px) {
   .menus {
     align-items: center;
+  }
+
+  .span {
+    padding-left: 0.75rem;
   }
 }
 

@@ -10,32 +10,36 @@ export default function Header() {
     <header className={styles.header}>
       <Navbar expand="lg" collapseOnSelect>
         <Container>
-          <Navbar.Brand>
-            <Link href="/">
+          <Link href="/" passHref>
+            <Navbar.Brand>
               <a className={styles.logo}>
                 <h1 className={styles.title}>Varsana Swami</h1>
                 <h3 className={styles.description}>
                   Service to the Dhama and Stewardship of the Earth
                 </h3>
               </a>
-            </Link>
-          </Navbar.Brand>
+            </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={`me-auto ${styles.menus}`}>
-              <Nav.Link eventKey="1" className={styles.menuItems}>
-                <Link href="/about">About</Link>
-              </Nav.Link>
-              <Nav.Link eventKey="1" className={styles.menuItems}>
-                <Link href="/dhamseva">Dham-seva</Link>
-              </Nav.Link>
+              <Link href="/about" passHref>
+                <Nav.Link eventKey="1" className={styles.menuItems}>
+                  About
+                </Nav.Link>
+              </Link>
+              <Link href="/dhamseva" passHref>
+                <Nav.Link eventKey="1" className={styles.menuItems}>
+                  Dham-seva
+                </Nav.Link>
+              </Link>
               <NavDropdown
                 title="Writings"
                 id="basic-nav-dropdown"
                 className={styles.menuItems}
               >
                 <NavDropdown.Item eventKey="2">
-                  <Link href="earth-culture/sacramental-nature-of-agriculture-and-plow">
+                  <Link href="/earth-culture/sacramental-nature-of-agriculture-and-plow">
                     Earth Culture
                   </Link>
                 </NavDropdown.Item>
@@ -112,10 +116,12 @@ export default function Header() {
                   Photos
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link eventKey="1" className={styles.menuItems}>
-                <Link href="/books">Books</Link>
-              </Nav.Link>
-              <div>
+              <Link href="/books" passHref>
+                <Nav.Link eventKey="1" className={styles.menuItems}>
+                  Books
+                </Nav.Link>
+              </Link>
+              <span className={styles.span}>
                 <a
                   className={`${styles.menuItems} ${styles.donate}`}
                   href="https://www.paypal.com/donate/?hosted_button_id=NQTGB6KQUGFJC"
@@ -124,7 +130,7 @@ export default function Header() {
                 >
                   Donate
                 </a>
-              </div>
+              </span>
             </Nav>
           </Navbar.Collapse>
         </Container>

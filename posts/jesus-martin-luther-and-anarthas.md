@@ -5,10 +5,7 @@ title: Jesus, Martin Luther, and Anarthas
 cover: "/public/writings/2016_30_martin_luther-scaled-jpg.webp"
 
 ---
-
-Srila Prabhupada writes, "A Vaishnava should follow the example of such Vaishnavas as Haridas Thakura, Nityananda Prabhu, and also Lord Jesus Christ."  SB 4:6:47.  
-
-(The Bhavisya Purana, Chapter 19, describes an encounter between Jesus and the Aryan King Shalivahana. The king saw an auspicious man living on a mountain with a golden complexion and white clothes. Upon inquiry, the man informed the king, "I am Isha Putra, the Son of God. I was born from a virgin." After identifying himself, Jesus explained the reason for his advent. His purpose is to preach the eternal principles of religion to the mlecchas via their own faith. ) TAKE OUT THIS PARAGRAPH 
+Srila Prabhupada writes, "A Vaishnava should follow the example of such Vaishnavas as Haridas Thakura, Nityananda Prabhu, and also Lord Jesus Christ."  SB 4:6:47.
 
 The eternal principles Jesus established are purification of the mind by two means. The internal and prime method is chanting the Holy Name. The secondary, complementary aspect is proper conduct which includes truthfulness, meditation, mental harmony, and following prescribed rules and regulations.
 
@@ -18,7 +15,7 @@ As for Jesus, he is the soul of forgiveness. We see this quality confirmed when 
 
 Martin met the devil's challenge with character and faith, simply asking the devil repeatedly, "Are you finished?" Martin waited to hear the conclusion of the devil's accusations, but the devil never reached the end. Finally, Martin confessed, "My sins are many, and my transgressions are infinite. There dwells no good within my heart. But now I deliver the final word from your endless list of accusations." Martin then quoted the Biblical verse, 1 John 1:17, which assures that Jesus forgives all our sins on the condition that we repent appropriately and thereafter follow his instructions. In that verse, Martin found peace, and the devil no longer had any advantage over him.
 
-This lesson also applies to the sincere disciples and followers of Srila Prabhupada. When the Holy Name comes into our lives, the darkness (anarthas) within our own hearts comes to the surface, and the deficiencies we were previously able to hide become exposed. Thus, to those anarthas, we may very well react and retaliate. This perpetuates their enduring power, granted by the mental energy we invest in them. 
+This lesson also applies to the sincere disciples and followers of Srila Prabhupada. When the Holy Name comes into our lives, the darkness (anarthas) within our own hearts comes to the surface, and the deficiencies we were previously able to hide become exposed. Thus, to those anarthas, we may very well react and retaliate. This perpetuates their enduring power, granted by the mental energy we invest in them.
 
 For the influence of anarthas to end, we must enlist the guru's assistance to pull them up by the root. We must expose them to the light of confession to a qualified guide whose discretion and confidentiality we trust. "Sin" means we missed the mark; "repentance" means returning to God for proper direction, re-aiming with healthy contrition, and humbly and patiently trying again.
 

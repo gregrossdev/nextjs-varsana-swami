@@ -2,7 +2,7 @@
 category: nature-meditations
 date: 2016/07/18
 title: "“Light of the Bhagavat,” Transcendental Lessons from the Natural World"
-cover: "/public/writings/autumn-3-1407871-2.jpeg"
+cover: "/public/writings/light-of-the-bhagavata-cover-620x350.jpeg"
 
 ---
 The wonders of nature have intrigued the minds of poets, theologians, and philosophers alike since time immemorial. Yet their combined efforts to comprehend and articulate her ultimate mysteries fall short compared to the writings of Srila Prabhupada, the transparent medium to the Source of the natural world. As we read Srila Prabhupada’s words, we can hear Krishna’s message, see His beauty, feel His love, and receive His mercy as they reflect and echo throughout every aspect of His creation. 

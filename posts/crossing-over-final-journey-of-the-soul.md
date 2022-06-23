@@ -2,7 +2,7 @@
 category: going-deeper
 date: 2016/01/12
 title: Crossing Over, Final Journey of the Soul
-cover: "/public/writings/robert-bye-ckbsq-5u17a-unsplash.jpg"
+cover: "/public/writings/antoine-giret-7_tszqjms4w-unsplash.jpg"
 
 ---
 The pinnacle of spiritual and emotional growth is accentuated by the psychological depths of loss. The rock bottom found in the depths of the abyss indicates the point where the inner transformation may occur, and a new life is ready to begin. Our desire to turn a life around, re-examine what matters most, and shift obsolete attitudes and judgments, is most apparent when anguish reaches its deepest point, and the only option is the upward path.

@@ -2,7 +2,7 @@
 category: going-deeper
 date: 2017/11/02
 title: Anarthas represented by Dhenukasura and Pralambhasura
-cover: "/public/writings/srila-prabhupada.jpeg"
+cover: "/public/writings/maxresdefault.jpeg"
 
 ---
 Adi Guru's blessings are essential for the spiritual processes, from inception through fruition. The potency of Lord Baladeva, the Original Guru, arises in the heart, which is softened by humility, gentleness, kindness, and servitude.

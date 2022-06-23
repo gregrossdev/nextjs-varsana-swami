@@ -2,7 +2,7 @@
 category: srila
 date: 2013/08/27
 title: "“I will never die; I will live forever in my books.” "
-cover: "/public/writings/srila-prabhupada.jpeg"
+cover: "/public/writings/images.jpeg"
 
 ---
 When Srila Prabhupada was on his departure bed in Vrindavan, India, in 1977, he assured his young disciples, “I will never die. I will live forever in my books.” Srila Prabhupada is fully present in his books and available to all who follow in his footsteps.   

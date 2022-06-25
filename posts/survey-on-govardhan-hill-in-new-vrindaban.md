@@ -5,9 +5,7 @@ title: Survey on Govardhan Hill in New Vrindaban
 cover: "/public/writings/slide1.png"
 
 ---
-NME
-
-Today, there was a survey on Govardhan Hill. It began behind the big Gaura Nitai murtis. The surveyor’s helper, a teenage boy, asked, “What are these statues?” I introduced them to the personality of Lord Caitanya, after which he asked, “Why are there two forms for one God?” At this point, the conversation became more spiritual. I was impressed by the boy’s humility.
+Today, there was a survey on Govardhan Hill. It began behind the big Gaura Nitai murtis. The surveyor’s helper, a teenage boy, asked, “What are these statues?” I introduced them to the personality of Lord Caitanya, after which he asked, “Why are there two forms for one God?” At this point, the conversation became more spiritual. I was impressed by the boy’s humility..
 
 When they reached the top of Govardhan, they started establishing reference points to mark the boundaries. First, they sat on an iron stake in the ground next to Radha Kunda to set a benchmark. Then, they started to look for additional reference points to form a grid. Everywhere they looked, they saw landscape features that did not appear to be of this earth.
 

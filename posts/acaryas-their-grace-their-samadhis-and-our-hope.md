@@ -5,7 +5,7 @@ title: Acaryas - Their Grace, Their Samadhis, and Our Hope
 cover: "/public/writings/img_4953a-1.jpeg"
 
 ---
-**Editor's note:** This article is a compilation of excerpts from Varsana Maharaja's lectures and writings. 
+This article is a compilation of excerpts from Varsana Maharaja's lectures and writings.
 
 Living in this material world from time immemorial imparts formidable conditionings. With assistance from maya, we have successfully built a wall around ourselves, excluding God and others from our inner lives. We have become incarcerated by our own limitations and paralyzed by our fears to such an extent that we cannot free ourselves. The nature of the false ego keeps us individually and collectively imprisoned in our self-centered world. The shackles of desires to exploit, enjoy, control, and be respected are stronger than any iron chains..
 

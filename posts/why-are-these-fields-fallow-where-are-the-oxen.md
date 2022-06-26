@@ -2,7 +2,7 @@
 category: earth-culture
 date: 2010/02/19
 title: Why are these Fields Fallow? Where are the Oxen?
-cover: "/public/writings/longhorn-2386537__340.jpg"
+cover: "/public/writings/jw_041513_1629_uxga.jpeg"
 
 ---
 **Srila Prabhupada's Awareness of the Importance of Agrarian Culture**

@@ -98,22 +98,14 @@ export default function Header() {
                 id="basic-nav-dropdown"
                 className={styles.menuItems}
               >
-                <NavDropdown.Item
-                  href="https://drive.google.com/drive/folders/1eaTfCEOev0sM1D00Ba_wACKWrxn5p_LG?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Audio
+                <NavDropdown.Item eventKey="2">
+                  <Link href="/media/audio">Audio</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item eventKey="2">
                   <Link href="/media/video">Video</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="https://drive.google.com/drive/folders/1ABHgs1Sesk4ZHUFDhCTRqYhAYzE7HhRr?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Photos
+                <NavDropdown.Item eventKey="2">
+                  <Link href="/media/photos">Photos</Link>
                 </NavDropdown.Item>
               </NavDropdown>
               <Link href="/books" passHref>

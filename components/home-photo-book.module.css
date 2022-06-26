@@ -108,7 +108,7 @@
 
   .img {
     max-height: 167px;
-    
+    border-radius: 0; 
   }
 
   .article {

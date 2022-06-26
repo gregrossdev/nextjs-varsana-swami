@@ -44,15 +44,25 @@ const Checkout = () => {
             <input
               type="hidden"
               name="hosted_button_id"
-              value="K3Y7QM7RTBLCN"
+              value="HZYVES37M22G4"
             />
-            <input type="hidden" name="on0" value="Quantity" />
-            Quantity:&nbsp;
-            <select name="os0">
-              <option value="1 Copy">1 Copy $20.00 USD</option>
-              <option value="2 Copies">2 Copies $35.00 USD</option>
-              <option value="3 Copies">3 Copies $50.00 USD</option>
-            </select>
+            <table>
+              <tr>
+                <td>
+                  <input type="hidden" name="on0" value="Quantity" />
+                  Quantity
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="os0">
+                    <option value="1 Copy">1 Copy $20.00 USD</option>
+                    <option value="2 Copies">2 Copies $35.00 USD</option>
+                    <option value="3 Copies">3 Copies $50.00 USD</option>
+                  </select>{" "}
+                </td>
+              </tr>
+            </table>
             <input type="hidden" name="currency_code" value="USD" />
             <input
               type="image"
@@ -61,6 +71,13 @@ const Checkout = () => {
               name="submit"
               alt="PayPal - The safer, easier way to pay online!"
             />
+            <img
+              alt=""
+              border="0"
+              src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+              width="1"
+              height="1"
+            ></img>
           </form>
 
           <footer className={purchase.purchaseFooter}>

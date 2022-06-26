@@ -64,8 +64,6 @@
 # IMAGES
 =============== */
 
-
-
 .grid {
   display: grid;
   grid-gap: 0.5rem;
@@ -142,22 +140,19 @@
   background: var(--clr-pink);
 }
 
-
-
-
-
 /* 
 ========
 # RECENT 
 =================== */
 
-.photo-book-section, .flex-col-section {
+.photo-book-section,
+.flex-col-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 30rem; 
-  margin: 0 auto; 
+  max-width: 30rem;
+  margin: 0 auto;
 }
 
 .photo-book-section article {
@@ -165,7 +160,7 @@
 }
 
 .self {
-  justify-self: center; 
+  justify-self: center;
 }
 
 .auto {
@@ -174,26 +169,28 @@
 
 .flex-col {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
-  padding: 1rem; 
+  padding: 1rem;
 }
 
 .dropdown-item {
-  max-width: 1rem; 
+  max-width: 1rem;
 }
 
-.white-space { 
+.white-space {
   white-space: normal;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   color: #fff;
   text-decoration: none;
   background-color: inherit;
 }
 
-.banner img, .w-banner img {
+.banner img,
+.w-banner img {
   border-radius: 0;
 }
 
@@ -206,51 +203,89 @@
   height: 11rem;
 }
 
-
-
-
 @media only screen and (min-width: 576px) {
-
   .container {
-    max-width: 1440px; 
+    max-width: 1440px;
   }
-  
 
   .dropdown-item {
-    max-width: inherit; 
+    max-width: inherit;
   }
 
-  .banner, .w-banner {
+  .banner,
+  .w-banner {
     height: 27rem;
   }
-
-  
 }
 
-
 @media only screen and (min-width: 992px) {
-
   .title {
     margin-bottom: 0.25rem;
     font-size: 1.75rem;
   }
-  
+
   .description {
     font-size: 0.9rem;
   }
-
 }
 
 @media only screen and (min-width: 1200px) {
-
   .title {
     margin-bottom: 0.25rem;
     font-size: 2rem;
   }
-  
+
   .description {
     font-size: 0.9rem;
   }
+}
 
+/*
+=====
+# MEDIA  
+============== */
+
+.mediaYellowTitle {
+  padding: 2rem 0;
+  background: var(--clr-yellow);
+  margin: 2rem 0;
+}
+
+
+.mediaGreen {
+  padding: 1rem 0;
+  background: var(--clr-green);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mediaGrey {
+  padding: 0.0125rem 0;
+  background: var(--clr-grey-10);
+  margin-bottom: 0.75rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mediaFolder {
+  padding: 0.25em 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.mediaYT {
+  display: block;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+.page-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
 }
 

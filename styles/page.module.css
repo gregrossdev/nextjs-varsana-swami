@@ -389,36 +389,7 @@
 }
 
 
-/*
-=====
-# MEDIA  
-============== */
 
-.mediaHeader {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 0;
-  background: var(--clr-green);
-}
-
-.mediaFolder {
-  padding: 0.25em 2rem;
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-
-.mediaHeader button {
-  margin-right: 3rem;
-  font-size: 3rem;
-}
-
-.mediaYT {
-  display: block;
-  padding-bottom: 3rem;
-  margin: 0 auto;
-  max-width: 30rem;
-  max-height: 30rem;
-}
 
 /*
 ======

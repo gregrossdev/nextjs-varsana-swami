@@ -1,7 +1,7 @@
 ---
 category: personalities
 date: 2013/01/22
-title: Mahaya-Maya and Yoga-Maya, Two Faces of the Same Goddess
+title: Maha-Maya and Yoga-Maya, Two Faces of the Same Goddess
 cover: "/public/writings/maya-devis-bewildering-spell.jpg"
 
 ---

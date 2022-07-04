@@ -2,7 +2,7 @@
 category: sadhu-sanga
 date: 2022/06/24
 title: Plow and religious consumerism
-cover: "/public/writings/f7a043f0-c985-40fc-bcf6-354a0e97e9a9-1.jpg"
+cover: "/public/writings/f7a043f0-c985-40fc-bcf6-354a0e97e9a9-copy-2.jpg"
 
 ---
 The sanctity of a plow is reflected in the response Jesus offered to the aspiring disciple who was distracted by worldly considerations.

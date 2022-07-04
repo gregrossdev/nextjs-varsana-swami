@@ -14,3 +14,5 @@ For example, in choosing a guru, the consumer mentality leads us to evaluate him
 Our intentions should be pleasing guru and Krishna over and above appealing to the masses or ego, whereby the potency of our mission would be compromised (watered down). Because when we try to cater to the masses, we may lose our focus on pleasing and representing Sri Guru and Krishna properly.
 
 Furthermore, beating swords into plowshares foretells times of peace and harmony. Whereas melting plows down to make weapons is a warning of upcoming conflict and war.
+
+                                             * * * * *

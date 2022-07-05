@@ -7,7 +7,9 @@ cover: "/public/writings/srila-prabhupada.jpeg"
 ---
 Dear Śrīla Prabhupāda,
 
-Please accept my humble obeisances. All glories to your lotus feet. The perfect lives and teachings of saintly devotees confer a precious eternal inheritance upon the souls of this world. Infused with love of Krishna, they personify His compassion, grace, and blessings. They teach us how to see Krishna’s glories, feel His love, and hear His message in and through every aspect of His natural world.
+Please accept my humble obeisances. All glories to your lotus feet. 
+
+The perfect lives and teachings of saintly devotees confer a precious eternal inheritance upon the souls of this world. Infused with love of Krishna, they personify His compassion, grace, and blessings. They teach us how to see Krishna’s glories, feel His love, and hear His message in and through every aspect of His natural world.
 
 As such, the sun can represent Śrī Krishna—the active principle of illumination. The moon then becomes the more passive and intuitive nature, whose wisdom is received through reflection. Expanding further, the stars of heaven, assembling as constellations to dance across the vast tapestry of the night time sky, symbolize the ācāryas. With celestial powers beyond the scope of mortal vision, they expand the luster of Krishna consciousness. Even in the absence of the sun and moon, the influence of these saintly devotees serves as our guiding light, especially during the dark night of the soul.
 

@@ -2,7 +2,7 @@
 category: vyasa-puja
 date: 2019/08/25
 title: Sri Vyasa Puja Offering 2019
-cover: "/public/writings/srila-prabhupada-on-vyasasana-2.jpeg"
+cover: "/public/writings/sp.jpeg"
 
 ---
 Dear Srila Prabhupāda,
@@ -35,7 +35,7 @@ In a world which only fades
 
 You introduced us to a vibrant land
 
-Shaped by the song of Krsna’s flute
+Shaped by the song of Krishna’s flute
 
 Where loving relationships endure
 
@@ -63,7 +63,7 @@ When you visited New Vrindaban
 
 To lead us in the worship
 
-For Krsna Janmāstamī and your Vyāsa-pūjā
+For Krishna Janmāstamī and your Vyāsa-pūjā
 
 To kindle love for sacred teachings
 
@@ -77,7 +77,7 @@ Like ancient sages gathered around their guru
 
 For a Bhāgavat recital in some timeless holy place
 
-As we read chapters of Krsna book aloud
+As we read chapters of Krishna book aloud
 
 Culminating in the Lord's advent
 

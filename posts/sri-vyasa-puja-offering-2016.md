@@ -1,120 +1,58 @@
 ---
 category: vyasa-puja
-date: 2014/09/01
-title: Sri Vyasa Puja Offering 2014
+date: 2015/09/01
+title: Sri Vyasa Puja Offering 2015
 cover: "/public/writings/sp-vyasa-puja-pic.webp"
 
 ---
 Dear Srila Prabhupada,
 
-Please accept my humble obeisances. All glories to the most blessed event of your Vyasa-puja.
+Please accept my humble obeisances. All glories to you.
 
-Today we worship you, who appear as the representative of Krsna's literary incarnation.
+The sun is now setting. Ominous clouds roll in and a threatening wind begins to blow, reflecting our internal state of feeling your separation. Whenever the Lord or His empowered representative departs from mortal vision, crisis is inevitable and darkness ensues. Yet both historically and practically, we see that dark shadows can never overcome light, except for relatively brief episodes of time.
 
-The spiritual potency of this occasion enriches our reflection on your life and your instructions.
+When uncertainty and obscurity prevail, I turn inward to meditate on you while visiting the various places in New Vrindavan graced by your lotus feet. Treading the path leading from the elevated site in Bahulavan where you delivered your Bhagavata Dharma discourse decades ago, I find no trace of the footprints left by the hundreds of devotees who came to hear, honor, and worship you there. Instead, the lane is marked only by the fresh hoofprints of our newest ox calves, Hari and Priya.
 
-And, when we have the opportunity to glorify you,
+Stepping over those imprints, while continuing down from the sacred hilltop of Bahulavan, brings verses from the Bhagavatam's Tenth Canto to life, echoing the words you delivered at this very spot during Janmastami 1972. Sri Radha-Vrindavan-chandra had just arrived from the Old Vrindavan farm, and you had come to install Them in the new temple lovingly built by Their devotees. As the eventful day continued into the evening festivities for Sri Krsna's birth at midnight, devotees swarmed around your lotus feet, almost like the sages gathered to hear the same pastimes of Krsna spoken by Sukadeva Gosvami to Maharaja Pariksit.
 
-Srila Prabhupada, every aspect of life is imbued with meaning and purpose.
+Throughout the narration of the advent of Sri Krsna, a theme kept recurring:
 
-With each passing year, I am relishing even more... how your words never fail to impart deep peace and inspiration to my soul.
+“O lotus-eyed Lord, by concentrating one's meditation on Your lotus feet, which are the reservoir of all existence, and by accepting those lotus feet as the boat by which to cross the ocean of nescience, one follows in the footsteps of mahajanas \[great saints, sages, and devotees\]. By this simple process, one can cross the ocean of nescience as easily as one steps over the hoof-print of a calf.” \[Srimad-Bhagavatam 10.2.30\]
 
-I write to you today from Bahulaban in New Vrndavan Dhama. This village of historical glory is now in ruins due to Sri Radha-Vrndavana-Candra's relocating to Their new temple and Their devotees naturally following behind. Yet remembrance of you makes your presence here all the more vivid, both within my heart and in the dhama that surrounds me in a loving embrace.
+As neophyte devotees, we had sorely experienced being tossed about by the tropical winds of our conditioning while drowning in the salty-teared ocean of our suffering. Yet in one memorable evening, you demonstrated how to calm the storms which inevitably arise in our minds. Both your person and words kindled the living spirit of vraja-rasa in our consciousness.
 
-Today I reflect specifically on your Vrndavana-bhajana and the image of you:
+Srila Prabhupada, your loving mercy bridged the infinite gap between our material consciousness and the spiritual world. “Crossing the ocean” was no longer a metaphor. As shipwrecked and stranded castaways, we saw that our hope of being rescued someday was no mirage. Your magnanimous presence delivered us as we relished the rich lila contained in the advent of Krsna. You gifted to us the experience of this truth, knowing its deeper import would take us a lifetime to realize. In those moments with you, our spiritual journey suddenly became an enticing and attractive adventure.
 
-_“...sitting alone in Vrndavana dhama ...”_
+As the more philosophical second chapter of Krsna book began, many devotees showed signs of drowsiness. You, on the other hand, with your profound taste for hearing and chanting, became increasingly radiant, alert, and absorbed. Inspired by your example and by the readings, we discovered our life stories placed within a larger picture, where Krsna's love embraces all souls from the ancient past to the unending future. That tiny temple room became the boat which transported all who were present over the ocean of nescience to the spiritual world.
 
-_I am drawn to consider your words:_
+For those who have accepted the boat of the lotus feet of the Lord, who is the shelter of the cosmic manifestation and is famous as Murari, the enemy of the Mura demon, the ocean of the material world is like the water contained in a calf's hoof-print. \[Srimad-Bhagavatam 10.14.58\]
 
-_“Everyone has abandoned me, seeing me penniless..._
+As the evening progressed and midnight approached, we were immersed in your eager anticipation of the birth of Lord Krsna. The final kirtana and arati brought the day's activities to a crescendo. Then our thoughts turned toward the most blessed event of the next day—your divine appearance.
 
-_...where are all my elders?..._
+When the sun rose and dissipated the morning fog, a pastoral scene unfolded. Cows and calves, adorned with beautiful designs made with the varying hues of New Vrindavan clay, decorated the landscape. The stage was set for the most blessed event: Sri Vyasa-puja. Here, where I stand now, at the bottom of Govindaji Hill, you passed the ox shed where I was tending Bhumi and Dharma—two of our very first oxen. You smiled approvingly as you boarded Hayagriva's Volkswagen to ascend to the hilltop, where Sri Radha-Damodara awaited to preside over the festivities.
 
-_All that is left of this family life is a list of names.”_
+Within that rustic hilltop pavilion where we congregated to worship your lotus feet, you captured our hearts and led them into deeper perspectives on Vraja-dhama. As we listened, the sacramental nature of your words became evident. More than instructing, informing, or even inspiring, your words truly became the experience of what they told, creating the reality of what you were expressing. In this one transformative event, all we had seen and heard before about Guru and Krsna now took on new meaning, depth, and vitality. We could see that although you are eternally situated in the spiritual realm, you were simultaneously here with us to train us for entrance into the supreme abode and to embody the culture of the loving relationships prevalent there.
 
-_This sets the scene for the assurance which follows:_
+By your divine grace, Krsna's lotus feet became accessible and we were transferred to Vrndavana. We caught a glimpse of the destination awaiting disciples who attain maturity in true worship of Sri Guru, those who honor his life and his instructions by their actions. The memory is immortalized and etched upon our hearts. It sustains us.
 
-_“Seen in relationship to Krsna, they are all in harmony.”_
+While the relentlessly destructive waves of Kali-yuga sweep away everything in their path, there is an alternative found in the gentle eddy of your vani, wherein floats a majestic ark designed to arrive in due course of time at our spiritual homeland.
 
-_I sit here alone in Bahulaban._
+Srila Prabhupada, you have enticingly urged us on board. Though storms may rage and fierce winds howl, we cling to your lotus feet to secure us on your boat, the sole means of crossing over. You are the captain bearing the torch that dispels the darkness, as well as the tender father anointing our eyes with the balm of love.
 
-_Decades have passed, new faces come and gone._
+The crest jewel of the treasure chest of your enduring presence lives on in your samadhi, the Palace of Gold, constructed by your young inspired disciples working in a spirit of shared sacrifice, eagerly anticipating your living there. Our shock, disappointment, and shattered hopes when you departed this world passed with the dawning realization that you had indeed already taken up eternal residence there. Thus among the prominent gems you bequeathed us, we find the most priceless of these within the Palace's walls: service in separation.
 
-_Thousands have participated in building New Vrndavan, each with a story of their own._
+Although the understanding of vapu and vani remained theoretical while you were here physically, your disappearance has forced us to mature in a bittersweet way as you show us the realities of a perennial spiritual relationship. In the Lord's pastimes, separation is considered the highest ecstasy, awarding the deepest communion. Similarly, in that internal realm, our relationship with you grows closer because nothing external can interfere any longer—our union is enhanced so long as we cling to your lotus feet by following your instructions.
 
-_Where are they now? I miss them all,_
+Though my body lives on and I strive to go forward, my thoughts still reflect on bygone days. I turn again to Krsna book, as you invited us to do on that eventful evening in 1972. The message, the hope, the despair, and the delight in the pastimes portrayed therein resonate more deeply and vibrate more sweetly with each passing year. Truly the nectar of Krsna's words, enriched with deep remembrance of you, brings life to our soul. Descriptions of His pastimes, along with tellings of yours, carry us while we pass through this mortal world.
 
-_And nature speaks in a way to affirm the depth of loss._
+Now it is certainly the season for turning inward and letting go of the material attachments which anchor our lives to the shore of material existence. As we enter deeper into association with you through this memory, we find you continuing to lead us in kirtana. The cries welling up from our troubled hearts become songs of gratitude, and our stumbling feet find the first steps of a dance.
 
-_I am left here with little more than a list of names._
+In the kirtana of internal life, you continue to bring new vitality to every aspect of our existence and reveal deeper wonders of reality emerging from behind the veil of ordinary existence. There forgiveness, kindness, devotion, and God are more than mere words or theological concepts. They become real and touch us at the very core of our being.
 
-_So I cling to remembrance of specific pastimes that most articulate your precepts._
+Your glories are as unfathomable as the deep ocean, yet you have mercifully come to assist us. The boat by which you have already crossed over still lingers on this side because it is part of the all-pervading spiritual realm, where time and physical limitations are conspicuous by their absence. The safe haven on the distant shore where you await our return draws closer at hand.
 
-_In my mind's eye, the blurry pages of history turn back, until one exquisite event crystallizes, as real today as it was back then._
+Now, forty-three years later, there is little evidence of the temple, the pavilion, or the community which hosted the 1972 festivities I am recounting. Still, your spiritual presence is deeply felt, and the impressions of our young oxen calves imbedded in the New Vrindavan mud proclaim that here Dharma's four legs stand firm, holding Kali-yuga at bay. And you, dear Srila Prabhupada, are the touchstone who reduces the vasi dark and stormy ocean into the insignificant quantity of water contained in the auspicious and meaningful hoofprints of a calf.
 
-_Echoes of bygone kirtanas remain impressed upon the ether... sometimes whispering audibly as the wind rustles through the trees outside..._
-
-_In my chronicles of hope, it is now Janmastami, the appearance of Sri Krsna, 1972._
-
-_You are here, presiding over the festivities, demonstrating the proper mood for worshiping the Lord._
-
-_Into the late hours of the night_
-
-_You display the ideal of complete absorption in hearing and chanting the glories and pastimes of the Lord._
-
-_At midnight, all things adjust to a deeper harmony; a shift transpires._
-
-_It is now Nandotsava, the time Sri Krsna saw in His infinite wisdom and kindness_
-
-_to be the auspicious day for your appearance._
-
-_On this day Sri Krsna, in the form of Radha-Damodara, preside over the occasion._
-
-_In reciprocation with your loving emotions, Krsna awakens in us the appropriate feelings to properly worship you._
-
-_Then Krsna showers us with the precious realization:_
-
-_He delights in seeing His representative honored._
-
-_Gradually the divine adjustment of all components becomes tangible:_
-
-_Sri Nama takes root in New Vrndavan Dhama, offering the setting._
-
-_Janmastami overlaps with Sri Vyasa-puja to unite as one festival of devotional expression._
-
-_Each aspect illumines yet another face of Krsna's benevolence, a love too vast to be contained exclusively in His own heart, too inconceivable for us to serve._
-
-_So yearning to expand, to facilitate relationship, Krsna assumes various personal forms._
-
-_That day Nama and Dhama, Guru and Krsna, four distinct cornerstones of Truth,_
-
-_always individual yet interdependent in nurturing our understanding,_
-
-_collaborated to reveal Their divine interactions._
-
-_Many seasons have now passed, and I sit here in silent solitude, holding a list of names._
-
-_I might be discouraged if not for your words:_
-
-_“Seen in relationship to Krsna, they are all in harmony.” Recognizing the most lovable person, whose unseen hand guides our mysterious destinies,_
-
-_working in and through all things to draw out our ultimate welfare,_
-
-_our inner eye opens to the heart of Vyasa-puja._
-
-_Bhakti is the only food for the soul,_
-
-_Rasa alone can refresh the heart,_
-
-_and the Holy Name continues to resound, reviving our very life breath._
-
-_Your vani is the treasure of my soul, and its influence is unspeakable through mere lip service._
-
-_Your mood, your words, your deeds exemplify the ideal disciple... who is our perfect master._
-
-Please bless us with your darsana, in the realms of separation, where we honor the essence within the form of Sri Vyasa-puja.
-
-Aspiring to attain the service of your servants,
+Your servant in separation,
 
 Varsana Swami

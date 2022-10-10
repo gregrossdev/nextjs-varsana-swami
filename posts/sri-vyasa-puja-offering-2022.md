@@ -1,0 +1,61 @@
+---
+category: vyasa-puja
+date: 2022/08/20
+title: Sri Vyasa Puja Offering 2022
+cover: "/public/writings/sp-with-cow-walk_nv.jpg"
+
+---
+Dear Srila Prabhupada,  
+ Please accept my humble obeisances. All Glories to you.
+
+How appropriate is Sri Krishna’s arrangement for your appearance on the most holy occasion of Nandotsava, when news of Krishna's birth invigorated all the Vrajavasis. All glories to your Vyasa Puja, foretelling the day when Lord Chaitanya’s message would inevitably cast its unfailing luster upon the entire world.
+
+Your appearance in the western world was the answer to our prayer that the Lord send someone fashioned after His loving heart to lead us back to Him. In you, we discovered the treasure of divine wisdom. You were a trustworthy, true, and faithful guide – an ambassador of the spiritual world who descended to direct our hearts back to home. Finding confidence and respect in you and for the Lord who you represent, we came to know and love Krishna, who extended His loving hand in you, who spoke to you, who revealed the beauty, sweetness, charm, and splendor of Vrindavan through you.
+
+Recently, a photo was given to me of a most meaningful experience with you. In it, you are pictured on a New Vrindavan path following a single cow. The devotees trail behind you in the frame. Upon viewing this image, the surge of memories, emotions, and insights all clamoring for attention and acceptance testify to the potency of smaranam. How touching, powerful, and influential are remembrances of you savored over time. I, therefore, submit this recollection unto you.
+
+The picture captures a moment from your final visit to New Vrindavan when you returned to the community’s original farmhouse temple for guru puja, class, and darshan. That day in 1976, we had followed in your physical footsteps on the last stretch of the Agasura Trail, which forms a portion of the Govardhana Parikrama marg here in New Vrindavan. As the path transitioned from forest to the pasturing grounds, Kaliya – the first cow in ISKCON, who you called your “old friend” – left her sisters in the meadow below and hastened up the slope to greet you. From there, she led the devotees the rest of the way to the doorstep of the farmhouse temple where Sri Sri Radha Vrindavanath had been awaiting your return.
+
+It was in that same farmhouse temple in 1969 that you first tasted Kaliya's rich milk, further sweetened with New Vrindavan honey. Upon drinking, you proclaimed New Vrindavan to be a _land of milk and honey._ These simple words convey vast symbolism to me, as if acknowledging, articulating, and echoing the hopes and dreams of our ancient Biblical forefathers. Forsaking the world of bondage in Egypt, they ventured across the vast desert searching for the land said to flow with milk and honey. An entire generation perished in the wilderness, due to their disobedience of God’s commandments, but with time and faithfulness, their descendants finally reached that promised land.
+
+After our journey up the path following you, you entered Radha Vrindavanath's temple. Kaliya stood at the gateway as if to grant us entry. I realized at that moment that I was experiencing déjà vu, transported back to my childhood days when I was irresistibly drawn to herding and serving cows by a mysterious sense that the cowherd path would lead me closer to God. And now, finally, seeing you as the central figure in this scene and the rest of us following in your lotus footprints, who are following the cow, it dawned on me that the missing element had always been the most crucial component in the search for God: the embodiment of the Lord’s Divine Grace – you.
+
+With this realization, the wisdom of Sarvajna, the astrologer in Lord Caitanya's parable, rang true, _if you simply turn to the east and dig below the surface you will find the treasure bequeathed to you_. With your appearance on the Eastern horizon, this dark and dreary world awakened to a new dawn cast by the treasure of a Vedic perspective, granted to so many lost souls by your causeless mercy
+
+Here in New Vrindavan, the embassy of our eternal motherland offered a sweet foretaste of spiritual fulfillment, a promise of the fruit of our maturing along the path. You granted us a sampling of the nectar for which we ever hanker, yet still had no qualification to experience. As any earthly mother nurses her infant to strengthen and equip them before they must be weaned to become accustomed to a more substantial diet of grains, you too cared for us attentively with providential grace.
+
+You drew our hearts onto the path of bhakti, thereby weaning us from material pursuits. Later, you provided bread to sustain us during the journey through the challenging and prolonged stretches of our own spiritual deserts. Traversing such terrain, we are given the opportunity to acknowledge and come to terms with our neophyte condition. You patiently prepared us for such times with the assurance that vani seva is eternal, containing and expanding everything that had been nourishing us during your mortal presence.
+
+We find that bread of life truly by returning to your books and memories of you. Therein we discover universal truths presented as deeply personal messages. Your words uncover the aspects of thinking, feeling, and willing that both perpetuate our dark bondage to pain, as well as reveal our vast potential for joy and satisfaction – found perfected in a world beyond our most creative imaginings.
+
+The symbols and figures within scripture, which you dedicated yourself to making accessible to us, continue speaking to the range of hidden potentials concealed in our souls. Although we may deny the possibility of our ever becoming so depraved as Kamsa, vindictive as Duryodhana, or envious like Shishupala, can we truly deny the spark of recognition that, at times, we have all experienced such anarthas?
+
+If we can humble ourselves to recognize such a reality, then the subtler and deeper voices of the divine become audible and inspire us to embody even a hint of Dhruva’s determination, Bhismadeva’s fearlessness, Haridas Thakur’s forgiveness, Queen Kunti’s forbearance, and Draupadi’s total dependence, expressed in her crying out Krishna's holy name. We have found the inspiration offered by all these great souls to be coalesced in you.
+
+Such emotions, though neophyte feelings at first, give strength and illumination by touching our hearts with the many voices who talk to us through sastra. And although they may speak in languages and cultures unfamiliar to our modern condition, their unified voices and hearts all resonate in your pastimes and precepts.
+
+In you we find the empowerment of the original guru, Lord Nityananda, who directed his disciple Krishna das to proceed in the direction of Vrindavan, with the promise, _there you will attain everything_. Sambanda, abhideya, and prayojana awaited Krishna das in Vraja through the pastimes and precepts of the six Goswamis residing there. You embody the essence of their teachings, rendering deep philosophical truths into a language that can be understood, embraced, and practiced by all. This is a mark of your exceptional empowerment.
+
+The promised land, which western civilization has pursued for ages – unachievable through the best efforts of the ascending process – has appeared at last by divine descent. You planted the seed for Vraja Dhama, the true land of milk and honey, to bestow her nurturing support and influence upon all. This benediction equips and prepares us for our final journey back to Godhead. In time, we have seen here, above and beyond symbolic or figurative imagery, actual milk flowing from the cows’ udders onto the path as they approach the barn, as well as honey literally overflowing from local bee hives due to an abundance of wildflowers.
+
+After countless lifetimes of wandering in the desert of material existence, allured by fleeting mirages promising relief, parched and depleted of all hope and joy, we have finally arrived at an oasis of immortal nectar – Sri Dham, our motherland, overflowing with milk and honey. Vraja-shakti, who you carry within your heart, emerged and expanded to reveal her divine nature here in Appalachia by the power of your bhakti.
+
+Contemplating our inconceivable good fortune in receiving the treasure of service to Sri Dham, which nourishes Krishna Nama and leads to Krishna Prema, the only explanation is your causeless mercy. Such beauty, sweetness, and charm as revealed in Sri Dham convey the depths of affection in the heart of her Creator. It is a love so dynamic that Krishna cannot contain it within Himself, so it has to manifest outwardly as well, assuming form and features worthy to serve as the abode of His confidential relationships.
+
+Krishna’s love can be tangibly experienced as the compassion of His pure devotee which provides the impetus for the Lord’s original abode to expand and replicate wherever He desires for the spiritual welfare of lost souls throughout various regions of the earth. Your Divine Grace has invoked that same Vraja Dham here in New Vrindavan unveiling yet another face, character, and aspect of the same divine essence.
+
+Memories of your pastimes abound throughout this sacred landscape. If we attune our spiritual senses to the deeper resonance, we can feel your heartbeat, the tap root from which New Vrindavan emerged, here at the original farmhouse. From this root of communion, a vibrant community has grown, where devotees are immersed in the terrestrial manifestation of your spiritual vision.
+
+You have bequeathed to us a legacy of love capable of softening and opening the hardest of hearts. Bless us, we pray, that our souls blossom in the sun-like nature of your wisdom, blending with the moon-like rays of your compassion, to illumine the passages of sastra and the confirmation found in nature, reminding us to always serve in love. Guard our hearts, lest offenses and anarthas lead us astray.
+
+Today I return to the path Kaliya tread on that eventful day so many decades ago. Visions of bygone times blend with memories of the future. Daylight is now fading, shadows fall, the return path is calling me back to the pasture and the meadow beyond. In the background, the world as it continues its chaotic course. I walk again with you, Kaliya, and the devotees in the picture. From where I am now, I cannot see you physically, though I still hear your voice and hold onto the blessings you bestowed.
+
+Returning to the present moment I see a monsoon-like cloudbank slowly moving westward. While a curtain of rain falls, the setting sun casts a golden aura tinged with saffron across the sky. Sacred texts of my childhood resurface, describing the vision of God within a shower of golden light. This scene is followed, confirmed, and concluded by the appearance of a spectacular rainbow, the symbol of God's covenant, reminding us to be steadfast in following His Divine Grace. And then, within this vast archway, subtle pastel colors begin to form into a second rainbow. This display blends the eastern and western reading of the symbol as well as contributing a more esoteric perspective. To the Vrajabasis, this image serves as an invitation for Radha and Krishna to meet in the forest beyond the pasturing grounds.
+
+All these scriptural images integrate during the sunset, enhancing my memories and appreciations of you, the person Bhagavat, living embodiment of the cream of all Vedic scriptures. Your presence endures in the Bhaktivedanta purports which unify and harmonize other sacred texts into a higher synthesis.
+
+As I begin the return journey down the slopes of the Agasura trail, I meditate upon the festival of Nanda, when you appeared within our mortal world. Bless us, we pray, to become worthy servants of the Vrajabasis by following in your footsteps. Let us forever assist you in serving Lord Chaitanya’s mood by expanding the glories of Krishna to every town and village. May His Holy Name, intertwined with Vraja Prema, continue to encircle the earth like a vibrant garland of divine fortune.
+
+Your servant,
+
+Varsana Swami
